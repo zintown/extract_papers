@@ -9,102 +9,240 @@ from lxml.etree import HTMLParser
 import argparse
 import os
 
-A_CONF_LIST = ['sigcomm', 'usenix', 'nsdi', 'infocom', 'mobicom', 'ijcai']
+from fake_useragent import UserAgent
+
+# only string means conf name is same with publisher name
+# (["","","",...],"") means there is multiple sub conf with same publisher name
+# ("","","") means there is multiple sub conf with it's own publisher name
+# (num,["","","",...],"") means there is a series part of one conf, part-1 ... part-num 
+A_CONF_LIST = [
+    # A
+        # architecture
+        'dac'   ,'hpca'  ,'micro' ,'sc'     ,
+        'asplos','isca'  ,'usenix','eurosys',
+        # safety
+        'ccs'   ,'sp'    ,'uss'   ,'ndss'   ,
+        # software: pldi,popl,oopsla,icfp were included in journal pacmpl
+        'pldi'  ,(['fse'],'sigsoft') ,'sosp'  ,(['ase'],'kbse'),
+        "icse"  ,"issta" ,"osdi"  ,
+    # B
+        # architecture: hipeac has sub confs parma dronese ngres | codesisss is new name of codes
+        'fpga'  ,'cgo'   ,'date'  ,'cluster',
+        'iccd'  ,'iccad' ,
+        ('codesisss','codes'),
+        (['parma','dronese','ngres'] ,'hipeac' ),
+        'sigmetrics',
+        'pact'  ,'vee'   ,'hpdc'  ,'itc'    ,
+        'rtas'  ,
+        # safety: esorics devide into three parts annualy
+        'acsac' ,(6,['esorics'],'esorics'),
+        'csfw'  ,'dsn'   ,'raid'  ,
+        # software: esop and fase are sub conferences of etaps | hotos conf seems strong related
+        ('esop','fase'),
+        (["icpc"] ,'iwpc'  ),(["lctes"],'lctrts'),
+        (["saner"],'wcre'  ),(["icsme"],'icsm'  ),
+        "issre" ,"hotos" ,
+]
+      
 A_JOURNAL_LIST = [
-    'pieee', # Proceedings of the IEEE
-    'ton', # IEEE/ACM Transactions on Networking
-    'jsac', # IEEE Journal of Selected Areas in Communications
-    'tocs', # ACM Transactions on Computer Systems
-    'tmc', # IEEE Transactions on Mobile Computing
+    # pe journal divide one year's volume into two rows on the web html
+    # jpdc journal has multiple volumes annually, so we need loop this journal's urls
+    # tissec is tops's old name, dblp hasn't change it
+        'pacmpl',
+        # architecture
+        'tocs'  ,'tcad'  ,'tc'  ,'tpds'  ,'taco' ,
+        'todaes' ,'tecs' ,'trets','tvlsi',
+        'jpdc'   ,'jsa'  ,'pe'   ,
+        # safety
+        'tdsc'  ,'tifs',
+        'tissec','compsec','dcc','jcs','scp',
+        # software
+        'toplas','tosem','tse',
+        'ase'    ,'ese'   ,'iet-sen','infsof',
+        'jss'    ,'scp'   ,'stvr'   ,'spe'
 ]
 
+def parse_conf_publisher(ele):
+    urls = []
+    publisher_name = ''
+    if type(ele)==type(''):
+        urls.append("https://dblp.org/db/conf/%s/%s%s.html" % (ele, ele, args.time))
+        publisher_name = ele
+    elif type(ele)==type(()):
+        if type(ele[0]) == type(""):
+            for e in ele:
+                urls.append("https://dblp.org/db/conf/%s/%s%s.html" % (e, e, args.time))
+                publisher_name = publisher_name + e + "|"
+        elif type(ele[0]) == type([]):
+            for e in ele[0]:
+                urls.append("https://dblp.org/db/conf/%s/%s%s.html" % (ele[1], e, args.time))
+                publisher_name = publisher_name + e + "&"
+        elif type(ele[0]) == type(0):
+            for i in range(1,ele[0]):
+                for e in ele[1]:
+                    urls.append("https://dblp.org/db/conf/%s/%s%s-%s.html" % (ele[2], e, args.time,i))
+                    publisher_name = publisher_name + e + '|'
+        
+    print("Looking for papers from {} {}, keyword: {}".format(publisher_name, args.time, args.keyword))
+    return urls,publisher_name
 
-def getHTMLText(url):
-    kv = {'user_agent':'Mozilla/5.0'}
-    proxies_myself = {'http':'105.27.238.167:80'}
-    try:
-        r = requests.get(url,headers = kv,proxies = proxies_myself,timeout=120)
-        r.raise_for_status()
-        r.encoding = r.apparent_encoding
-        return r.text
-    except:
-        print('Failed! Please check the conference name, conference year and the keyword!')
-        return ''
+def parse_journal_publisher(ele):
+    url = 'https://dblp.uni-trier.de/db/journals/%s/index.html' % ele
+    return [url]
+# input: urls list output: htmltext list
+def getHTMLText(urls,name):
+    and_flag = name.split("&")
+    or_flag  = name.split("|")
+    html_list = []
+    ua =  {"user_agent": UserAgent().chrome}
+    attempt = 3
+    for i in range(len(urls)):
+        for retry_nums in range(attempt):
+            try:
+                r = requests.get(urls[i],headers = ua,timeout=300)
+                r.raise_for_status()
+                r.encoding = r.apparent_encoding
+                html_list.append(r.text)
+                break
+            except:
+                if len(and_flag) <= len(or_flag):
+                    continue
+                else:
+                    if retry_nums < attempt - 1:
+                        continue
+                print("get html failed")
+                return None
+    return html_list
 
-def writeToCsv(args, name, dicts):
-    if not args.save_dir:
-        args.save_dir = '.'
-    else:
-        if not os.path.exists(args.save_dir):
-            os.mkdir(args.save_dir)
-
-    if args.keyword:
-        file_path = os.path.join(args.save_dir,"{}_{}_{}.csv".format(name,args.time,args.keyword))
-    else:
-        file_path = os.path.join(args.save_dir,"{}_{}.csv".format(name,args.time))
-
-    with open(file_path,'w',encoding='utf-8',newline='') as f:
+def writeToCsv(file_path, dicts, name):
+    with open(file_path,'a',encoding='utf-8',newline='') as f:
         csv_write = csv.writer(f)
-        csv_head = ["Title","Authors", "url"]
+        csv_head = ["==========",name.upper(),"TITLE".upper(),"AUTHORS","URL","==========="]
         csv_write.writerow(csv_head)
         for ele in dicts:
-            csv_write.writerow([ele['title'],"\n".join(ele['authors']), ele['url']])
+            csv_write.writerow([ele['title']," ".join(ele['authors']), ele['url']])
 
-def extract_papers(url, type, name, keyword):
-    htmltext = getHTMLText(url)
-    try:
-        parse_html = etree.HTML(htmltext, HTMLParser())
-    except:
-        print('Failed! Please check the conference name ,conference year and the keyword!')
+def extract_conf_papers(urls, name, file_path):
+    htmltexts = getHTMLText(urls,name)
+    if not htmltexts:
+        dics = [{'title':f"curr years had no {name} conf", "authors":"", "url":""}]
+        writeToCsv(file_path, dics, name)
         exit(1)
-
-    if type == 'conf':
-        print("Parsing URL: {}".format(url))
+    for htmltext in htmltexts:
+        try:
+            parse_html = etree.HTML(htmltext, HTMLParser())
+        except:
+            print('Failed! Please check the conference name ,conference year and the keyword!')
+            exit(1)
         dics = []
-        parse_xpaths = parse_html.xpath('//li[@class="entry inproceedings"]')
-        print("Number of papers(all fields): {}".format(len(parse_xpaths)))
-        for parse_xpath in tqdm(parse_xpaths):
-            parse_html_str = etree.tostring(parse_xpath)
-            parse_html1 = etree.HTML(parse_html_str, HTMLParser())
-            paper_url = parse_html1.xpath('//div[@class="head"]/a/@href')[0]
-            parse_content = parse_html1.xpath('//cite//span[@itemprop="name"]')
-            parse_content = [parse_content[idx].text for idx in range(len(parse_content))]
+        try:
+            cata_xpaths  = parse_html.xpath('//header[@class="h2"]')
+        except:
+            print("get catagory head of conf papers failed")
+            exit(1)
+        print(f"Number of catagory in \"{name}\" conf: {len(cata_xpaths)}")
+
+        try:
+            cata_paper_xpaths = parse_html.xpath('//ul/li[@class="entry inproceedings"]/..')
+        except:
+            print("get each catagory's papers failed")
+        print(f"Number of catagory's corrsponding paper group in \"{name}\" conf: {len(cata_paper_xpaths)}")
+
+        if len(cata_xpaths) == 0:
+            cata_flag = False
+        else:
+            cata_flag = True
+
+        try:
+            parse_xpaths = parse_html.xpath('//li[@class="entry inproceedings"]')
+        except:
+            print("get entry of each conf paper failed")
+            exit(2)
+        print("Number of \"{}\" conf papers(all fields): {}".format(name, len(parse_xpaths)))
+    
+        for ind in tqdm(range(len(cata_paper_xpaths))):
+            cata_papers_str = etree.tostring(cata_paper_xpaths[ind])
+            cata_papers = etree.HTML(cata_papers_str, HTMLParser())
             try:
-                if args.keyword:
-                    paper_title = parse_content[-1].upper()
-                    if paper_title.find(keyword) == -1:
-                        # print(parse_content[-1])
-                        continue
-                    else:
-                        dic = {"title": parse_content[-1], "authors": parse_content[:-1], "url": paper_url}
-                        dics.append(dic)
-                else:
-                    dic = {"title": parse_content[-1], "authors": parse_content[:-1], "url": paper_url}
-                    dics.append(dic)
+                cata_papers= cata_papers.xpath('//li[@class="entry inproceedings"]')
             except:
-                continue
+                print("get exact paper line failed")
+                exit(1)
 
-        writeToCsv(args, name, dics)
-        print("The number of Papers extracted: {}".format(len(dics)))
+            if cata_flag == True:
+                if ind < len(cata_xpaths):
+                    cata_names_str  = etree.tostring(cata_xpaths[ind])
+                cata_name  = etree.HTML(cata_names_str, HTMLParser())
 
-    elif type == 'journal':
-        # 网页后面跟的是volumn卷数而不是年份，正则表达式提取年份
-        # 例：<li><a href="https://dblp.uni-trier.de/db/journals/pieee/pieee110.html">Volume 110: 2022</a></li>
-        # 爬取规则跟会议不同
-        # print(htmltext)
-        matchObj = re.match(r'.*<li><a href="(.*)">Volume .*[,:] %s</a></li>.*' % args.time, htmltext, re.DOTALL)
-        url = matchObj.group(1)
-        print("Parsing URL: {}".format(url))
-        htmltext = getHTMLText(url)
+                try:
+                    cata_name = cata_name.xpath('//h2')[0].text
+                except:
+                    print("get catagory of conf papers failed")
+                    exit(1)
+                dic = { "title": "--------catagory name is: {}".format(cata_name).replace("\n"," "), "authors": "", "url": "--------"}
+                dics.append(dic)
+
+            for cata_paper in cata_papers:
+                cata_paper = etree.HTML(etree.tostring(cata_paper),HTMLParser())
+                try:
+                    paper_attr = cata_paper.xpath('//cite//span[@itemprop="name"]')
+                except:
+                    print("get current one conf paper title failed")
+                    exit(1)
+                
+                paper_url = cata_paper.xpath('//div[@class="head"]/a/@href')[0]
+
+                # convert parse_content to paper name string list
+                paper_attr = [paper_attr[idx].text for idx in range(len(paper_attr))]
+                try:
+                    if args.keyword:
+                        paper_title = paper_attr[-1].upper()
+                        if paper_title.find(args.keyword) == -1:
+                            # print(parse_content[-1])
+                            continue
+                        else:
+                            dic = {"title": paper_attr[-1], "authors": paper_attr[:-1], "url": paper_url}
+                            dics.append(dic)
+                    else:
+                        dic = {"title": paper_attr[-1], "authors": paper_attr[:-1], "url": paper_url}
+                        dics.append(dic)
+                except:
+                    continue
+
+        writeToCsv(file_path, dics, name)
+        print("The number of Conf Papers extracted: {}".format(len(dics)-len(cata_xpaths)))
+
+def extract_journal_papers(url, name, file_path):
+    htmltext = getHTMLText(url,name)[0]
+    if not htmltext:
+        dics = [{'title':f"curr years had no {name} conf", "authors":"", "url":""}]
+        writeToCsv(file_path, dics, name)
+        exit(1)
+    #Try to get one year's multiple volume sub page
+    matchObj = re.match(r'.*<li><a href="(.*)">Volume .*[,:] (\d+/)?%s</a></li>.*' % args.time, htmltext, re.DOTALL)
+    if not matchObj:
+        all_urls = re.findall(r'<li>%s: Volumes\n(?:<a href=".*">.*</a>,?\n)*</li>' % args.time, htmltext)
+        #print(f"all_urls is {all_urls}")
+        urls = []
+        for u in all_urls:
+            #print(f"u is {u}")
+            part_url = re.findall(r'https://dblp.uni-trier.de/db/.*.html',u)
+            urls.extend(part_url)
+        #print(f"urls is {urls}")
+    else:
+        urls = [matchObj.group(1)]
+    dics = []
+    # We have got multiple sub pages(volumes), and try to reslove them
+    htmltexts = getHTMLText(urls,"")
+    for htmltext in tqdm(htmltexts):
         try:
             parse_html = etree.HTML(htmltext, HTMLParser())
             parse_xpaths = parse_html.xpath('//li[@class="entry article"]')
         except:
             print('Failed! Please check the journal name ,conference year and the keyword!')
             exit(1)
-        dics = []
-        print("Number of papers(all fields): {}".format(len(parse_xpaths)))
-        for parse_xpath in tqdm(parse_xpaths):
+        print("Number of \"{}\" papers(all fields): {}".format(name,len(parse_xpaths)))
+        for parse_xpath in parse_xpaths:
             parse_html_str = etree.tostring(parse_xpath)
             parse_html1 = etree.HTML(parse_html_str, HTMLParser())
             paper_url = parse_html1.xpath('//div[@class="head"]/a/@href')[0]
@@ -113,7 +251,7 @@ def extract_papers(url, type, name, keyword):
             try:
                 if args.keyword:
                     paper_title = parse_content[-1].upper()
-                    if paper_title.find(keyword) == -1:
+                    if paper_title.find(args.keyword) == -1:
                         # print(parse_content[-1])
                         continue
                     else:
@@ -125,8 +263,8 @@ def extract_papers(url, type, name, keyword):
             except:
                 continue
 
-        writeToCsv(args, name, dics)
-        print("The number of Papers extracted: {}".format(len(dics)))
+    writeToCsv(file_path, dics, name)
+    print("The number of Journal Papers extracted: {}".format(len(dics)))
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser("Conference Information")
@@ -135,24 +273,40 @@ if __name__ == '__main__':
     parser.add_argument("--save_dir", type=str, default=None, help="the file directory which you want to save to.")
     parser.add_argument('-k',"--keyword", type=str, default=None, help="the keyword filter, if None, save all the paper found.")
     args = parser.parse_args()
-    keyword = args.keyword.upper().replace('_', ' ')
+    if not args.keyword:
+        args.keyword = ""
+    else:
+        args.keyword = args.keyword.upper().replace('_', ' ')
 
-    # args.name = args.name.lower()
+    if not args.save_dir:
+        args.save_dir = '.'
+    else:
+        if not os.path.exists(args.save_dir):
+            os.mkdir(args.save_dir)
 
-    # if args.name == "neurips" or args.name == "nips":
-    #     url = "https://dblp.org/db/conf/nips/neurips{}.html".format(args.time)
-    # else:
-    #     url = "https://dblp.org/db/conf/{}/{}{}.html".format(args.name,args.name,args.time)
+    if args.keyword:
+        conf_file_path = os.path.join(args.save_dir,"conf_{}_{}.csv".format(args.time,args.keyword))
+        journal_file_path = os.path.join(args.save_dir,"journal_{}_{}.csv".format(args.time,args.keyword))
+    else:
+        conf_file_path = os.path.join(args.save_dir,"conf_{}.csv".format(args.time))
+        journal_file_path = os.path.join(args.save_dir,"journal_{}.csv".format(args.time))
 
-    # Conf
-    for conf in A_CONF_LIST:
-        print("Looking for papers from conferences {} {}, keyword: {}".format(conf, args.time, keyword))
-        url = "https://dblp.org/db/conf/%s/%s%s.html" % (conf, conf, args.time)
-        extract_papers(url, 'conf', conf, keyword)
+    if os.path.isfile(conf_file_path):
+        os.remove(conf_file_path)
+        #print(f"{conf_file_path} deleted.")
+    if os.path.isfile(journal_file_path):
+        os.remove(journal_file_path)
+        #print(f"{journal_file_path} deleted.")
+
+    for ele in A_CONF_LIST:
+        urls,name = parse_conf_publisher(ele)
+        print("Parsing URL: {}".format(urls))
+        extract_conf_papers(urls, name, conf_file_path)
 
     # Journal
-    for journal in A_JOURNAL_LIST:
-        print("Looking for papers from journals {} {}, keyword: {}".format(journal, args.time, keyword))
-        url = 'https://dblp.uni-trier.de/db/journals/%s/index.html' % journal
+    for ele in A_JOURNAL_LIST:
+        url = parse_journal_publisher(ele)
+        print("Parsing URL: {}".format(url))
+        extract_journal_papers(url, ele, journal_file_path)
 
-        extract_papers(url, 'journal', journal, keyword)
+# memory pointer integrity cfi cpi tag compart stack heap bin capability analy control flow check c
