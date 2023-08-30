@@ -3,13 +3,14 @@ import re
 import requests
 
 import csv
-from tqdm import tqdm
+
 from lxml import etree
 from lxml.etree import HTMLParser
 import argparse
 import os
 
 from fake_useragent import UserAgent
+import time
 
 # only string means conf name is same with publisher name
 # (["","","",...],"") means there is multiple sub conf with same publisher name
@@ -83,23 +84,25 @@ def parse_conf_publisher(ele):
                     urls.append("https://dblp.org/db/conf/%s/%s%s-%s.html" % (ele[2], e, args.time,i))
                     publisher_name = publisher_name + e + '|'
         
-    print("Looking for papers from {} {}, keyword: {}".format(publisher_name, args.time, args.keyword))
+    print("Looking for papers from {} {}, keyword: {}\n exclude_keyword: {}".format(publisher_name, args.time, args.keyword, args.excludekeyword))
     return urls,publisher_name
 
 def parse_journal_publisher(ele):
     url = 'https://dblp.uni-trier.de/db/journals/%s/index.html' % ele
+    print("Looking for papers from {} {}, keyword: {}\n exclude_keyword: {}".format(ele, args.time, args.keyword, args.excludekeyword))
     return [url]
+
 # input: urls list output: htmltext list
 def getHTMLText(urls,name):
     and_flag = name.split("&")
     or_flag  = name.split("|")
     html_list = []
     ua =  {"user_agent": UserAgent().chrome}
-    attempt = 3
+    attempt = 5
     for i in range(len(urls)):
         for retry_nums in range(attempt):
             try:
-                r = requests.get(urls[i],headers = ua,timeout=300)
+                r = requests.get(urls[i],headers = ua,timeout=1000)
                 r.raise_for_status()
                 r.encoding = r.apparent_encoding
                 html_list.append(r.text)
@@ -127,7 +130,7 @@ def extract_conf_papers(urls, name, file_path):
     if not htmltexts:
         dics = [{'title':f"curr years had no {name} conf", "authors":"", "url":""}]
         writeToCsv(file_path, dics, name)
-        exit(1)
+        return
     for htmltext in htmltexts:
         try:
             parse_html = etree.HTML(htmltext, HTMLParser())
@@ -160,7 +163,7 @@ def extract_conf_papers(urls, name, file_path):
             exit(2)
         print("Number of \"{}\" conf papers(all fields): {}".format(name, len(parse_xpaths)))
     
-        for ind in tqdm(range(len(cata_paper_xpaths))):
+        for ind in range(len(cata_paper_xpaths)):
             cata_papers_str = etree.tostring(cata_paper_xpaths[ind])
             cata_papers = etree.HTML(cata_papers_str, HTMLParser())
             try:
@@ -192,32 +195,25 @@ def extract_conf_papers(urls, name, file_path):
                 
                 paper_url = cata_paper.xpath('//div[@class="head"]/a/@href')[0]
 
-                # convert parse_content to paper name string list
-                paper_attr = [paper_attr[idx].text for idx in range(len(paper_attr))]
-                try:
-                    if args.keyword:
-                        paper_title = paper_attr[-1].upper()
-                        if paper_title.find(args.keyword) == -1:
-                            # print(parse_content[-1])
-                            continue
-                        else:
-                            dic = {"title": paper_attr[-1], "authors": paper_attr[:-1], "url": paper_url}
-                            dics.append(dic)
-                    else:
-                        dic = {"title": paper_attr[-1], "authors": paper_attr[:-1], "url": paper_url}
-                        dics.append(dic)
-                except:
-                    continue
+                parse_content = [paper_attr[idx].text for idx in range(len(paper_attr))]
+                if parse_content[-1] != None:
+                    paper_title  = parse_content[-1].upper()
+                else:
+                    print("TITLE_GREP_FAILED")
+                    paper_title  = "TITLE_GREP_FAILED"
+                paper_author = parse_content[:-1]
+                grep_keyword(dics,paper_title,paper_author,paper_url)
 
         writeToCsv(file_path, dics, name)
         print("The number of Conf Papers extracted: {}".format(len(dics)-len(cata_xpaths)))
 
 def extract_journal_papers(url, name, file_path):
-    htmltext = getHTMLText(url,name)[0]
+    htmltext = getHTMLText(url,name)
     if not htmltext:
         dics = [{'title':f"curr years had no {name} conf", "authors":"", "url":""}]
         writeToCsv(file_path, dics, name)
-        exit(1)
+        return
+    htmltext = htmltext[0]
     #Try to get one year's multiple volume sub page
     matchObj = re.match(r'.*<li><a href="(.*)">Volume .*[,:] (\d+/)?%s</a></li>.*' % args.time, htmltext, re.DOTALL)
     if not matchObj:
@@ -234,7 +230,7 @@ def extract_journal_papers(url, name, file_path):
     dics = []
     # We have got multiple sub pages(volumes), and try to reslove them
     htmltexts = getHTMLText(urls,"")
-    for htmltext in tqdm(htmltexts):
+    for htmltext in htmltexts:
         try:
             parse_html = etree.HTML(htmltext, HTMLParser())
             parse_xpaths = parse_html.xpath('//li[@class="entry article"]')
@@ -246,25 +242,33 @@ def extract_journal_papers(url, name, file_path):
             parse_html_str = etree.tostring(parse_xpath)
             parse_html1 = etree.HTML(parse_html_str, HTMLParser())
             paper_url = parse_html1.xpath('//div[@class="head"]/a/@href')[0]
-            parse_content = parse_html1.xpath('//cite//span[@itemprop="name"]')
+            parse_content = parse_html1.xpath('//cite//span[@itemprop="name"]')  
             parse_content = [parse_content[idx].text for idx in range(len(parse_content))]
-            try:
-                if args.keyword:
-                    paper_title = parse_content[-1].upper()
-                    if paper_title.find(args.keyword) == -1:
-                        # print(parse_content[-1])
-                        continue
-                    else:
-                        dic = {"title": parse_content[-1], "authors": parse_content[:-1], "url": paper_url}
-                        dics.append(dic)
-                else:
-                    dic = {"title": parse_content[-1], "authors": parse_content[:-1], "url": paper_url}
-                    dics.append(dic)
-            except:
-                continue
+            if parse_content[-1] != None:
+                paper_title  = parse_content[-1].upper()
+            else:
+                print("TITLE_GREP_FAILED")
+                paper_title  = "TITLE_GREP_FAILED"
+            paper_author = parse_content[:-1]
+            grep_keyword(dics,paper_title,paper_author,paper_url)
 
     writeToCsv(file_path, dics, name)
     print("The number of Journal Papers extracted: {}".format(len(dics)))
+
+def grep_keyword(dics,paper_title,paper_author,paper_url):
+    if args.keyword:
+        for i in range(len(args.keyword)):
+            if paper_title.find(args.keyword[i]) != -1:
+                # print(parse_content[-1])
+                for j in range(len(args.excludekeyword)):
+                    if paper_title.find(args.excludekeyword[j]) != -1:
+                        return
+                break
+            elif i == len(args.keyword) - 1:
+                return
+    dic = {"title": "* %s" % paper_title, "authors": paper_author, "url": paper_url}
+    dics.append(dic)
+    return
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser("Conference Information")
@@ -272,11 +276,18 @@ if __name__ == '__main__':
     parser.add_argument('-t',"--time", type=int, default=2022, help="Year of Conference you want to search.")
     parser.add_argument("--save_dir", type=str, default=None, help="the file directory which you want to save to.")
     parser.add_argument('-k',"--keyword", type=str, default=None, help="the keyword filter, if None, save all the paper found.")
+    parser.add_argument('-n',"--excludekeyword", type=str, default=None, help="the keyword reverse filter, if None, not exclude any paper")
     args = parser.parse_args()
-    if not args.keyword:
-        args.keyword = ""
+
+    if args.keyword:
+        args.keyword = list(args.keyword.upper().split(","))
     else:
-        args.keyword = args.keyword.upper().replace('_', ' ')
+        args.keyword = ""
+
+    if args.excludekeyword:
+        args.excludekeyword = list(args.excludekeyword.upper().split(","))
+    else:
+        args.excludekeyword = ""
 
     if not args.save_dir:
         args.save_dir = '.'
@@ -284,12 +295,10 @@ if __name__ == '__main__':
         if not os.path.exists(args.save_dir):
             os.mkdir(args.save_dir)
 
-    if args.keyword:
-        conf_file_path = os.path.join(args.save_dir,"conf_{}_{}.csv".format(args.time,args.keyword))
-        journal_file_path = os.path.join(args.save_dir,"journal_{}_{}.csv".format(args.time,args.keyword))
-    else:
-        conf_file_path = os.path.join(args.save_dir,"conf_{}.csv".format(args.time))
-        journal_file_path = os.path.join(args.save_dir,"journal_{}.csv".format(args.time))
+    local_time = time.localtime(time.time())
+
+    conf_file_path = os.path.join(args.save_dir,"conf_{}_{}_{}_{}_{}_{}.csv".format(args.time,len(args.keyword),len(args.excludekeyword),local_time.tm_year,local_time.tm_mon,local_time.tm_mday))
+    journal_file_path = os.path.join(args.save_dir,"journal_{}_{}_{}_{}_{}_{}.csv".format(args.time,len(args.keyword),len(args.excludekeyword),local_time.tm_year,local_time.tm_mon,local_time.tm_mday))
 
     if os.path.isfile(conf_file_path):
         os.remove(conf_file_path)
@@ -298,10 +307,19 @@ if __name__ == '__main__':
         os.remove(journal_file_path)
         #print(f"{journal_file_path} deleted.")
 
+
+    with open(conf_file_path,'a',encoding='utf-8',newline='') as f:
+        f.write("args.keyword is: %s\n" % args.keyword)
+        f.write("args.excludekeyword is: %s\n" % args.excludekeyword)
+
     for ele in A_CONF_LIST:
         urls,name = parse_conf_publisher(ele)
         print("Parsing URL: {}".format(urls))
         extract_conf_papers(urls, name, conf_file_path)
+
+    with open(journal_file_path,'a',encoding='utf-8',newline='') as f:
+        f.write("args.keyword is: %s\n" % args.keyword)
+        f.write("args.excludekeyword is: %s\n" % args.excludekeyword)
 
     # Journal
     for ele in A_JOURNAL_LIST:
@@ -309,4 +327,6 @@ if __name__ == '__main__':
         print("Parsing URL: {}".format(url))
         extract_journal_papers(url, ele, journal_file_path)
 
-# memory pointer integrity cfi cpi tag compart stack heap bin capability analy control flow check c
+# analy,
+# "memory,pointe,integrity,cfi,cpi,tag,compart,stack,heap,bin,capability,control flow,control-flow,check, c ,type ,type-,data flow,data-flow,isolation,intra procedure,intra-procedure,process,intel,arm,risc-v,risc v,secur,detect,vulner,mitigation,metadata,enforce,attack,prevent,track,threat,exploit,protect,auth,key"
+# "database,datacenter,neural,deep learning,convolutional,smart contract,blockchain,concurr,quantum,dnn,cnn,rnn,gnn,supervised learning,dram,nvm,non-volatile,memory management,power,network,voltage,pre-train,training,video,parallel,gpu,machine learning"
