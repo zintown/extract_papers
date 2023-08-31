@@ -17,32 +17,30 @@ import time
 # ("","","") means there is multiple sub conf with it's own publisher name
 # (num,["","","",...],"") means there is a series part of one conf, part-1 ... part-num 
 A_CONF_LIST = [
-    # A
-        # architecture
-        'dac'   ,'hpca'  ,'micro' ,'sc'     ,
-        'asplos','isca'  ,'usenix','eurosys',
-        # safety
-        'ccs'   ,'sp'    ,'uss'   ,'ndss'   ,
-        # software: pldi,popl,oopsla,icfp were included in journal pacmpl
-        'pldi'  ,(['fse'],'sigsoft') ,'sosp'  ,(['ase'],'kbse'),
-        "icse"  ,"issta" ,"osdi"  ,
-    # B
-        # architecture: hipeac has sub confs parma dronese ngres | codesisss is new name of codes
-        'fpga'  ,'cgo'   ,'date'  ,'cluster',
-        'iccd'  ,'iccad' ,
-        ('codesisss','codes'),
-        (['parma','dronese','ngres'] ,'hipeac' ),
-        'sigmetrics',
-        'pact'  ,'vee'   ,'hpdc'  ,'itc'    ,
-        'rtas'  ,
-        # safety: esorics devide into three parts annualy
-        'acsac' ,(6,['esorics'],'esorics'),
-        'csfw'  ,'dsn'   ,'raid'  ,
-        # software: esop and fase are sub conferences of etaps | hotos conf seems strong related
-        ('esop','fase'),
-        (["icpc"] ,'iwpc'  ),(["lctes"],'lctrts'),
-        (["saner"],'wcre'  ),(["icsme"],'icsm'  ),
-        "issre" ,"hotos" ,
+    # safety A
+    'ccs'   ,'sp'    ,'uss'   ,'ndss'   ,
+    # safety B: esorics devide into three parts annualy
+    'acsac' ,(6,['esorics'],'esorics'),
+    'csfw'  ,'dsn'   ,'raid'  ,
+    # architecture A
+    'dac'   ,'hpca'  ,'micro' ,'sc'     ,
+    'asplos','isca'  ,'usenix','eurosys',
+    # architecture B: hipeac has sub confs parma dronese ngres | codesisss is new name of codes
+    'fpga'  ,'cgo'   ,'date'  ,'cluster',
+    'iccd'  ,'iccad' ,
+    ('codesisss','codes'),
+    (['parma','dronese','ngres'] ,'hipeac' ),
+    'sigmetrics',
+    'pact'  ,'vee'   ,'hpdc'  ,'itc'    ,
+    'rtas'  ,
+    # software A: pldi,popl,oopsla,icfp were included in journal pacmpl
+    'pldi'  ,(['fse'],'sigsoft') ,'sosp'  ,(['ase'],'kbse'),
+    "icse"  ,"issta" ,"osdi"  ,
+    # software B: esop and fase are sub conferences of etaps | hotos conf seems strong related
+    ('esop','fase'),
+    (["icpc"] ,'iwpc'  ),(["lctes"],'lctrts'),
+    (["saner"],'wcre'  ),(["icsme"],'icsm'  ),
+    "issre" ,"hotos" ,
 ]
       
 A_JOURNAL_LIST = [
@@ -50,13 +48,13 @@ A_JOURNAL_LIST = [
     # jpdc journal has multiple volumes annually, so we need loop this journal's urls
     # tissec is tops's old name, dblp hasn't change it
         'pacmpl',
+        # safety
+        'tdsc'  ,'tifs',
+        'tissec','compsec','dcc','jcs','scp',
         # architecture
         'tocs'  ,'tcad'  ,'tc'  ,'tpds'  ,'taco' ,
         'todaes' ,'tecs' ,'trets','tvlsi',
         'jpdc'   ,'jsa'  ,'pe'   ,
-        # safety
-        'tdsc'  ,'tifs',
-        'tissec','compsec','dcc','jcs','scp',
         # software
         'toplas','tosem','tse',
         'ase'    ,'ese'   ,'iet-sen','infsof',
@@ -275,17 +273,21 @@ if __name__ == '__main__':
     # parser.add_argument('-n',"--name", type=str, required=True,help="Name of Conference you want to search.")
     parser.add_argument('-t',"--time", type=int, default=2022, help="Year of Conference you want to search.")
     parser.add_argument("--save_dir", type=str, default=None, help="the file directory which you want to save to.")
-    parser.add_argument('-k',"--keyword", type=str, default=None, help="the keyword filter, if None, save all the paper found.")
-    parser.add_argument('-n',"--excludekeyword", type=str, default=None, help="the keyword reverse filter, if None, not exclude any paper")
+    parser.add_argument('-k',"--keyword", type=str, default=None, help="the keyword filter file, if None, save all the paper found.")
+    parser.add_argument('-n',"--excludekeyword", type=str, default=None, help="the keyword reverse filter file, if None, not exclude any paper")
     args = parser.parse_args()
 
     if args.keyword:
-        args.keyword = list(args.keyword.upper().split(","))
+        with open(args.keyword,'r',encoding='utf-8') as f:
+            args.keyword = f.readline()
+            args.keyword = list(args.keyword.upper().split(","))
     else:
         args.keyword = ""
 
     if args.excludekeyword:
-        args.excludekeyword = list(args.excludekeyword.upper().split(","))
+        with open(args.excludekeyword,'r',encoding='utf-8') as f:
+            args.excludekeyword = f.readline()
+            args.excludekeyword = list(args.excludekeyword.upper().split(","))
     else:
         args.excludekeyword = ""
 
@@ -327,6 +329,3 @@ if __name__ == '__main__':
         print("Parsing URL: {}".format(url))
         extract_journal_papers(url, ele, journal_file_path)
 
-# analy,
-# "memory,pointe,integrity,cfi,cpi,tag,compart,stack,heap,bin,capability,control flow,control-flow,check, c ,type ,type-,data flow,data-flow,isolation,intra procedure,intra-procedure,process,intel,arm,risc-v,risc v,secur,detect,vulner,mitigation,metadata,enforce,attack,prevent,track,threat,exploit,protect,auth,key"
-# "database,datacenter,neural,deep learning,convolutional,smart contract,blockchain,concurr,quantum,dnn,cnn,rnn,gnn,supervised learning,dram,nvm,non-volatile,memory management,power,network,voltage,pre-train,training,video,parallel,gpu,machine learning"
