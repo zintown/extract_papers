@@ -121,7 +121,7 @@ def writeToCsv(file_path, dicts, name):
         csv_head = ["==========",name.upper(),"TITLE".upper(),"AUTHORS","URL","==========="]
         csv_write.writerow(csv_head)
         for ele in dicts:
-            csv_write.writerow([ele['title']," ".join(ele['authors']), ele['url']])
+            csv_write.writerow([ele['title'],ele['url']," "," ".join(ele['authors'])])
 
 def extract_conf_papers(urls, name, file_path):
     htmltexts = getHTMLText(urls,name)

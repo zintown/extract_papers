@@ -1,0 +1,1197 @@
+args.keyword is: ['MEMORY', 'POINTE', 'INTEGRITY', 'CFI', 'CPI', 'TAG', 'COMPART', 'STACK', 'HEAP', ' BIN', 'CAPABILITY', 'CONTROL FLOW', 'CONTROL-FLOW', 'CHECK', ' C ', 'TYPE ', 'TYPE-', 'DATA FLOW', 'DATA-FLOW', 'ISOLATION', 'INTRA PROCEDURE', 'INTRA-PROCEDURE', 'PROCESS', 'INTEL', 'ARM', 'RISC-V', 'RISC V', 'SECUR', 'DETECT', 'VULNER', 'MITIGATION', 'METADATA', 'ENFORCE', 'ATTACK', 'PREVENT', 'TRACK', 'THREAT', 'EXPLOIT', 'PROTECT', 'AUTH', 'KEY\n']
+args.excludekeyword is: ['DATABASE', 'DATACENTER', 'NEURAL', 'LEARNING', 'LANGUAGE MODEL', 'CONVOLUTIONAL', 'TENSOR', 'SMART', 'BLOCKCHAIN', 'SUPPLY CHAIN', 'CONCURR', 'QUANTUM', 'DNN', 'CNN', 'RNN', 'GNN', 'BNN', 'DRAM', 'NVM', 'NON-VOLATILE', 'MEMORY MANAGEMENT', 'POWER', 'THERMAL', 'NETWORK', 'DNS', ' IP', ' TCP', 'DDOS', 'VOLTAGE', 'PRE-TRAIN', 'TRAINING', 'VIDEO', 'VOICE', 'SPEECH', 'BLUETOOTH', 'PARALLEL', 'GPU', 'MACHINE LEARNING', 'ADVERSARIAL', 'CLOUD', 'MIRCO SERVICE', ' EDGE ', 'MALWARE', 'TRAFFIC', 'PROTOCOL', 'INTERNET OF THING', ' IOT', '3D', '3-D', 'FLASH', 'NEAR-MEMORY', 'PERSISTENT MEMORY', 'BROWSER', 'WEBSITE', 'POISSON', 'HTTP', 'VEHICLE', 'AUTONOMOUS', 'MEMORY MODEL', 'STACK OVERFLOW', 'SENSOR', 'ROWHAMMER', 'ZERO-KNOWLEDGE PROOFS', 'PROOFS OF SHUFFLE', 'DISTRIBUTED', 'FILE SYSTEM', 'HIGH SPEED', 'SPEEDING', 'MOBILE', 'I/O', 'DEVICE', 'INDUSTRIAL', 'GRAPH REASONING', ' FACE', 'SIDE CHANNEL', 'SIDE-CHANNEL', 'CACHE', 'RANSOMWARE', 'APPLICATIONS', 'CONVERGENCE', 'MODAL', 'BUSINESS', 'MEMBERSHIP INFERENCE']
+==========,CCS,TITLE,AUTHORS,URL,===========
+--------catagory name is: Keynote Talks,--------, ,
+"* WE ARE THE EXPERTS, AND WE ARE THE PROBLEM: THE SECURITY ADVICE FIASCO.",https://doi.org/10.1145/3548606.3559394, ,Michelle L. Mazurek
+* SUSTAINABILITY IS A SECURITY PROBLEM.,https://doi.org/10.1145/3548606.3559396, ,Patrick Drew McDaniel
+--------catagory name is: Full Papers,--------, ,
+* UPDATABLE PUBLIC KEY ENCRYPTION FROM DCR: EFFICIENT CONSTRUCTIONS WITH STRONGER SECURITY.,https://doi.org/10.1145/3548606.3559376, ,Calvin Abou Haidar Benoît Libert Alain Passelègue
+* ON THE ADAPTIVE SECURITY OF THE THRESHOLD BLS SIGNATURE SCHEME.,https://doi.org/10.1145/3548606.3560656, ,Renas Bacho Julian Loss
+* VICTORY BY KO: ATTACKING OPENPGP USING KEY OVERWRITING.,https://doi.org/10.1145/3548606.3559363, ,Lara Bruseghini Daniel Huigens Kenneth G. Paterson
+* VIZARD: A METADATA-HIDING DATA ANALYTIC SYSTEM WITH END-TO-END POLICY CONTROLS.,https://doi.org/10.1145/3548606.3559349, ,Chengjun Cai Yichen Zang Cong Wang Xiaohua Jia Qian Wang
+* QUERYSNOUT: AUTOMATING THE DISCOVERY OF ATTRIBUTE INFERENCE ATTACKS AGAINST QUERY-BASED SYSTEMS.,https://doi.org/10.1145/3548606.3560581, ,Ana-Maria Cretu Florimond Houssiau Antoine Cully Yves-Alexandre de Montjoye
+* FAST FULLY SECURE MULTI-PARTY COMPUTATION OVER ANY RING WITH TWO-THIRDS HONEST MAJORITY.,https://doi.org/10.1145/3548606.3559389, ,Anders P. K. Dalskov Daniel Escudero Ariel Nof
+* UNDERSTANDING SECURITY ISSUES IN THE NFT ECOSYSTEM.,https://doi.org/10.1145/3548606.3559342, ,Dipanjan Das Priyanka Bose Nicola Ruaro Christopher Kruegel Giovanni Vigna
+* TWO-CLIENT INNER-PRODUCT FUNCTIONAL ENCRYPTION WITH AN APPLICATION TO MONEY-LAUNDERING DETECTION.,https://doi.org/10.1145/3548606.3559374, ,Paola de Perthuis David Pointcheval
+* ON THE (IN)SECURITY OF SECURE ROS2.,https://doi.org/10.1145/3548606.3560681, ,Gelei Deng Guowen Xu Yuan Zhou Tianwei Zhang Yang Liu
+"* FENCESITTER: BLACK-BOX, CONTENT-AGNOSTIC, AND SYNCHRONIZATION-FREE ENROLLMENT-PHASE ATTACKS ON SPEAKER RECOGNITION SYSTEMS.",https://doi.org/10.1145/3548606.3559357, ,Jiangyi Deng Yanjiao Chen Wenyuan Xu
+* WATCH OUT FOR RACE CONDITION ATTACKS WHEN USING ANDROID EXTERNAL STORAGE.,https://doi.org/10.1145/3548606.3560666, ,Shaoyong Du Xin Liu Guoqing Lai Xiangyang Luo
+* POIROT: PROBABILISTICALLY RECOMMENDING PROTECTIONS FOR THE ANDROID FRAMEWORK.,https://doi.org/10.1145/3548606.3560710, ,Zeinab El-Rewini Zhuo Zhang Yousra Aafer
+* AUTOMATIC DETECTION OF SPECULATIVE EXECUTION COMBINATIONS.,https://doi.org/10.1145/3548606.3560555, ,Xaver Fabian Marco Guarnieri Marco Patrignani
+* CINI MINIS: DOMAIN ISOLATION FOR FAULT AND COMBINED SECURITY.,https://doi.org/10.1145/3548606.3560614, ,Jakob Feldtkeller Jan Richter-Brockmann Pascal Sasdrich Tim Güneysu
+* UNDERSTANDING THE HOW AND THE WHY: EXPLORING SECURE DEVELOPMENT PRACTICES THROUGH A COURSE COMPETITION.,https://doi.org/10.1145/3548606.3560569, ,Kelsey R. Fulton Daniel Votipka Desiree Abrokwa Michelle L. Mazurek Michael Hicks James Parker
+* SECURE AUCTIONS IN THE PRESENCE OF RATIONAL ADVERSARIES.,https://doi.org/10.1145/3548606.3560706, ,Chaya Ganesh Bhavana Kanukurthi Girisha Shankar
+* DANGZERO: EFFICIENT USE-AFTER-FREE DETECTION VIA DIRECT PAGE TABLE ACCESS.,https://doi.org/10.1145/3548606.3560625, ,Floris Gorter Koen Koning Herbert Bos Cristiano Giuffrida
+* LOCATION HEARTBLEEDING: THE RISE OF WI-FI SPOOFING ATTACK VIA GEOLOCATION API.,https://doi.org/10.1145/3548606.3560623, ,Xiao Han Junjie Xiong Wenbo Shen Zhuo Lu Yao Liu
+* SPECDOCTOR: DIFFERENTIAL FUZZ TESTING TO FIND TRANSIENT EXECUTION VULNERABILITIES.,https://doi.org/10.1145/3548606.3560578, ,Jaewon Hur Suhwan Song Sunwoo Kim Byoungyoung Lee
+* ARE ATTRIBUTE INFERENCE ATTACKS JUST IMPUTATION?,https://doi.org/10.1145/3548606.3560663, ,Bargav Jayaraman David Evans
+* SYMLM: PREDICTING FUNCTION NAMES IN STRIPPED BINARIES VIA CONTEXT-SENSITIVE EXECUTION-AWARE CODE EMBEDDINGS.,https://doi.org/10.1145/3548606.3560612, ,Xin Jin Kexin Pei Jun Yeon Won Zhiqiang Lin
+* TRACER: SIGNATURE-BASED STATIC ANALYSIS FOR DETECTING RECURRING VULNERABILITIES.,https://doi.org/10.1145/3548606.3560664, ,Wooseok Kang Byoungho Son Kihong Heo
+* NTRU-V-UM: SECURE FULLY HOMOMORPHIC ENCRYPTION FROM NTRU WITH SMALL MODULUS.,https://doi.org/10.1145/3548606.3560700, ,Kamil Kluczniak
+* PENTAGOD: STEPPING BEYOND TRADITIONAL GOD WITH FIVE PARTIES.,https://doi.org/10.1145/3548606.3559369, ,Nishat Koti Varsha Bhat Kukkala Arpita Patra Bhavish Raj Gopal
+* CERBERUS: A FORMAL APPROACH TO SECURE AND EFFICIENT ENCLAVE MEMORY SHARING.,https://doi.org/10.1145/3548606.3560595, ,Dayeol Lee Kevin Cheang Alexander Thomas Catherine Lu Pranav Gaddamadugu Anjo Vahldiek-Oberwagner Mona Vij Dawn Song Sanjit A. Seshia Krste Asanovic
+* PACMEM: ENFORCING SPATIAL AND TEMPORAL MEMORY SAFETY VIA ARM POINTER AUTHENTICATION.,https://doi.org/10.1145/3548606.3560598, ,Yuan Li Wende Tan Zhizheng Lv Songtao Yang Mathias Payer Ying Liu Chao Zhang
+* ACQUIRER: A HYBRID APPROACH TO DETECTING ALGORITHMIC COMPLEXITY VULNERABILITIES.,https://doi.org/10.1145/3548606.3559337, ,Yinxi Liu Wei Meng
+"* EMPIRICAL ANALYSIS OF EIP-1559: TRANSACTION FEES, WAITING TIMES, AND CONSENSUS SECURITY.",https://doi.org/10.1145/3548606.3559341, ,Yulin Liu Yuxuan Lu Kartik Nayak Fan Zhang Luyao Zhang Yinhong Zhao
+* FEATURE INFERENCE ATTACK ON SHAPLEY VALUES.,https://doi.org/10.1145/3548606.3560573, ,Xinjian Luo Yangfan Jiang Xiaokui Xiao
+* PHYSICAL HIJACKING ATTACKS AGAINST OBJECT TRACKERS.,https://doi.org/10.1145/3548606.3559390, ,Raymond Muller Yanmao Man Z. Berkay Celik Ming Li Ryan M. Gerdes
+"* THE MULTI-USER SECURITY OF TRIPLE ENCRYPTION, REVISITED: EXACT SECURITY, STRENGTHENING, AND APPLICATION TO TDES.",https://doi.org/10.1145/3548606.3560674, ,Yusuke Naito Yu Sasaki Takeshi Sugawara Kan Yasuda
+* CERBERUS: EXPLORING FEDERATED PREDICTION OF SECURITY EVENTS.,https://doi.org/10.1145/3548606.3560580, ,Mohammad Naseri Yufei Han Enrico Mariconti Yun Shen Gianluca Stringhini Emiliano De Cristofaro
+* FREELY GIVEN CONSENT?: STUDYING CONSENT NOTICE OF THIRD-PARTY TRACKING AND ITS VIOLATIONS OF GDPR IN ANDROID APPS.,https://doi.org/10.1145/3548606.3560564, ,Trung Tin Nguyen Michael Backes Ben Stock
+* CERBERUS: QUERY-DRIVEN SCALABLE VULNERABILITY DETECTION IN OAUTH SERVICE PROVIDER IMPLEMENTATIONS.,https://doi.org/10.1145/3548606.3559381, ,Tamjid Al Rahat Yu Feng Yuan Tian
+* TICKTOCK: DETECTING MICROPHONE STATUS IN LAPTOPS LEVERAGING ELECTROMAGNETIC LEAKAGE OF CLOCK SIGNALS.,https://doi.org/10.1145/3548606.3560698, ,Soundarya Ramesh Ghozali Suhariyanto Hadi Sihun Yang Mun Choon Chan Jun Han
+* FABEO: FAST ATTRIBUTE-BASED ENCRYPTION WITH OPTIMAL SECURITY.,https://doi.org/10.1145/3548606.3560699, ,Doreen Riepel Hoeteck Wee
+* GRINGOTTS: FAST AND ACCURATE INTERNAL DENIAL-OF-WALLET DETECTION FOR SERVERLESS COMPUTING.,https://doi.org/10.1145/3548606.3560629, ,Junxian Shen Han Zhang Yantao Geng Jiawei Li Jilong Wang Mingwei Xu
+* VERSA: VERIFIABLE REGISTRIES WITH EFFICIENT CLIENT AUDITS FROM RSA AUTHENTICATED DICTIONARIES.,https://doi.org/10.1145/3548606.3560605, ,Nirvan Tyagi Ben Fisch Andrew Zitek Joseph Bonneau Stefano Tessaro
+* DON'T KICK OVER THE BEEHIVE: ATTACKS AND SECURITY ANALYSIS ON ZIGBEE.,https://doi.org/10.1145/3548606.3560703, ,Xian Wang Shuang Hao
+* PROTECTING CRITICAL INTER-DOMAIN COMMUNICATION THROUGH FLYOVER RESERVATIONS.,https://doi.org/10.1145/3548606.3560582, ,Marc Wyss Giacomo Giuliari Jonas Mohler Adrian Perrig
+* UNDERSTANDING AND MITIGATING REMOTE CODE EXECUTION VULNERABILITIES IN CROSS-PLATFORM ECOSYSTEM.,https://doi.org/10.1145/3548606.3559340, ,Feng Xiao Zheng Yang Joey Allen Guangliang Yang Grant Williams Wenke Lee
+* CETIS: RETROFITTING INTEL CET FOR GENERIC AND EFFICIENT INTRA-PROCESS MEMORY ISOLATION.,https://doi.org/10.1145/3548606.3559344, ,Mengyao Xie Chenggang Wu Yinqian Zhang Jiali Xu Yuanming Lai Yan Kang Wei Wang Zhe Wang
+* AUTOMATIC DETECTION OF FAKE KEY ATTACKS IN SECURE MESSAGING.,https://doi.org/10.1145/3548606.3560588, ,Tarun Kumar Yadav Devashish Gosain Amir Herzberg Daniel Zappala Kent E. Seamons
+* DETECTING AND MEASURING MISCONFIGURED MANIFESTS IN ANDROID APPS.,https://doi.org/10.1145/3548606.3560607, ,Yuqing Yang Mohamed Elsabagh Chaoshun Zuo Ryan Johnson Angelos Stavrou Zhiqiang Lin
+"* CROSS MINIAPP REQUEST FORGERY: ROOT CAUSES, ATTACKS, AND VULNERABILITY DETECTION.",https://doi.org/10.1145/3548606.3560597, ,Yuqing Yang Yue Zhang Zhiqiang Lin
+* PALANTÍR: OPTIMIZING ATTACK PROVENANCE WITH HARDWARE-ENHANCED SYSTEM OBSERVABILITY.,https://doi.org/10.1145/3548606.3560570, ,Jun Zeng Chuqi Zhang Zhenkai Liang
+"* I'M SPARTACUS, NO, I'M SPARTACUS: PROACTIVELY PROTECTING USERS FROM PHISHING BY INTENTIONALLY TRIGGERING CLOAKING BEHAVIOR.",https://doi.org/10.1145/3548606.3559334, ,Penghui Zhang Zhibo Sun Sukwha Kyung Hans Walter Behrens Zion Leonahenahe Basque Haehyun Cho Adam Oest Ruoyu Wang Tiffany Bao Yan Shoshitaishvili Gail-Joon Ahn Adam Doupé
+* IBEX: PRIVACY-PRESERVING AD CONVERSION TRACKING AND BIDDING.,https://doi.org/10.1145/3548606.3560651, ,Ke Zhong Yiping Ma Sebastian Angel
+* NON-DISTINGUISHABLE INCONSISTENCIES AS A DETERMINISTIC ORACLE FOR DETECTING SECURITY BUGS.,https://doi.org/10.1145/3548606.3560661, ,Qingyang Zhou Qiushi Wu Dinghao Liu Shouling Ji Kangjie Lu
+--------catagory name is: Poster Presentations,--------, ,
+* POSTER: BACKDOOR ATTACKS ON SPIKING NNS AND NEUROMORPHIC DATASETS.,https://doi.org/10.1145/3548606.3563532, ,Gorka Abad Oguzhan Ersoy Stjepan Picek Víctor Julio Ramírez-Durán Aitor Urbieta
+* POSTER: A SYSTEMS APPROACH TO GDPR COMPLIANCE-BY-DESIGN IN WEB DEVELOPMENT STACKS.,https://doi.org/10.1145/3548606.3563521, ,Mafalda Ferreira Tiago Brito José Fragoso Santos Nuno Santos
+* POSTER: MSILDIFFER - A SECURITY PATCH ANALYSIS FRAMEWORK BASED ON MICROSOFT INTERMEDIATE LANGUAGE FOR LARGE SOFTWARE.,https://doi.org/10.1145/3548606.3563518, ,Can Huang Cheng Li Jiashuo Liang Xinhui Han
+* POSTER: PATIENT COMMUNITY - A TEST BED FOR PRIVACY THREAT ANALYSIS.,https://doi.org/10.1145/3548606.3564253, ,Immanuel Kunz Angelika Schneider Christian Banse Konrad Weiss Andreas Binder
+* POSTER CTI4AI: THREAT INTELLIGENCE GENERATION AND SHARING AFTER RED TEAMING AI MODELS.,https://doi.org/10.1145/3548606.3563525, ,Chuyen Nguyen Caleb Morgan Sudip Mittal
+* POSTER: TOWARDS LARGE-SCALE MEASUREMENT STUDY ON LIDAR SPOOFING ATTACKS AGAINST OBJECT DETECTION.,https://doi.org/10.1145/3548606.3563537, ,Takami Sato Yuki Hayakawa Ryo Suzuki Yohsuke Shiiki Kentaro Yoshioka Qi Alfred Chen
+* POSTER: FINGERPRINT-FACE FRICTION BASED EARABLE AUTHENTICATION.,https://doi.org/10.1145/3548606.3563524, ,Zi Wang Yilin Wang Yingying Chen Jie Yang
+* POSTER: TAINTGREP: A STATIC ANALYSIS TOOL FOR DETECTING VULNERABILITIES OF ANDROID APPS SUPPORTING USER-DEFINED RULES.,https://doi.org/10.1145/3548606.3563527, ,Ruiguo Yang Jiajin Cai Xinhui Han
+--------catagory name is: Demonstrations,--------, ,
+* DEMO - SPOKE: SECURE POLLING AND KNOWLEDGE EXCHANGE.,https://doi.org/10.1145/3548606.3563701, ,Thomas Sandholm Sayandev Mukherjee Bernardo A. Huberman
+--------catagory name is: Pre Conference Workshop Summaries,--------, ,
+--------catagory name is: Post Conference Workshop Summaries,--------, ,
+* ASHES 2022 - 6TH WORKSHOP ON ATTACKS AND SOLUTIONS IN HARDWARE SECURITY.,https://doi.org/10.1145/3548606.3563763, ,Chip-Hong Chang Domenic Forte Debdeep Mukhopadhyay Ulrich Rührmair
+* AISEC '22: 15TH ACM WORKSHOP ON ARTIFICIAL INTELLIGENCE AND SECURITY.,https://doi.org/10.1145/3548606.3563683, ,Ambra Demontis Xinyun Chen Florian Tramèr
+* CHECKMATE '22: RESEARCH ON OFFENSIVE AND DEFENSIVE TECHNIQUES IN THE CONTEXT OF MAN AT THE END (MATE) ATTACKS.,https://doi.org/10.1145/3548606.3564247, ,Golden G. Richard III Tim Blazytko
+* DEFI '22: ACM CCS WORKSHOP ON DECENTRALIZED FINANCE AND SECURITY.,https://doi.org/10.1145/3548606.3563431, ,Fan Zhang Patrick McCorry
+==========,SP,TITLE,AUTHORS,URL,===========
+* FOUR ATTACKS AND A PROOF FOR TELEGRAM.,https://doi.org/10.1109/SP46214.2022.9833666, ,Martin R. Albrecht Lenka Mareková Kenneth G. Paterson Igors Stepanovs
+* IRONMASK: VERSATILE VERIFICATION OF MASKING SECURITY.,https://doi.org/10.1109/SP46214.2022.9833600, ,Sonia Belaïd Darius Mercadier Matthieu Rivain Abdul Rahman Taleb
+* A FORMAL SECURITY ANALYSIS OF THE W3C WEB PAYMENT APIS: ATTACKS AND VERIFICATION.,https://doi.org/10.1109/SP46214.2022.9833681, ,Quoc Huy Do Pedram Hosseyni Ralf Küsters Guido Schmitz Nils Wenzler Tim Würtele
+* CATS VS. SPECTRE: AN AXIOMATIC APPROACH TO MODELING SPECULATIVE EXECUTION ATTACKS.,https://doi.org/10.1109/SP46214.2022.9833774, ,Hernán Ponce de León Johannes Kinder
+* TASHAROK: USING MECHANISM DESIGN FOR ENHANCING SECURITY RESOURCE ALLOCATION IN INTERDEPENDENT SYSTEMS.,https://doi.org/10.1109/SP46214.2022.9833591, ,Mustafa Abdallah Daniel Woods Parinaz Naghizadeh Issa Khalil Timothy N. Cason Shreyas Sundaram Saurabh Bagchi
+* SOK: AUTHENTICATION IN AUGMENTED AND VIRTUAL REALITY.,https://doi.org/10.1109/SP46214.2022.9833742, ,Sophie Stephenson Bijeeta Pal Stephen Fan Earlence Fernandes Yuhang Zhao Rahul Chatterjee
+* RT-TEE: REAL-TIME SYSTEM AVAILABILITY FOR CYBER-PHYSICAL SYSTEMS USING ARM TRUSTZONE.,https://doi.org/10.1109/SP46214.2022.9833604, ,Jinwen Wang Ao Li Haoran Li Chenyang Lu Ning Zhang
+* A SECRET-FREE HYPERVISOR: RETHINKING ISOLATION IN THE AGE OF SPECULATIVE VULNERABILITIES.,https://doi.org/10.1109/SP46214.2022.9833726, ,Hongyan Xia David Zhang Wei Liu István Haller Bruce Sherwin David Chisnall
+* SMILE: SECURE MEMORY INTROSPECTION FOR LIVE ENCLAVE.,https://doi.org/10.1109/SP46214.2022.9833714, ,Lei Zhou Xuhua Ding Fengwei Zhang
+* ARE WE THERE YET? TIMING AND FLOATING-POINT ATTACKS ON DIFFERENTIAL PRIVACY SYSTEMS.,https://doi.org/10.1109/SP46214.2022.9833672, ,Jiankai Jin Eleanor McMurtry Benjamin I. P. Rubinstein Olga Ohrimenko
+* SHADEWATCHER: RECOMMENDATION-GUIDED CYBER THREAT ANALYSIS USING SYSTEM AUDIT RECORDS.,https://doi.org/10.1109/SP46214.2022.9833669, ,Jun Zeng Xiang Wang Jiahao Liu Yinfang Chen Zhenkai Liang Tat-Seng Chua Zheng Leong Chua
+* SIRAJ: A UNIFIED FRAMEWORK FOR AGGREGATION OF MALICIOUS ENTITY DETECTORS.,https://doi.org/10.1109/SP46214.2022.9833725, ,Saravanan Thirumuruganathan Mohamed Nabeel Euijin Choo Issa Khalil Ting Yu
+* DEEPCASE: SEMI-SUPERVISED CONTEXTUAL ANALYSIS OF SECURITY EVENTS.,https://doi.org/10.1109/SP46214.2022.9833671, ,Thijs van Ede Hojjat Aghakhani Noah Spahn Riccardo Bortolameotti Marco Cova Andrea Continella Maarten van Steen Andreas Peter Christopher Kruegel Giovanni Vigna
+* DEPCOMM: GRAPH SUMMARIZATION ON SYSTEM AUDIT LOGS FOR ATTACK INVESTIGATION.,https://doi.org/10.1109/SP46214.2022.9833632, ,Zhiqiang Xu Pengcheng Fang Changlin Liu Xusheng Xiao Yu Wen Dan Meng
+* SECFLOAT: ACCURATE FLOATING-POINT MEETS SECURE 2-PARTY COMPUTATION.,https://doi.org/10.1109/SP46214.2022.9833697, ,Deevashwer Rathee Anwesh Bhattacharya Rahul Sharma Divya Gupta Nishanth Chandran Aseem Rastogi
+* WHY CRYPTO-DETECTORS FAIL: A SYSTEMATIC EVALUATION OF CRYPTOGRAPHIC MISUSE DETECTION TECHNIQUES.,https://doi.org/10.1109/SP46214.2022.9833582, ,Amit Seal Ami Nathan Cooper Kaushal Kafle Kevin Moran Denys Poshyvanyk Adwait Nadkarni
+"* ""THEY'RE NOT THAT HARD TO MITIGATE"": WHAT CRYPTOGRAPHIC LIBRARY DEVELOPERS THINK ABOUT TIMING ATTACKS.",https://doi.org/10.1109/SP46214.2022.9833713, ,Jan Jancar Marcel Fourné Daniel De Almeida Braga Mohamed Sabt Peter Schwabe Gilles Barthe Pierre-Alain Fouque Yasemin Acar
+"* ANNOTATING, TRACKING, AND PROTECTING CRYPTOGRAPHIC SECRETS WITH CRYPTOMPK.",https://doi.org/10.1109/SP46214.2022.9833650, ,Xuancheng Jin Xuangan Xiao Songlin Jia Wang Gao Dawu Gu Hang Zhang Siqi Ma Zhiyun Qian Juanru Li
+* SPOOK.JS: ATTACKING CHROME STRICT SITE ISOLATION VIA SPECULATIVE EXECUTION.,https://doi.org/10.1109/SP46214.2022.9833711, ,Ayush Agarwal Sioli O'Connell Jason Kim Shaked Yehezkel Daniel Genkin Eyal Ronen Yuval Yarom
+* ASLEEP AT THE KEYBOARD? ASSESSING THE SECURITY OF GITHUB COPILOT'S CODE CONTRIBUTIONS.,https://doi.org/10.1109/SP46214.2022.9833571, ,Hammond Pearce Baleegh Ahmad Benjamin Tan Brendan Dolan-Gavitt Ramesh Karri
+* HOW DOES USABLE SECURITY (NOT) END UP IN SOFTWARE PRODUCTS? RESULTS FROM A QUALITATIVE INTERVIEW STUDY.,https://doi.org/10.1109/SP46214.2022.9833756, ,Marco Gutfleisch Jan H. Klemmer Niklas Busch Yasemin Acar M. Angela Sasse Sascha Fahl
+* HOW TO ATTACK AND GENERATE HONEYWORDS.,https://doi.org/10.1109/SP46214.2022.9833598, ,Ding Wang Yunkai Zou Qiying Dong Yuanming Song Xinyi Huang
+* WIGHT: WIRED GHOST TOUCH ATTACK ON CAPACITIVE TOUCHSCREENS.,https://doi.org/10.1109/SP46214.2022.9833740, ,Yan Jiang Xiaoyu Ji Kai Wang Chen Yan Richard Mitev Ahmad-Reza Sadeghi Wenyuan Xu
+* PCR-AUTH: SOLVING AUTHENTICATION PUZZLE CHALLENGE WITH ENCODED PALM CONTACT RESPONSE.,https://doi.org/10.1109/SP46214.2022.9833564, ,Long Huang Chen Wang
+* MITIGATING INFORMATION LEAKAGE VULNERABILITIES WITH TYPE-BASED DATA ISOLATION.,https://doi.org/10.1109/SP46214.2022.9833675, ,Alyssa Milburn Erik van der Kouwe Cristiano Giuffrida
+* HEAPSTER: ANALYZING THE SECURITY OF DYNAMIC ALLOCATORS FOR MONOLITHIC FIRMWARE IMAGES.,https://doi.org/10.1109/SP46214.2022.9833610, ,Fabio Gritti Fabio Pagani Ilya Grishchenko Lukas Dresel Nilo Redini Christopher Kruegel Giovanni Vigna
+* NOISE-SDR: ARBITRARY MODULATION OF ELECTROMAGNETIC NOISE FROM UNPRIVILEGED SOFTWARE AND ITS IMPACT ON EMISSION SECURITY.,https://doi.org/10.1109/SP46214.2022.9833767, ,Giovanni Camurati Aurélien Francillon
+* ATTACKS ON WIRELESS COEXISTENCE: EXPLOITING CROSS-TECHNOLOGY PERFORMANCE FEATURES FOR INTER-CHIP PRIVILEGE ESCALATION.,https://doi.org/10.1109/SP46214.2022.9833639, ,Jiska Classen Francesco Gringoli Michael Hermann Matthias Hollick
+* TRANSFER ATTACKS REVISITED: A LARGE-SCALE EMPIRICAL STUDY IN REAL COMPUTER VISION SETTINGS.,https://doi.org/10.1109/SP46214.2022.9833783, ,Yuhao Mao Chong Fu Saizhuo Wang Shouling Ji Xuhong Zhang Zhenguang Liu Jun Zhou Alex X. Liu Raheem Beyah Ting Wang
+* FINDING AND EXPLOITING CPU FEATURES USING MSR TEMPLATING.,https://doi.org/10.1109/SP46214.2022.9833599, ,Andreas Kogler Daniel Weber Martin Haubenwallner Moritz Lipp Daniel Gruss Michael Schwarz
+* AUGURY: USING DATA MEMORY-DEPENDENT PREFETCHERS TO LEAK DATA AT REST.,https://doi.org/10.1109/SP46214.2022.9833570, ,Jose Rodrigo Sanchez Vicarte Michael Flanders Riccardo Paccagnella Grant Garrett-Grossman Adam Morrison Christopher W. Fletcher David Kohlbrenner
+* TIMING-BASED BROWSING PRIVACY VULNERABILITIES VIA SITE ISOLATION.,https://doi.org/10.1109/SP46214.2022.9833710, ,Zihao Jin Ziqiao Kong Shuo Chen Haixin Duan
+* MIND THE GAP: STUDYING THE INSECURITY OF PROVABLY SECURE EMBEDDED TRUSTED EXECUTION ARCHITECTURES.,https://doi.org/10.1109/SP46214.2022.9833735, ,Marton Bognar Jo Van Bulck Frank Piessens
+* ANTI-TAMPER RADIO: SYSTEM-LEVEL TAMPER DETECTION FOR COMPUTING SYSTEMS.,https://doi.org/10.1109/SP46214.2022.9833631, ,Paul Staat Johannes Tobisch Christian T. Zenger Christof Paar
+* PRACTICAL EMV RELAY PROTECTION.,https://doi.org/10.1109/SP46214.2022.9833642, ,Andreea-Ina Radu Tom Chothia Christopher J. P. Newton Ioana Boureanu Liqun Chen
+* SWARMFLAWFINDER: DISCOVERING AND EXPLOITING LOGIC FLAWS OF SWARM ALGORITHMS.,https://doi.org/10.1109/SP46214.2022.9833685, ,Chijung Jung Ali Ahad Yuseok Jeon Yonghwi Kwon
+"* ""FLAWED, BUT LIKE DEMOCRACY WE DON'T HAVE A BETTER SYSTEM"": THE EXPERTS' INSIGHTS ON THE PEER REVIEW PROCESS OF EVALUATING SECURITY PAPERS.",https://doi.org/10.1109/SP46214.2022.9833581, ,Ananta Soneji Faris Bugra Kokulu Carlos E. Rubio-Medrano Tiffany Bao Ruoyu Wang Yan Shoshitaishvili Adam Doupé
+* SOK: SOCIAL CYBERSECURITY.,https://doi.org/10.1109/SP46214.2022.9833757, ,Yuxi Wu W. Keith Edwards Sauvik Das
+* COMMITTED TO TRUST: A QUALITATIVE STUDY ON SECURITY & TRUST IN OPEN SOURCE SOFTWARE PROJECTS.,https://doi.org/10.1109/SP46214.2022.9833686, ,Dominik Wermke Noah Wöhler Jan H. Klemmer Marcel Fourné Yasemin Acar Sascha Fahl
+* SECURITY FOUNDATIONS FOR APPLICATION-BASED COVERT COMMUNICATION CHANNELS.,https://doi.org/10.1109/SP46214.2022.9833752, ,James K. Howes IV Marios Georgiou Alex J. Malozemoff Thomas Shrimpton
+* BAD CHARACTERS: IMPERCEPTIBLE NLP ATTACKS.,https://doi.org/10.1109/SP46214.2022.9833641, ,Nicholas Boucher Ilia Shumailov Ross Anderson Nicolas Papernot
+* REPAIRING DOS VULNERABILITY OF REAL-WORLD REGEXES.,https://doi.org/10.1109/SP46214.2022.9833597, ,Nariyoshi Chida Tachio Terauchi
+* GREBE: UNVEILING EXPLOITATION POTENTIAL FOR LINUX KERNEL BUGS.,https://doi.org/10.1109/SP46214.2022.9833683, ,Zhenpeng Lin Yueqi Chen Yuhang Wu Dongliang Mu Chensheng Yu Xinyu Xing Kang Li
+* GOSHAWK: HUNTING MEMORY CORRUPTIONS VIA STRUCTURE-AWARE AND OBJECT-CENTRIC MEMORY OPERATION SYNOPSIS.,https://doi.org/10.1109/SP46214.2022.9833613, ,Yunlong Lyu Yi Fang Yiwei Zhang Qibin Sun Siqi Ma Elisa Bertino Kangjie Lu Juanru Li
+* FSAFLOW: LIGHTWEIGHT AND FAST DYNAMIC PATH TRACKING AND CONTROL FOR PRIVACY PROTECTION ON ANDROID USING HYBRID ANALYSIS WITH STATE-REDUCTION STRATEGY.,https://doi.org/10.1109/SP46214.2022.9833764, ,Zhi Yang Zhanhui Yuan Shuyuan Jin Xingyuan Chen Lei Sun Xuehui Du Wenfa Li Hongqi Zhang
+* TROLLMAGNIFIER: DETECTING STATE-SPONSORED TROLL ACCOUNTS ON REDDIT.,https://doi.org/10.1109/SP46214.2022.9833706, ,Mohammad Hammas Saeed Shiza Ali Jeremy Blackburn Emiliano De Cristofaro Savvas Zannettou Gianluca Stringhini
+* FUZZUSB: HYBRID STATEFUL FUZZING OF USB GADGET STACKS.,https://doi.org/10.1109/SP46214.2022.9833593, ,Kyungtae Kim Taegyu Kim Ertza Warraich Byoungyoung Lee Kevin R. B. Butler Antonio Bianchi Dave Jing Tian
+* EXPLOIT THE LAST STRAW THAT BREAKS ANDROID SYSTEMS.,https://doi.org/10.1109/SP46214.2022.9833563, ,Lei Zhang Keke Lian Haoyu Xiao Zhibo Zhang Peng Liu Yuan Zhang Min Yang Haixin Duan
+* SECURITY ANALYSIS OF THE MLS KEY DERIVATION.,https://doi.org/10.1109/SP46214.2022.9833678, ,Chris Brzuska Eric Cornelissen Konrad Kohbrok
+==========,USS,TITLE,AUTHORS,URL,===========
+--------catagory name is: Measurement I: Network,--------, ,
+* SEEING THE FOREST FOR THE TREES: UNDERSTANDING SECURITY HAZARDS IN THE 3GPP ECOSYSTEM THROUGH INTELLIGENT ANALYSIS ON CHANGE REQUESTS.,https://www.usenix.org/conference/usenixsecurity22/presentation/chen-yi, ,Yi Chen Di Tang Yepeng Yao Mingming Zha XiaoFeng Wang Xiaozhong Liu Haixu Tang Dongfang Zhao
+--------catagory name is: Kernel Security,--------, ,
+* PLAYING FOR K(H)EAPS: UNDERSTANDING AND IMPROVING LINUX KERNEL EXPLOIT RELIABILITY.,https://www.usenix.org/conference/usenixsecurity22/presentation/zeng, ,Kyle Zeng Yueqi Chen Haehyun Cho Xinyu Xing Adam Doupé Yan Shoshitaishvili Tiffany Bao
+* IN-KERNEL CONTROL-FLOW INTEGRITY ON COMMODITY OSES USING ARM POINTER AUTHENTICATION.,https://www.usenix.org/conference/usenixsecurity22/presentation/yoo, ,Sungbae Yoo Jinbum Park Seolheui Kim Yeji Kim Taesoo Kim
+* MIDAS: SYSTEMATIC KERNEL TOCTTOU PROTECTION.,https://www.usenix.org/conference/usenixsecurity22/presentation/bhattacharyya, ,Atri Bhattacharyya Uros Tesic Mathias Payer
+--------catagory name is: Web Security I: Vulnerabilities,--------, ,
+* MINING NODE.JS VULNERABILITIES VIA OBJECT DEPENDENCE GRAPH AND QUERY.,https://www.usenix.org/conference/usenixsecurity22/presentation/li-song, ,Song Li Mingqing Kang Jianwei Hou Yinzhi Cao
+* FUGIO: AUTOMATIC EXPLOIT GENERATION FOR PHP OBJECT INJECTION VULNERABILITIES.,https://www.usenix.org/conference/usenixsecurity22/presentation/park-sunnyeo, ,Sunnyeo Park Daejun Kim Suman Jana Sooel Son
+--------catagory name is: Crypto I: Attacking Implementations,--------, ,
+--------catagory name is: User Studies I: At-Risk Users,--------, ,
+"* ""I FEEL INVADED, ANNOYED, ANXIOUS AND I MAY PROTECT MYSELF"": INDIVIDUALS' FEELINGS ABOUT ONLINE TRACKING AND THEIR PROTECTIVE BEHAVIOUR ACROSS GENDER AND COUNTRY.",https://www.usenix.org/conference/usenixsecurity22/presentation/coopamootoo, ,Kovila P. L. Coopamootoo Maryam Mehrnezhad Ehsan Toreini
+"* ""LIKE LESBIANS WALKING THE PERIMETER"": EXPERIENCES OF U.S. LGBTQ+ FOLKS WITH ONLINE SECURITY, SAFETY, AND PRIVACY ADVICE.",https://www.usenix.org/conference/usenixsecurity22/presentation/geeng, ,Christine Geeng Mike Harris Elissa M. Redmiles Franziska Roesner
+"* ""THEY LOOK AT VULNERABILITY AND USE THAT TO ABUSE YOU"": PARTICIPATORY THREAT MODELLING WITH MIGRANT DOMESTIC WORKERS.",https://www.usenix.org/conference/usenixsecurity22/presentation/slupska-vulnerability, ,Julia Slupska Selina Y. Cho Marissa Begonia Ruba Abu-Salma Nayanatara Prakash Mallika Balakrishnan
+--------catagory name is: Software Vulnerabilities,--------, ,
+* HOW LONG DO VULNERABILITIES LIVE IN THE CODE? A LARGE-SCALE EMPIRICAL MEASUREMENT STUDY ON FOSS VULNERABILITY LIFETIMES.,https://www.usenix.org/conference/usenixsecurity22/presentation/alexopoulos, ,Nikolaos Alexopoulos Manuel Brack Jan Philipp Wagner Tim Grube Max Mühlhäuser
+* EXPECTED EXPLOITABILITY: PREDICTING THE DEVELOPMENT OF FUNCTIONAL VULNERABILITY EXPLOITS.,https://www.usenix.org/conference/usenixsecurity22/presentation/suciu, ,Octavian Suciu Connor Nelson Zhuoer Lyu Tiffany Bao Tudor Dumitras
+* OS-AWARE VULNERABILITY PRIORITIZATION VIA DIFFERENTIAL SEVERITY ANALYSIS.,https://www.usenix.org/conference/usenixsecurity22/presentation/wu-qiushi, ,Qiushi Wu Yue Xiao Xiaojing Liao Kangjie Lu
+* ARBITER: BRIDGING THE STATIC AND DYNAMIC DIVIDE IN VULNERABILITY DISCOVERY ON BINARY PROGRAMS.,https://www.usenix.org/conference/usenixsecurity22/presentation/vadayath, ,Jayakrishna Vadayath Moritz Eckert Kyle Zeng Nicolaas Weideman Gokulkrishna Praveen Menon Yanick Fratantonio Davide Balzarotti Adam Doupé Tiffany Bao Ruoyu Wang Christophe Hauser Yan Shoshitaishvili
+--------catagory name is: Network Security I: Scanning & Censorship,--------, ,
+--------catagory name is: Differential Privacy,--------, ,
+* POOL INFERENCE ATTACKS ON LOCAL DIFFERENTIAL PRIVACY: QUANTIFYING THE PRIVACY GUARANTEES OF APPLE'S COUNT MEAN SKETCH IN PRACTICE.,https://www.usenix.org/conference/usenixsecurity22/presentation/gadotti, ,Andrea Gadotti Florimond Houssiau Meenatchi Sundaram Muthu Selva Annamalai Yves-Alexandre de Montjoye
+--------catagory name is: Measurement II: Auditing & Best Practices,--------, ,
+* WATCHING THE WATCHERS: BIAS AND VULNERABILITY IN REMOTE PROCTORING SOFTWARE.,https://www.usenix.org/conference/usenixsecurity22/presentation/burgess, ,Ben Burgess Avi Ginsberg Edward W. Felten Shaanan Cohney
+--------catagory name is: Side Channels I: Hardware,--------, ,
+--------catagory name is: Web Security II: Fingerprinting,--------, ,
+--------catagory name is: Crypto II: Performance Improvements,--------, ,
+--------catagory name is: User Studies II: Sharing,--------, ,
+"* ""HOW DO YOU NOT LOSE FRIENDS?"": SYNTHESIZING A DESIGN SPACE OF SOCIAL CONTROLS FOR SECURING SHARED DIGITAL RESOURCES VIA PARTICIPATORY DESIGN JAMS.",https://www.usenix.org/conference/usenixsecurity22/presentation/moju-igbene, ,Eyitemi Moju-Igbene Hanan Abdi Alan Lu Sauvik Das
+--------catagory name is: Hardware Security I: Attacks & Defenses,--------, ,
+* JENNY: SECURING SYSCALLS FOR PKU-BASED MEMORY ISOLATION SYSTEMS.,https://www.usenix.org/conference/usenixsecurity22/presentation/schrammel, ,David Schrammel Samuel Weiser Richard Sadek Stefan Mangard
+* PHYSICAL-LAYER ATTACKS AGAINST PULSE WIDTH MODULATION-CONTROLLED ACTUATORS.,https://www.usenix.org/conference/usenixsecurity22/presentation/dayanikli, ,Gökçen Yilmaz Dayanikli Sourav Sinha Devaprakash Muniraj Ryan M. Gerdes Mazen Farhood Mani Mina
+* BRANCH HISTORY INJECTION: ON THE EFFECTIVENESS OF HARDWARE MITIGATIONS AGAINST CROSS-PRIVILEGE SPECTRE-V2 ATTACKS.,https://www.usenix.org/conference/usenixsecurity22/presentation/barberis, ,Enrico Barberis Pietro Frigo Marius Muench Herbert Bos Cristiano Giuffrida
+* TLB;DR: ENHANCING TLB-BASED ATTACKS WITH TLB DESYNCHRONIZED REVERSE ENGINEERING.,https://www.usenix.org/conference/usenixsecurity22/presentation/tatar, ,Andrei Tatar Daniël Trujillo Cristiano Giuffrida Herbert Bos
+--------catagory name is: Fuzzing I: Networks,--------, ,
+--------catagory name is: Smart Homes I,--------, ,
+--------catagory name is: Measurement III,--------, ,
+* HELPING HANDS: MEASURING THE IMPACT OF A LARGE THREAT INTELLIGENCE SHARING COMMUNITY.,https://www.usenix.org/conference/usenixsecurity22/presentation/bouwman, ,Xander Bouwman Victor Le Pochat Pawel Foremski Tom van Goethem Carlos Hernandez Gañán Giovane C. M. Moura Samaneh Tajalizadehkhoob Wouter Joosen Michel van Eeten
+--------catagory name is: Fuzzing II: Low-Level,--------, ,
+--------catagory name is: Wireless Security,--------, ,
+* GHOST PEAK: PRACTICAL DISTANCE REDUCTION ATTACKS AGAINST HRP UWB RANGING.,https://www.usenix.org/conference/usenixsecurity22/presentation/leu, ,Patrick Leu Giovanni Camurati Alexander Heinrich Marc Roeschlin Claudio Anliker Matthias Hollick Srdjan Capkun Jiska Classen
+--------catagory name is: ML I: Federated Learning,--------, ,
+* SIMC: ML INFERENCE SECURE AGAINST MALICIOUS CLIENTS AT SEMI-HONEST COST.,https://www.usenix.org/conference/usenixsecurity22/presentation/chandran, ,Nishanth Chandran Divya Gupta Sai Lakshmi Bhavana Obbattu Akash Shah
+--------catagory name is: Deanonymization,--------, ,
+* ATTACKS ON DEIDENTIFICATION'S DEFENSES.,https://www.usenix.org/conference/usenixsecurity22/presentation/cohen, ,Aloni Cohen
+--------catagory name is: Mobile Security,--------, ,
+* GHOSTTOUCH: TARGETED ATTACKS ON TOUCHSCREENS WITHOUT PHYSICAL TOUCH.,https://www.usenix.org/conference/usenixsecurity22/presentation/wang-kai, ,Kai Wang Richard Mitev Chen Yan Xiaoyu Ji Ahmad-Reza Sadeghi Wenyuan Xu
+* SARA: SECURE ANDROID REMOTE AUTHORIZATION.,https://www.usenix.org/conference/usenixsecurity22/presentation/imran, ,Abdullah Imran Habiba Farrukh Muhammad Ibrahim Z. Berkay Celik Antonio Bianchi
+--------catagory name is: Web Security III: Bots & Authentication,--------, ,
+--------catagory name is: Crypto III: Private Matching & Lookups,--------, ,
+* ESTIMATING INCIDENTAL COLLECTION IN FOREIGN INTELLIGENCE SURVEILLANCE: LARGE-SCALE MULTIPARTY PRIVATE SET INTERSECTION WITH UNION AND SUM.,https://www.usenix.org/conference/usenixsecurity22/presentation/kulshrestha, ,Anunay Kulshrestha Jonathan R. Mayer
+--------catagory name is: Passwords,--------, ,
+* PRE-HIJACKED ACCOUNTS: AN EMPIRICAL STUDY OF SECURITY FAILURES IN USER ACCOUNT CREATION ON THE WEB.,https://www.usenix.org/conference/usenixsecurity22/presentation/sudhodanan, ,Avinash Sudhodanan Andrew Paverd
+* MIGHT I GET PWNED: A SECOND GENERATION COMPROMISED CREDENTIAL CHECKING SERVICE.,https://www.usenix.org/conference/usenixsecurity22/presentation/pal, ,Bijeeta Pal Mazharul Islam Marina Sanusi Bohuk Nick Sullivan Luke Valenta Tara Whalen Christopher A. Wood Thomas Ristenpart Rahul Chatterjee
+* GOSSAMER: SECURELY MEASURING PASSWORD-BASED LOGINS.,https://www.usenix.org/conference/usenixsecurity22/presentation/sanusi-bohuk, ,Marina Sanusi Bohuk Mazharul Islam Suleman Ahmad Michael M. Swift Thomas Ristenpart Rahul Chatterjee
+--------catagory name is: Smart Vehicles,--------, ,
+--------catagory name is: Web Security IV: Defenses,--------, ,
+* SWAPP: A NEW PROGRAMMABLE PLAYGROUND FOR WEB APPLICATION SECURITY.,https://www.usenix.org/conference/usenixsecurity22/presentation/chinprutthiwong, ,Phakpoom Chinprutthiwong Jianwei Huang Guofei Gu
+* THE SECURITY LOTTERY: MEASURING CLIENT-SIDE WEB SECURITY INCONSISTENCIES.,https://www.usenix.org/conference/usenixsecurity22/presentation/roth, ,Sebastian Roth Stefano Calzavara Moritz Wilhelm Alvise Rabitti Ben Stock
+--------catagory name is: ML II,--------, ,
+--------catagory name is: Measurement IV,--------, ,
+* BEHIND THE TUBE: EXPLOITATIVE MONETIZATION OF CONTENT ON YOUTUBE.,https://www.usenix.org/conference/usenixsecurity22/presentation/chu, ,Andrew Chu Arjun Arunasalam Muslum Ozgur Ozmen Z. Berkay Celik
+* WHEN SALLY MET TRACKERS: WEB TRACKING FROM THE USERS' PERSPECTIVE.,https://www.usenix.org/conference/usenixsecurity22/presentation/dambra, ,Savino Dambra Iskander Sánchez-Rola Leyla Bilge Davide Balzarotti
+--------catagory name is: Hardware Security II: Embedded,--------, ,
+* REZONE: DISARMING TRUSTZONE WITH TEE PRIVILEGE REDUCTION.,https://www.usenix.org/conference/usenixsecurity22/presentation/cerdeira, ,David Cerdeira José Martins Nuno Santos Sandro Pinto
+* HOLISTIC CONTROL-FLOW PROTECTION ON REAL-TIME EMBEDDED SYSTEMS WITH KAGE.,https://www.usenix.org/conference/usenixsecurity22/presentation/du, ,Yufei Du Zhuojia Shen Komail Dharsee Jie Zhou Robert J. Walls John Criswell
+--------catagory name is: Client-Side Security,--------, ,
+* HECATE: ABUSE REPORTING IN SECURE MESSENGERS WITH SEALED SENDER.,https://www.usenix.org/conference/usenixsecurity22/presentation/issa, ,Rawane Issa Nicolas Alhaddad Mayank Varia
+--------catagory name is: Crypto IV: Databases & Logging,--------, ,
+--------catagory name is: Software Forensics,--------, ,
+* BACK-PROPAGATING SYSTEM DEPENDENCY IMPACT FOR ATTACK INVESTIGATION.,https://www.usenix.org/conference/usenixsecurity22/presentation/fang, ,Pengcheng Fang Peng Gao Changlin Liu Erman Ayday Kangkook Jee Ting Wang Yanfang (Fanny) Ye Zhuotao Liu Xusheng Xiao
+* GROUND TRUTH FOR BINARY DISASSEMBLY IS NOT EASY.,https://www.usenix.org/conference/usenixsecurity22/presentation/pang-chengbin, ,Chengbin Pang Tiantai Zhang Ruotong Yu Bing Mao Jun Xu
+* FREEWILL: AUTOMATICALLY DIAGNOSING USE-AFTER-FREE BUGS VIA REFERENCE MISCOUNTING DETECTION ON BINARIES.,https://www.usenix.org/conference/usenixsecurity22/presentation/he-liang, ,Liang He Hong Hu Purui Su Yan Cai Zhenkai Liang
+--------catagory name is: Information Flow,--------, ,
+* SYMSAN: TIME AND SPACE EFFICIENT CONCOLIC EXECUTION VIA DYNAMIC DATA-FLOW ANALYSIS.,https://www.usenix.org/conference/usenixsecurity22/presentation/chen-ju, ,Ju Chen Wookhyun Han Mingjun Yin Haochen Zeng Chengyu Song Byoungyoung Lee Heng Yin Insik Shin
+* CELLIFT: LEVERAGING CELLS FOR SCALABLE AND PRECISE DYNAMIC INFORMATION FLOW TRACKING IN RTL.,https://www.usenix.org/conference/usenixsecurity22/presentation/solt, ,Flavien Solt Ben Gras Kaveh Razavi
+--------catagory name is: Network Security II: Infrastructure,--------, ,
+* CREATING A SECURE UNDERLAY FOR THE INTERNET.,https://www.usenix.org/conference/usenixsecurity22/presentation/birge-lee, ,Henry Birge-Lee Joel Wanner Grace H. Cimaszewski Jonghoon Kwon Liang Wang François Wirz Prateek Mittal Adrian Perrig Yixin Sun
+--------catagory name is: ML III,--------, ,
+* SEEING IS LIVING? RETHINKING THE SECURITY OF FACIAL LIVENESS VERIFICATION IN THE DEEPFAKE ERA.,https://www.usenix.org/conference/usenixsecurity22/presentation/li-changjiang, ,Changjiang Li Li Wang Shouling Ji Xuhong Zhang Zhaohan Xi Shanqing Guo Ting Wang
+* WHO ARE YOU (I REALLY WANNA KNOW)? DETECTING AUDIO DEEPFAKES THROUGH VOCAL TRACT RECONSTRUCTION.,https://www.usenix.org/conference/usenixsecurity22/presentation/blue, ,Logan Blue Kevin Warren Hadi Abdullah Cassidy Gibson Luis Vargas Jessica O'Dell Kevin R. B. Butler Patrick Traynor
+--------catagory name is: Security Practitioners & Behaviors,--------, ,
+* CHARACTERIZING THE SECURITY OF GITHUB CI WORKFLOWS.,https://www.usenix.org/conference/usenixsecurity22/presentation/koishybayev, ,Igibek Koishybayev Aleksandr Nahapetyan Raima Zachariah Siddharth Muralee Bradley Reaves Alexandros Kapravelos Aravind Machiry
+* 99% FALSE POSITIVES: A QUALITATIVE STUDY OF SOC ANALYSTS' PERSPECTIVES ON SECURITY ALARMS.,https://www.usenix.org/conference/usenixsecurity22/presentation/alahmadi, ,Bushra A. AlAhmadi Louise Axon Ivan Martinovic
+--------catagory name is: Side Channels II,--------, ,
+--------catagory name is: Web Security V: Tracking,--------, ,
+* WEBGRAPH: CAPTURING ADVERTISING AND TRACKING INFORMATION FLOWS FOR ROBUST BLOCKING.,https://www.usenix.org/conference/usenixsecurity22/presentation/siby, ,Sandra Siby Umar Iqbal Steven Englehardt Zubair Shafiq Carmela Troncoso
+* AUTOMATING COOKIE CONSENT AND GDPR VIOLATION DETECTION.,https://www.usenix.org/conference/usenixsecurity22/presentation/bollinger, ,Dino Bollinger Karel Kubícek Carlos Cotrini David A. Basin
+* KHALEESI: BREAKER OF ADVERTISING AND TRACKING REQUEST CHAINS.,https://www.usenix.org/conference/usenixsecurity22/presentation/iqbal, ,Umar Iqbal Charlie Wolfe Charles Nguyen Steven Englehardt Zubair Shafiq
+--------catagory name is: Crypto V: Provers & Shuffling,--------, ,
+* SHUFFLE-BASED PRIVATE SET UNION: FASTER AND MORE SECURE.,https://www.usenix.org/conference/usenixsecurity22/presentation/jia, ,Yanxue Jia Shifeng Sun Hong-Sheng Zhou Jiajun Du Dawu Gu
+--------catagory name is: Security Analysis,--------, ,
+* COMRACE: DETECTING DATA RACE VULNERABILITIES IN COM OBJECTS.,https://www.usenix.org/conference/usenixsecurity22/presentation/gu-fangming, ,Fangming Gu Qingli Guo Lian Li Zhiniang Peng Wei Lin Xiaobo Yang Xiaorui Gong
+* MOVERY: A PRECISE APPROACH FOR MODIFIED VULNERABLE CODE CLONE DISCOVERY FROM MODIFIED OPEN-SOURCE SOFTWARE COMPONENTS.,https://www.usenix.org/conference/usenixsecurity22/presentation/woo, ,Seunghoon Woo Hyunji Hong Eunjin Choi Heejo Lee
+* LOKI: HARDENING CODE OBFUSCATION AGAINST AUTOMATED ATTACKS.,https://www.usenix.org/conference/usenixsecurity22/presentation/schloegel, ,Moritz Schloegel Tim Blazytko Moritz Contag Cornelius Aschermann Julius Basler Thorsten Holz Ali Abbasi
+--------catagory name is: SGX I & Side Channels III,--------, ,
+* REPURPOSING SEGMENTATION AS A PRACTICAL LVI-NULL MITIGATION IN SGX.,https://www.usenix.org/conference/usenixsecurity22/presentation/giner, ,Lukas Giner Andreas Kogler Claudio Canella Michael Schwarz Daniel Gruss
+* A HARDWARE-SOFTWARE CO-DESIGN FOR EFFICIENT INTRA-ENCLAVE ISOLATION.,https://www.usenix.org/conference/usenixsecurity22/presentation/gu-jinyu, ,Jinyu Gu Bojun Zhu Mingyu Li Wentai Li Yubin Xia Haibo Chen
+* SECSMT: SECURING SMT PROCESSORS AGAINST CONTENTION-BASED COVERT CHANNELS.,https://www.usenix.org/conference/usenixsecurity22/presentation/taram, ,Mohammadkazem Taram Xida Ren Ashish Venkat Dean M. Tullsen
+--------catagory name is: Fuzzing III,--------, ,
+* SYZSCOPE: REVEALING HIGH-RISK SECURITY IMPACTS OF FUZZER-EXPOSED BUGS IN LINUX KERNEL.,https://www.usenix.org/conference/usenixsecurity22/presentation/zou, ,Xiaochen Zou Guoren Li Weiteng Chen Hang Zhang Zhiyun Qian
+* THEHUZZ: INSTRUCTION FUZZING OF PROCESSORS USING GOLDEN-REFERENCE MODELS FOR FINDING SOFTWARE-EXPLOITABLE VULNERABILITIES.,https://www.usenix.org/conference/usenixsecurity22/presentation/kande, ,Rahul Kande Addison Crump Garrett Persyn Patrick Jauernig Ahmad-Reza Sadeghi Aakash Tyagi Jeyavijayan Rajendran
+--------catagory name is: Crypto VI,--------, ,
+* HOW TO ABUSE AND FIX AUTHENTICATED ENCRYPTION WITHOUT KEY COMMITMENT.,https://www.usenix.org/conference/usenixsecurity22/presentation/albertini, ,Ange Albertini Thai Duong Shay Gueron Stefan Kölbl Atul Luykx Sophie Schmieg
+* PRACTICAL PRIVACY-PRESERVING AUTHENTICATION FOR SSH.,https://www.usenix.org/conference/usenixsecurity22/presentation/roy, ,Lawrence Roy Stanislav Lyakhov Yeongjin Jang Mike Rosulek
+--------catagory name is: User Studies III: Privacy,--------, ,
+* SECURITY AND PRIVACY PERCEPTIONS OF THIRD-PARTY APPLICATION ACCESS FOR GOOGLE ACCOUNTS.,https://www.usenix.org/conference/usenixsecurity22/presentation/balash, ,David G. Balash Xiaoyuan Wu Miles Grant Irwin Reyes Adam J. Aviv
+* SECURITY AT THE END OF THE TUNNEL: THE ANATOMY OF VPN MENTAL MODELS AMONG EXPERTS AND NON-EXPERTS IN A CORPORATE CONTEXT.,https://www.usenix.org/conference/usenixsecurity22/presentation/binkhorst, ,Veroniek Binkhorst Tobias Fiebig Katharina Krombholz Wolter Pieters Katsiaryna Labunets
+--------catagory name is: Smart Homes II,--------, ,
+* AN EXPERIMENTAL STUDY OF GPS SPOOFING AND TAKEOVER ATTACKS ON UAVS.,https://www.usenix.org/conference/usenixsecurity22/presentation/sathaye, ,Harshad Sathaye Martin Strohmeier Vincent Lenders Aanjhan Ranganathan
+--------catagory name is: ML IV: Attacks,--------, ,
+* HIDDEN TRIGGER BACKDOOR ATTACK ON NLP MODELS VIA LINGUISTIC STYLE MANIPULATION.,https://www.usenix.org/conference/usenixsecurity22/presentation/pan-hidden, ,Xudong Pan Mi Zhang Beina Sheng Jiaming Zhu Min Yang
+"--------catagory name is: Fuzzing, OS, and Cloud Security",--------, ,
+* TIGHTLY SEAL YOUR SENSITIVE POINTERS WITH PACTIGHT.,https://www.usenix.org/conference/usenixsecurity22/presentation/ismail, ,Mohannad Ismail Andrew Quach Christopher Jelesnianski Yeongjin Jang Changwoo Min
+"--------catagory name is: Privacy, User Behaviors, and Attacks",--------, ,
+--------catagory name is: Hardware Security III,--------, ,
+* RAPID PROTOTYPING FOR MICROARCHITECTURAL ATTACKS.,https://www.usenix.org/conference/usenixsecurity22/presentation/easdon, ,Catherine Easdon Michael Schwarz Martin Schwarzl Daniel Gruss
+--------catagory name is: OS Security & Formalisms,--------, ,
+--------catagory name is: ML V: Principles & Best Practices,--------, ,
+* ON THE SECURITY RISKS OF AUTOML.,https://www.usenix.org/conference/usenixsecurity22/presentation/pang-ren, ,Ren Pang Zhaohan Xi Shouling Ji Xiapu Luo Ting Wang
+* EXPLORING THE SECURITY BOUNDARY OF DATA RECONSTRUCTION VIA NEURON EXCLUSIVITY ANALYSIS.,https://www.usenix.org/conference/usenixsecurity22/presentation/pan-exploring, ,Xudong Pan Mi Zhang Yifan Yan Jiaming Zhu Zhemin Yang
+--------catagory name is: User Studies IV: Policies & Best Practices,--------, ,
+"* ""THE SAME PIN, JUST LONGER"": ON THE (IN)SECURITY OF UPGRADING PINS FROM 4 TO 6 DIGITS.",https://www.usenix.org/conference/usenixsecurity22/presentation/munyendo, ,Collins W. Munyendo Philipp Markert Alexandra Nisenoff Miles Grant Elena Korkes Blase Ur Adam J. Aviv
+* WHERE TO RECRUIT FOR SECURITY DEVELOPMENT STUDIES: COMPARING SIX SOFTWARE DEVELOPER SAMPLES.,https://www.usenix.org/conference/usenixsecurity22/presentation/kaur, ,Harjot Kaur Sabrina Amft Daniel Votipka Yasemin Acar Sascha Fahl
+--------catagory name is: SGX II,--------, ,
+* MINEFIELD: A SOFTWARE-ONLY PROTECTION FOR SGX ENCLAVES AGAINST DVFS ATTACKS.,https://www.usenix.org/conference/usenixsecurity22/presentation/kogler-minefield, ,Andreas Kogler Daniel Gruss Michael Schwarz
+--------catagory name is: Network Security III: DDoS,--------, ,
+* COUNTING IN REGEXES CONSIDERED HARMFUL: EXPOSING REDOS VULNERABILITY OF NONBACKTRACKING MATCHERS.,https://www.usenix.org/conference/usenixsecurity22/presentation/turonova, ,Lenka Turonová Lukás Holík Ivan Homoliak Ondrej Lengál Margus Veanes Tomás Vojnar
+* REGULATOR: DYNAMIC ANALYSIS TO DETECT REDOS.,https://www.usenix.org/conference/usenixsecurity22/presentation/mclaughlin, ,Robert McLaughlin Fabio Pagani Noah Spahn Christopher Kruegel Giovanni Vigna
+--------catagory name is: Zero Knowledge,--------, ,
+--------catagory name is: Software Security,--------, ,
+* DETECTING LOGICAL BUGS OF DBMS WITH COVERAGE-BASED GUIDANCE.,https://www.usenix.org/conference/usenixsecurity22/presentation/liang, ,Yu Liang Song Liu Hong Hu
+--------catagory name is: Side Channels IV,--------, ,
+--------catagory name is: Network Security IV,--------, ,
+* STALLORIS: RPKI DOWNGRADE ATTACK.,https://www.usenix.org/conference/usenixsecurity22/presentation/hlavacek, ,Tomas Hlavacek Philipp Jeitner Donika Mirdita Haya Shulman Michael Waidner
+* XDRI ATTACKS - AND - HOW TO ENHANCE RESILIENCE OF RESIDENTIAL ROUTERS.,https://www.usenix.org/conference/usenixsecurity22/presentation/jeitner, ,Philipp Jeitner Haya Shulman Lucas Teichmann Michael Waidner
+* THEMIS: ACCELERATING THE DETECTION OF ROUTE ORIGIN HIJACKING BY DISTINGUISHING LEGITIMATE AND ILLEGITIMATE MOAS.,https://www.usenix.org/conference/usenixsecurity22/presentation/qin, ,Lancheng Qin Dan Li Ruifeng Li Kang Wang
+--------catagory name is: ML VI: Inference,--------, ,
+* ARE YOUR SENSITIVE ATTRIBUTES PRIVATE? NOVEL MODEL INVERSION ATTRIBUTE INFERENCE ATTACKS ON CLASSIFICATION MODELS.,https://www.usenix.org/conference/usenixsecurity22/presentation/mehnaz, ,Shagufta Mehnaz Sayanton V. Dibbo Ehsanul Kabir Ninghui Li Elisa Bertino
+==========,NDSS,TITLE,AUTHORS,URL,===========
+--------catagory name is: Network Protocols,--------, ,
+--------catagory name is: Smartphones,--------, ,
+* PHYJACKING: PHYSICAL INPUT HIJACKING FOR ZERO-PERMISSION AUTHORIZATION ATTACKS ON ANDROID.,https://www.ndss-symposium.org/ndss-paper/auto-draft-187/, ,Xianbo Wang Shangcheng Shi Yikang Chen Wing Cheong Lau
+* UNCOVERING CROSS-CONTEXT INCONSISTENT ACCESS CONTROL ENFORCEMENT IN ANDROID.,https://www.ndss-symposium.org/ndss-paper/auto-draft-190/, ,Hao Zhou Haoyu Wang Xiapu Luo Ting Chen Yajin Zhou Ting Wang
+--------catagory name is: Cyber-crime and Forensics,--------, ,
+* LOGICMEM: AUTOMATIC PROFILE GENERATION FOR BINARY-ONLY MEMORY FORENSICS VIA LOGIC INFERENCE.,https://www.ndss-symposium.org/ndss-paper/auto-draft-193/, ,Zhenxiao Qi Yu Qu Heng Yin
+* FORENSIC ANALYSIS OF CONFIGURATION-BASED ATTACKS.,https://www.ndss-symposium.org/ndss-paper/auto-draft-194/, ,Muhammad Adil Inam Wajih Ul Hassan Ali Ahad Adam Bates Rashid Tahir Tianyin Xu Fareed Zaffar
+--------catagory name is: IoT and Networks,--------, ,
+--------catagory name is: Fuzzing,--------, ,
+--------catagory name is: ML and AI #1,--------, ,
+--------catagory name is: Web Security,--------, ,
+* SCRIPTCHECKER: TO TAME THIRD-PARTY SCRIPT EXECUTION WITH TASK CAPABILITIES.,https://www.ndss-symposium.org/ndss-paper/auto-draft-208/, ,Wu Luo Xuhua Ding Pengfei Wu Xiaolei Zhang Qingni Shen Zhonghai Wu
+--------catagory name is: Run-time Defenses,--------, ,
+* CHOSEN-INSTRUCTION ATTACK AGAINST COMMERCIAL CODE VIRTUALIZATION OBFUSCATORS.,https://www.ndss-symposium.org/ndss-paper/auto-draft-210/, ,Shijia Li Chunfu Jia Pengda Qiu Qiyuan Chen Jiang Ming Debin Gao
+* THE TAMING OF THE STACK: ISOLATING STACK DATA FROM MEMORY ERRORS.,https://www.ndss-symposium.org/ndss-paper/auto-draft-212/, ,Kaiming Huang Yongzhe Huang Mathias Payer Zhiyun Qian Jack Sampson Gang Tan Trent Jaeger
+* CFINSIGHT: A COMPREHENSIVE METRIC FOR CFI POLICIES.,https://www.ndss-symposium.org/ndss-paper/auto-draft-213/, ,Tommaso Frassetto Patrick Jauernig David Koisser Ahmad-Reza Sadeghi
+--------catagory name is: Cyber-physical Systems,--------, ,
+--------catagory name is: Wireless,--------, ,
+--------catagory name is: Secure Computing,--------, ,
+* BINARY SEARCH IN SECURE COMPUTATION.,https://www.ndss-symposium.org/ndss-paper/auto-draft-224/, ,Marina Blanton Chen Yuan
+--------catagory name is: ML and AI #2,--------, ,
+--------catagory name is: Special Problems and Use Cases,--------, ,
+* FAKEGUARD: EXPLORING HAPTIC RESPONSE TO MITIGATE THE VULNERABILITY IN COMMERCIAL FINGERPRINT ANTI-SPOOFING.,https://www.ndss-symposium.org/ndss-paper/auto-draft-230/, ,Aditya Singh Rathore Yijie Shen Chenhan Xu Jacob Snyderman Jinsong Han Fan Zhang Zhengxiong Li Feng Lin Wenyao Xu Kui Ren
+--------catagory name is: Cloud and Edge Computing,--------, ,
+* TITANIUM: A METADATA-HIDING FILE-SHARING SYSTEM WITH MALICIOUS SECURITY.,https://www.ndss-symposium.org/ndss-paper/auto-draft-234/, ,Weikeng Chen Thang Hoang Jorge Guajardo Attila A. Yavuz
+* REMOTE MEMORY-DEDUPLICATION ATTACKS.,https://www.ndss-symposium.org/ndss-paper/auto-draft-235/, ,Martin Schwarzl Erik Kraft Moritz Lipp Daniel Gruss
+--------catagory name is: Attacks on ML/AI,--------, ,
+* ATTEQ-NN: ATTENTION-BASED QOE-AWARE EVASIVE BACKDOOR ATTACKS.,https://www.ndss-symposium.org/ndss-paper/auto-draft-238/, ,Xueluan Gong Yanjiao Chen Jianshuo Dong Qian Wang
+* PROPERTY INFERENCE ATTACKS AGAINST GANS.,https://www.ndss-symposium.org/ndss-paper/auto-draft-240/, ,Junhao Zhou Yufei Chen Chao Shen Yang Zhang
+--------catagory name is: Privacy and Anonymity,--------, ,
+--------catagory name is: Kernel Security,--------, ,
+* PROGRESSIVE SCRUTINY: INCREMENTAL DETECTION OF UBI BUGS IN THE LINUX KERNEL.,https://www.ndss-symposium.org/ndss-paper/auto-draft-249/, ,Yizhuo Zhai Yu Hao Zheng Zhang Weiteng Chen Guoren Li Zhiyun Qian Chengyu Song Manu Sridharan Srikanth V. Krishnamurthy Trent Jaeger Paul L. Yu
+--------catagory name is: Keys and Authentication,--------, ,
+* LET'S AUTHENTICATE: AUTOMATED CERTIFICATES FOR USER AUTHENTICATION.,https://www.ndss-symposium.org/ndss-paper/auto-draft-251/, ,James Conners Corey Devenport Stephen Derbidge Natalie Farnsworth Kyler Gates Stephen Lambert Christopher McClain Parker Nichols Daniel Zappala
+--------catagory name is: Blockchains,--------, ,
+* MULTI-CERTIFICATE ATTACKS AGAINST PROOF-OF-ELAPSED-TIME AND THEIR COUNTERMEASURES.,https://www.ndss-symposium.org/ndss-paper/auto-draft-253/, ,Huibo Wang Guoxing Chen Yinqian Zhang Zhiqiang Lin
+* NC-MAX: BREAKING THE SECURITY-PERFORMANCE TRADEOFF IN NAKAMOTO CONSENSUS.,https://www.ndss-symposium.org/ndss-paper/auto-draft-255/, ,Ren Zhang Dingwei Zhang Quake Wang Shichen Wu Jan Xie Bart Preneel
+--------catagory name is: Software Components and Interactions,--------, ,
+* PREVENTING KERNEL HACKS WITH HAKCS.,https://www.ndss-symposium.org/ndss-paper/auto-draft-257/, ,Derrick Paul McKee Yianni Giannaris Carolina Ortega Howard E. Shrobe Mathias Payer Hamed Okhravi Nathan Burow
+* CROSS-LANGUAGE ATTACKS.,https://www.ndss-symposium.org/ndss-paper/auto-draft-259/, ,Samuel Mergendahl Nathan Burow Hamed Okhravi
+* COOPER: TESTING THE BINDING CODE OF SCRIPTING LANGUAGES WITH COOPERATIVE MUTATION.,https://www.ndss-symposium.org/ndss-paper/auto-draft-260/, ,Peng Xu Yanhao Wang Hong Hu Purui Su
+--------catagory name is: Human Factors,--------, ,
+* HAZARD INTEGRATED: UNDERSTANDING SECURITY RISKS IN APP EXTENSIONS TO TEAM CHAT SYSTEMS.,https://www.ndss-symposium.org/ndss-paper/auto-draft-262/, ,Mingming Zha Jice Wang Yuhong Nan Xiaofeng Wang Yuqing Zhang Zelin Yang
+* ABOVE AND BEYOND: ORGANIZATIONAL EFFORTS TO COMPLEMENT U.S. DIGITAL SECURITY COMPLIANCE MANDATES.,https://www.ndss-symposium.org/ndss-paper/auto-draft-263/, ,Rock Stevens Faris Bugra Kokulu Adam Doupé Michelle L. Mazurek
+==========,ACSAC,TITLE,AUTHORS,URL,===========
+--------catagory name is: CPS and IoT I,--------, ,
+--------catagory name is: Deployable Trustworthy Systems,--------, ,
+* FORMAL MODELING AND SECURITY ANALYSIS FOR INTRA-LEVEL PRIVILEGE SEPARATION.,https://doi.org/10.1145/3564625.3567984, ,Yinggang Guo Zicheng Wang Bingnan Zhong Qingkai Zeng
+--------catagory name is: Machine Learning I,--------, ,
+--------catagory name is: Malware,--------, ,
+"--------catagory name is: Applied Crypto, Privacy, and Anonymity",--------, ,
+* RECONSTRUCTION ATTACK ON DIFFERENTIAL PRIVATE TRAJECTORY PROTECTION MECHANISMS.,https://doi.org/10.1145/3564625.3564628, ,Erik Buchholz Alsharif Abuadbba Shuo Wang Surya Nepal Salil Subhash Kanhere
+* CRYPTOGO: AUTOMATIC DETECTION OF GO CRYPTOGRAPHIC API MISUSES.,https://doi.org/10.1145/3564625.3567989, ,Wenqing Li Shijie Jia Limin Liu Fangyu Zheng Yuan Ma Jingqiang Lin
+--------catagory name is: Software Security I,--------, ,
+* TYPRO: FORWARD CFI FOR C-STYLE INDIRECT FUNCTION CALLS USING TYPE PROPAGATION.,https://doi.org/10.1145/3564625.3564627, ,Markus Bauer Ilya Grishchenko Christian Rossow
+--------catagory name is: CPS and IoT II,--------, ,
+--------catagory name is: Software Security II,--------, ,
+--------catagory name is: Mobile and Wireless Security,--------, ,
+--------catagory name is: Usability and Human-Centered Security,--------, ,
+--------catagory name is: Machine Learning II,--------, ,
+* DRONE AUTHENTICATION VIA ACOUSTIC FINGERPRINT.,https://doi.org/10.1145/3564625.3564653, ,Yufeng Diao Yichi Zhang Guodong Zhao Mohamed Khamis
+--------catagory name is: Network Security,--------, ,
+"* IF YOU CAN'T BEAT THEM, PAY THEM: BITCOIN PROTECTION RACKET IS PROFITABLE.",https://doi.org/10.1145/3564625.3567983, ,Zheng Yang Chao Yin Junming Ke Tien Tuan Anh Dinh Jianying Zhou
+"--------catagory name is: Anomaly, Intrusion, and Threat Detection",--------, ,
+"* MADDC: MULTI-SCALE ANOMALY DETECTION, DIAGNOSIS AND CORRECTION FOR DISCRETE EVENT LOGS.",https://doi.org/10.1145/3564625.3567972, ,Xiaolei Wang Lin Yang Dongyang Li Linru Ma Yongzhong He Junchao Xiao Jiyuan Liu Yuexiang Yang
+* TOWARDS ENHANCED EEG-BASED AUTHENTICATION WITH MOTOR IMAGERY BRAIN-COMPUTER INTERFACE.,https://doi.org/10.1145/3564625.3564656, ,Bingkun Wu Weizhi Meng Wei-Yang Chiu
+* FAUST: STRIKING A BARGAIN BETWEEN FORENSIC AUDITING'S SECURITY AND THROUGHPUT.,https://doi.org/10.1145/3564625.3567990, ,Muhammad Adil Inam Akul Goyal Jason Liu Jaron Mink Noor Michael Sneha Gaur Adam Bates Wajih Ul Hassan
+* RAPID: REAL-TIME ALERT INVESTIGATION WITH CONTEXT-AWARE PRIORITIZATION FOR EFFICIENT THREAT DISCOVERY.,https://doi.org/10.1145/3564625.3567997, ,Yushan Liu Xiaokui Shu Yixin Sun Jiyong Jang Prateek Mittal
+--------catagory name is: OS Security I,--------, ,
+* MAKING MEMORY ACCOUNT ACCOUNTABLE: ANALYZING AND DETECTING MEMORY MISSING-ACCOUNT BUGS FOR CONTAINER PLATFORMS.,https://doi.org/10.1145/3564625.3564634, ,Yutian Yang Wenbo Shen Xun Xie Kangjie Lu Mingsen Wang Tianyu Zhou Chenggang Qin Wang Yu Kui Ren
+--------catagory name is: Web Security,--------, ,
+* ACCEPT ALL EXPLOITS: EXPLORING THE SECURITY IMPACT OF COOKIE BANNERS.,https://doi.org/10.1145/3564625.3564647, ,David Klein Marius Musch Thomas Barber Moritz Kopmann Martin Johns
+--------catagory name is: Resilience and Data Protection,--------, ,
+* ARCHIVESAFE LT: SECURE LONG-TERM ARCHIVING SYSTEM.,https://doi.org/10.1145/3564625.3564635, ,Moe Sabry Reza Samavi
+--------catagory name is: OS Security II,--------, ,
+* ISERVICE: DETECTING AND EVALUATING THE IMPACT OF CONFUSED DEPUTY PROBLEM IN APPLEOS.,https://doi.org/10.1145/3564625.3568001, ,Yizhuo Wang Yikun Hu Xuangan Xiao Dawu Gu
+==========,ESORICS|ESORICS|ESORICS|ESORICS|ESORICS|,TITLE,AUTHORS,URL,===========
+--------catagory name is: Blockchain Security,--------, ,
+* SECURE HIERARCHICAL DETERMINISTIC WALLET SUPPORTING STEALTH ADDRESS.,https://doi.org/10.1007/978-3-031-17140-6_5, ,Xin Yin Zhen Liu Guomin Yang Guoxing Chen Haojin Zhu
+--------catagory name is: Privacy,--------, ,
+* SCALING UP GAEN PSEUDORANDOM PROCESSES: PREPARING FOR A MORE EXTENSIVE PANDEMIC.,https://doi.org/10.1007/978-3-031-17140-6_12, ,Liron David Avinatan Hassidim Yossi Matias Moti Yung
+--------catagory name is: Crypto,--------, ,
+* PUBLIC KEY AUTHENTICATED ENCRYPTION WITH KEYWORD SEARCH FROM LWE.,https://doi.org/10.1007/978-3-031-17140-6_15, ,Leixiao Cheng Fei Meng
+* AN EFFICIENT QUERY RECOVERY ATTACK AGAINST A GRAPH ENCRYPTION SCHEME.,https://doi.org/10.1007/978-3-031-17140-6_16, ,Francesca Falzon Kenneth G. Paterson
+* A FORMAL MODEL FOR CREDENTIAL HOPPING ATTACKS.,https://doi.org/10.1007/978-3-031-17140-6_18, ,Massimiliano Albanese Karin Johnsgard Vipin Swarup
+--------catagory name is: Attacks,--------, ,
+* KALLIMA: A CLEAN-LABEL FRAMEWORK FOR TEXTUAL BACKDOOR ATTACKS.,https://doi.org/10.1007/978-3-031-17140-6_22, ,Xiaoyi Chen Yinpeng Dong Zeyu Sun Shengfang Zhai Qingni Shen Zhonghai Wu
+* GAME: GENERATIVE-BASED ADAPTIVE MODEL EXTRACTION ATTACK.,https://doi.org/10.1007/978-3-031-17140-6_28, ,Yi Xie Mengdie Huang Xiaoyu Zhang Changyu Dong Willy Susilo Xiaofeng Chen
+* ATTACKG: CONSTRUCTING TECHNIQUE KNOWLEDGE GRAPH FROM CYBER THREAT INTELLIGENCE REPORTS.,https://doi.org/10.1007/978-3-031-17140-6_29, ,Zhenyuan Li Jun Zeng Yan Chen Zhenkai Liang
+--------catagory name is: Sidechannels,--------, ,
+* VAL: VOLUME AND ACCESS PATTERN LEAKAGE-ABUSE ATTACK WITH LEAKED DOCUMENTS.,https://doi.org/10.1007/978-3-031-17140-6_32, ,Steven Lambregts Huanhuan Chen Jianting Ning Kaitai Liang
+* LIGHT THE SIGNAL: OPTIMIZATION OF SIGNAL LEAKAGE ATTACKS AGAINST LWE-BASED KEY EXCHANGE.,https://doi.org/10.1007/978-3-031-17140-6_33, ,Yue Qin Ruoyu Ding Chi Cheng Nina Bindel Yanbin Pan Jintai Ding
+* BLEWHISPERER: EXPLOITING BLE ADVERTISEMENTS FOR DATA EXFILTRATION.,https://doi.org/10.1007/978-3-031-17140-6_34, ,Ankit Gangwal Shubham Singh Riccardo Spolaor Abhijeet Srivastava
+==========,ESORICS|ESORICS|ESORICS|ESORICS|ESORICS|,TITLE,AUTHORS,URL,===========
+--------catagory name is: Anonymity,--------, ,
+--------catagory name is: Cloud Security,--------, ,
+--------catagory name is: Access Control,--------, ,
+* REAL-TIME POLICY ENFORCEMENT WITH METRIC FIRST-ORDER TEMPORAL LOGIC.,https://doi.org/10.1007/978-3-031-17146-8_11, ,François Hublet David A. Basin Srdan Krstic
+--------catagory name is: Authentication,--------, ,
+* SEQUENTIAL DIGITAL SIGNATURES FOR CRYPTOGRAPHIC SOFTWARE-UPDATE AUTHENTICATION.,https://doi.org/10.1007/978-3-031-17146-8_13, ,Bertram Poettering Simon Rastikian
+* ON COMMITTING AUTHENTICATED-ENCRYPTION.,https://doi.org/10.1007/978-3-031-17146-8_14, ,John Chan Phillip Rogaway
+* FUZZY AUTHENTICATED KEY EXCHANGE WITH TIGHT SECURITY.,https://doi.org/10.1007/978-3-031-17146-8_17, ,Mingming Jiang Shengli Liu Shuai Han Dawu Gu
+* CONTINUOUS AUTHENTICATION IN SECURE MESSAGING.,https://doi.org/10.1007/978-3-031-17146-8_18, ,Benjamin Dowling Felix Günther Alexandre Poirrier
+--------catagory name is: Digital Signatures,--------, ,
+* DUALDORY: LOGARITHMIC-VERIFIER LINKABLE RING SIGNATURES THROUGH PREPROCESSING.,https://doi.org/10.1007/978-3-031-17146-8_21, ,Jonathan Bootle Kaoutar Elkhiyaoui Julia Hesse Yacov Manevich
+--------catagory name is: IoT Security,--------, ,
+--------catagory name is: Applications,--------, ,
+* APPBASTION: PROTECTION FROM UNTRUSTED APPS AND OSES ON ARM.,https://doi.org/10.1007/978-3-031-17146-8_34, ,Darius Suciu Radu Sion Michael Ferdman
+* COLLABORATIVE ANOMALY DETECTION SYSTEM FOR CHARGING STATIONS.,https://doi.org/10.1007/978-3-031-17146-8_35, ,Jesus Cumplido Cristina Alcaraz Javier López
+==========,ESORICS|ESORICS|ESORICS|ESORICS|ESORICS|,TITLE,AUTHORS,URL,===========
+--------catagory name is: Formal Analysis,--------, ,
+* A COMPOSABLE SECURITY TREATMENT OF ECVRF AND BATCH VERIFICATIONS.,https://doi.org/10.1007/978-3-031-17143-7_2, ,Christian Badertscher Peter Gazi Iñigo Querejeta-Azurmendi Alexander Russell
+--------catagory name is: Web Security,--------, ,
+* UNLINKABLE DELEGATION OF WEBAUTHN CREDENTIALS.,https://doi.org/10.1007/978-3-031-17143-7_7, ,Nick Frymann Daniel Gardham Mark Manulis
+* EXPLORING THE CHARACTERISTICS AND SECURITY RISKS OF EMERGING EMOJI DOMAIN NAMES.,https://doi.org/10.1007/978-3-031-17143-7_10, ,Mingxuan Liu Yiming Zhang Baojun Liu Haixin Duan
+--------catagory name is: Hardware Security,--------, ,
+--------catagory name is: Multiparty Computation,--------, ,
+--------catagory name is: ML Techniques,--------, ,
+--------catagory name is: Cyber-Physical Systems Security,--------, ,
+* FROM CLICK TO SINK: UTILIZING AIS FOR COMMAND AND CONTROL IN MARITIME CYBER ATTACKS.,https://doi.org/10.1007/978-3-031-17143-7_26, ,Ahmed Amro Vasileios Gkioulos
+--------catagory name is: Network and Software Security,--------, ,
+* TOWARDS A SYSTEMATIC AND AUTOMATIC USE OF STATE MACHINE INFERENCE TO UNCOVER SECURITY FLAWS AND FINGERPRINT TLS STACKS.,https://doi.org/10.1007/978-3-031-17143-7_31, ,Aina Toky Rasoamanana Olivier Levillain Hervé Debar
+* REACH ME IF YOU CAN: ON NATIVE VULNERABILITY REACHABILITY IN ANDROID APPS.,https://doi.org/10.1007/978-3-031-17143-7_34, ,Luca Borzacchiello Emilio Coppa Davide Maiorca Andrea Columbu Camil Demetrescu Giorgio Giacinto
+* EXTENSIBLE VIRTUAL CALL INTEGRITY.,https://doi.org/10.1007/978-3-031-17143-7_35, ,Yuancheng Jiang Gregory J. Duck Roland H. C. Yap Zhenkai Liang Pinghai Yuan
+--------catagory name is: Posters,--------, ,
+* THE DEVIL IS IN THE GAN: BACKDOOR ATTACKS AND DEFENSES IN DEEP GENERATIVE MODELS.,https://doi.org/10.1007/978-3-031-17143-7_41, ,Ambrish Rawat Killian Levacher Mathieu Sinn
+==========,CSFW,TITLE,AUTHORS,URL,===========
+* CONDITIONAL OBSERVATIONAL EQUIVALENCE AND OFF-LINE GUESSING ATTACKS IN MULTISET REWRITING.,https://doi.org/10.1109/CSF54842.2022.9919659, ,Petar Paradzik Ante Derek
+* A FORMAL MODEL OF CHECKED C.,https://doi.org/10.1109/CSF54842.2022.9919657, ,Liyi Li Yiyun Liu Deena L. Postol Leonidas Lampropoulos David Van Horn Michael Hicks
+* SECUREPTRS: PROVING SECURE COMPILATION WITH DATA-FLOW BACK-TRANSLATION AND TURN-TAKING SIMULATION.,https://doi.org/10.1109/CSF54842.2022.9919680, ,Akram El-Korashy Roberto Blanco Jérémy Thibault Adrien Durier Deepak Garg Catalin Hritcu
+* PROVING FULL-SYSTEM SECURITY PROPERTIES UNDER MULTIPLE ATTACKER MODELS ON CAPABILITY MACHINES.,https://doi.org/10.1109/CSF54842.2022.9919645, ,Thomas Van Strydonck Aïna Linn Georges Armaël Guéneau Alix Trieu Amin Timany Frank Piessens Lars Birkedal Dominique Devriese
+* INTERPRETING EPSILON OF DIFFERENTIAL PRIVACY IN TERMS OF ADVANTAGE IN GUESSING OR APPROXIMATING SENSITIVE ATTRIBUTES.,https://doi.org/10.1109/CSF54842.2022.9919656, ,Alisa Pankova Peeter Laud
+* DPL: A LANGUAGE FOR GDPR ENFORCEMENT.,https://doi.org/10.1109/CSF54842.2022.9919687, ,Farzane Karami David A. Basin Einar Broch Johnsen
+* N-TUBE: FORMALLY VERIFIED SECURE BANDWIDTH RESERVATION IN PATH-AWARE INTERNET ARCHITECTURES.,https://doi.org/10.1109/CSF54842.2022.9919646, ,Thilo Weghorn Si Liu Christoph Sprenger Adrian Perrig David A. Basin
+* APPLYING CONSENSUS AND REPLICATION SECURELY WITH FLAQR.,https://doi.org/10.1109/CSF54842.2022.9919637, ,Priyanka Mondal Maximilian Algehed Owen Arden
+* BRINGING STATE-SEPARATING PROOFS TO EASYCRYPT A SECURITY PROOF FOR CRYPTOBOX.,https://doi.org/10.1109/CSF54842.2022.9919671, ,François Dupressoir Konrad Kohbrok Sabine Oechsner
+* MACHINE-CHECKED PROOFS OF PRIVACY AGAINST MALICIOUS BOARDS FOR SELENE & CO.,https://doi.org/10.1109/CSF54842.2022.9919663, ,Constantin Catalin Dragan François Dupressoir Ehsan Estaji Kristian Gjøsteen Thomas Haines Peter Y. A. Ryan Peter B. Rønne Morten Rotvold Solberg
+* A COMPLETE CHARACTERIZATION OF SECURITY FOR LINICRYPT BLOCK CIPHER MODES.,https://doi.org/10.1109/CSF54842.2022.9919676, ,Tommy Hollenberg Mike Rosulek Lawrence Roy
+* LOCKED CIRCUIT INDISTINGUISHABILITY: A NOTION OF SECURITY FOR LOGIC LOCKING.,https://doi.org/10.1109/CSF54842.2022.9919691, ,Mohamed El Massad Nahid Juma Jonathan Shahen Mariana Raykova Siddharth Garg Mahesh Tripunitara
+==========,DSN,TITLE,AUTHORS,URL,===========
+* STRATEGIC SAFETY-CRITICAL ATTACKS AGAINST AN ADVANCED DRIVER ASSISTANCE SYSTEM.,https://doi.org/10.1109/DSN53405.2022.00020, ,Xugui Zhou Anna Schmedding Haotian Ren Lishan Yang Philip Schowitz Evgenia Smirni Homa Alemzadeh
+* EXPLOITING TEMPORAL DATA DIVERSITY FOR DETECTING SAFETY-CRITICAL FAULTS IN AV COMPUTE SYSTEMS.,https://doi.org/10.1109/DSN53405.2022.00021, ,Saurabh Jha Shengkun Cui Timothy Tsai Siva Kumar Sastry Hari Michael B. Sullivan Zbigniew T. Kalbarczyk Stephen W. Keckler Ravishankar K. Iyer
+* ARMING IDS RESEARCHERS WITH A ROBOTIC ARM DATASET.,https://doi.org/10.1109/DSN53405.2022.00022, ,Arpan Gujarati Zainab Saeed Wattoo Maryam Raiyat Aliabadi Sean Clark Xiaoman Liu Parisa Shiri Amee Trivedi Ruizhe Zhu Jason Hein Margo I. Seltzer
+* STBPU: A REASONABLY SECURE BRANCH PREDICTION UNIT.,https://doi.org/10.1109/DSN53405.2022.00023, ,Tao Zhang Timothy Lesch Kenneth Koltermann Dmitry Evtyushkin
+* SEVULDET: A SEMANTICS-ENHANCED LEARNABLE VULNERABILITY DETECTOR.,https://doi.org/10.1109/DSN53405.2022.00026, ,Zhiquan Tang Qiao Hu Yupeng Hu Wenxin Kuang Jiongyi Chen
+* EXPLOITING MONOTONICITY AND SYMMETRY FOR EFFICIENT SIMULATION OF HIGHLY DEPENDABLE SYSTEMS.,https://doi.org/10.1109/DSN53405.2022.00040, ,Hoang Hai Nguyen Kartik Palani David M. Nicol
+* HARDENING IN-MEMORY KEY-VALUE STORES AGAINST ECC-UNCORRECTABLE MEMORY ERRORS.,https://doi.org/10.1109/DSN53405.2022.00057, ,Tsuyoshi Shimomura Hiroshi Yamada
+* HOW'D SECURITY BENEFIT REVERSE ENGINEERS? : THE IMPLICATION OF INTEL CET ON FUNCTION IDENTIFICATION.,https://doi.org/10.1109/DSN53405.2022.00061, ,Hyungseok Kim Junoh Lee Soomin Kim Seungil Jung Sang Kil Cha
+"* SAINTDROID: SCALABLE, AUTOMATED INCOMPATIBILITY DETECTION FOR ANDROID.",https://doi.org/10.1109/DSN53405.2022.00062, ,Bruno Vieira Resende e Silva Clay Stevens Niloofar Mansoor Witawas Srisa-an Tingting Yu Hamid Bagheri
+==========,RAID,TITLE,AUTHORS,URL,===========
+--------catagory name is: Software Security,--------, ,
+* EXPLOITING METAOBJECTS TO REINFORCE DATA LEAKAGE ATTACKS.,https://doi.org/10.1145/3545948.3545965, ,Hoyong Jeong Hodong Kim Junbeom Hur
+* RISCYROP: AUTOMATED RETURN-ORIENTED PROGRAMMING ATTACKS ON RISC-V AND ARM64.,https://doi.org/10.1145/3545948.3545997, ,Tobias Cloosters David Paaßen Jianqiang Wang Oussama Draissi Patrick Jauernig Emmanuel Stapf Lucas Davi Ahmad-Reza Sadeghi
+* TOWARDS DECEPTIVE DEFENSE IN SOFTWARE SECURITY WITH CHAFF BUGS.,https://doi.org/10.1145/3545948.3545981, ,Zhenghao Hu Yu Hu Brendan Dolan-Gavitt
+--------catagory name is: (Un?)Trusted Hardware,--------, ,
+* TRUSTEDGATEWAY: TEE-ASSISTED ROUTING AND FIREWALL ENFORCEMENT USING ARM TRUSTZONE.,https://doi.org/10.1145/3545948.3545961, ,Fabian Schwarz
+* WRITE ME AND I'LL TELL YOU SECRETS - WRITE-AFTER-WRITE EFFECTS ON INTEL CPUS.,https://doi.org/10.1145/3545948.3545987, ,Jan Philipp Thoma Tim Güneysu
+--------catagory name is: Blockchain Security,--------, ,
+--------catagory name is: Privacy & Spoofing,--------, ,
+* DETECTION OF ELECTROMAGNETIC SIGNAL INJECTION ATTACKS ON ACTUATOR SYSTEMS.,https://doi.org/10.1145/3545948.3545949, ,Youqian Zhang Kasper Rasmussen
+"--------catagory name is: RTFFM (Rootkits, Forensics, Firmware, Mobile)",--------, ,
+* WHAT YOU SEE IS NOT WHAT YOU GET: REVEALING HIDDEN MEMORY MAPPING FOR PERIPHERAL MODELING.,https://doi.org/10.1145/3545948.3545957, ,Jun Yeon Won Haohuang Wen Zhiqiang Lin
+"* KATANA: ROBUST, AUTOMATED, BINARY-ONLY FORENSIC ANALYSIS OF LINUX MEMORY SNAPSHOTS.",https://doi.org/10.1145/3545948.3545980, ,Fabian Franzen Tobias Holl Manuel Andreas Julian Kirsch Jens Grossklags
+* ULTRA: ULTIMATE ROOTKIT DETECTION OVER THE AIR.,https://doi.org/10.1145/3545948.3545962, ,Duy-Phuc Pham Damien Marion Annelie Heuser
+--------catagory name is: Network Security,--------, ,
+* HARM-DOS: HASH ALGORITHM REPLACEMENT FOR MITIGATING DENIAL-OF-SERVICE VULNERABILITIES IN BINARY EXECUTABLES.,https://doi.org/10.1145/3545948.3545967, ,Nicolaas Weideman Haoda Wang Tyler Kann Spencer Zahabizadeh Wei-Cheng Wu Rajat Tandon Jelena Mirkovic Christophe Hauser
+--------catagory name is: Robust and Trustworthy ML & Models,--------, ,
+* TRANSFERABLE GRAPH BACKDOOR ATTACK.,https://doi.org/10.1145/3545948.3545976, ,Shuiqiao Yang Bao Gia Doan Paul Montague Olivier Y. de Vel Tamas Abraham Seyit Camtepe Damith C. Ranasinghe Salil S. Kanhere
+--------catagory name is: Program Analysis,--------, ,
+* BINPROV: BINARY CODE PROVENANCE IDENTIFICATION WITHOUT DISASSEMBLY.,https://doi.org/10.1145/3545948.3545956, ,Xu He Shu Wang Yunlong Xing Pengbin Feng Haining Wang Qi Li Songqing Chen Kun Sun
+* LICA: A FINE-GRAINED AND PATH-SENSITIVE LINUX CAPABILITY ANALYSIS FRAMEWORK.,https://doi.org/10.1145/3545948.3545966, ,Menghan Sun Zirui Song Xiaoxi Ren Daoyuan Wu Kehuan Zhang
+* SCRIPT TAINTING WAS DOOMED FROM THE START (BY TYPE CONVERSION): CONVERTING SCRIPT ENGINES INTO DYNAMIC TAINT ANALYSIS FRAMEWORKS.,https://doi.org/10.1145/3545948.3545969, ,Toshinori Usui Yuto Otsuki Yuhei Kawakoya Makoto Iwamura Kanta Matsuura
+"--------catagory name is: Web, Phishing and Authentication",--------, ,
+* CONTEXT-AUDITOR: CONTEXT-SENSITIVE CONTENT INJECTION MITIGATION.,https://doi.org/10.1145/3545948.3545992, ,Faezeh Kalantari Mehrnoosh Zaeifi Tiffany Bao Ruoyu Wang Yan Shoshitaishvili Adam Doupé
+* OAUCH: EXPLORING SECURITY COMPLIANCE IN THE OAUTH 2.0 ECOSYSTEM.,https://doi.org/10.1145/3545948.3545955, ,Pieter Philippaerts Davy Preuveneers Wouter Joosen
+--------catagory name is: NIDS,--------, ,
+==========,DAC,TITLE,AUTHORS,URL,===========
+* ODHD: ONE-CLASS BRAIN-INSPIRED HYPERDIMENSIONAL COMPUTING FOR OUTLIER DETECTION.,https://doi.org/10.1145/3489517.3530395, ,Ruixuan Wang Xun Jiao X. Sharon Hu
+* EMS: EFFICIENT MEMORY SUBSYSTEM SYNTHESIS FOR SPATIAL ACCELERATORS.,https://doi.org/10.1145/3489517.3530411, ,Liancheng Jia Yuyue Wang Jingwen Leng Yun Liang
+* CP-SRAM: CHARGE-PULSATION SRAM MARCO FOR ULTRA-HIGH ENERGY-EFFICIENCY COMPUTING-IN-MEMORY.,https://doi.org/10.1145/3489517.3530398, ,He Zhang Linjun Jiang Jianxin Wu Tingran Chen Junzhan Liu Wang Kang Weisheng Zhao
+* SCAIE-V: AN OPEN-SOURCE SCALABLE INTERFACE FOR ISA EXTENSIONS FOR RISC-V PROCESSORS.,https://doi.org/10.1145/3489517.3530432, ,Mihaela Damian Julian Oppermann Christoph Spang Andreas Koch
+* SERPENS: A HIGH BANDWIDTH MEMORY BASED ACCELERATOR FOR GENERAL-PURPOSE SPARSE MATRIX-VECTOR MULTIPLICATION.,https://doi.org/10.1145/3489517.3530420, ,Linghao Song Yuze Chi Licheng Guo Jason Cong
+* A NEAR-STORAGE FRAMEWORK FOR BOOSTED DATA PREPROCESSING OF MASS SPECTRUM CLUSTERING.,https://doi.org/10.1145/3489517.3530449, ,Weihong Xu Jaeyoung Kang Tajana Rosing
+* MC-CIM: A RECONFIGURABLE COMPUTATION-IN-MEMORY FOR EFFICIENT STEREO MATCHING COST COMPUTATION.,https://doi.org/10.1145/3489517.3530477, ,Zhiheng Yue Yabing Wang Leibo Liu Shaojun Wei Shouyi Yin
+* IMARS: AN IN-MEMORY-COMPUTING ARCHITECTURE FOR RECOMMENDATION SYSTEMS.,https://doi.org/10.1145/3489517.3530478, ,Mengyuan Li Ann Franchesca Laguna Dayane Reis Xunzhao Yin Michael T. Niemier X. Sharon Hu
+* CONDITIONAL ADDRESS PROPAGATION: AN EFFICIENT DEFENSE MECHANISM AGAINST TRANSIENT EXECUTION ATTACKS.,https://doi.org/10.1145/3489517.3530679, ,Peinan Li Rui Hou Lutan Zhao Yifan Zhu Dan Meng
+* DARPT: DEFENSE AGAINST REMOTE PHYSICAL ATTACK BASED ON TDC IN MULTI-TENANT SCENARIO.,https://doi.org/10.1145/3489517.3530494, ,Fan Zhang Zhiyong Wang Haoting Shen Bolin Yang Qianmei Wu Kui Ren
+* AN EFFICIENT YIELD OPTIMIZATION METHOD FOR ANALOG CIRCUITS VIA GAUSSIAN PROCESS CLASSIFICATION AND VARYING-SIGMA SAMPLING.,https://doi.org/10.1145/3489517.3530514, ,Xiaodong Wang Changhao Yan Fan Yang Dian Zhou Xuan Zeng
+* EXPLOITING DATA LOCALITY IN MEMORY FOR ORAM TO REDUCE MEMORY ACCESS OVERHEADS.,https://doi.org/10.1145/3489517.3530547, ,Jinxi Kuang Minghua Shen Yutong Lu Nong Xiao
+* HWST128: COMPLETE MEMORY SAFETY ACCELERATOR ON RISC-V WITH METADATA COMPRESSION.,https://doi.org/10.1145/3489517.3530548, ,Hsu-Kang Dow Tuo Li Sri Parameswaran
+* A SCALABLE SIMD RISC-V BASED PROCESSOR WITH CUSTOMIZED VECTOR EXTENSIONS FOR CRYSTALS-KYBER.,https://doi.org/10.1145/3489517.3530552, ,Huimin Li Nele Mentens Stjepan Picek
+* HEXAGONS ARE THE BESTAGONS: DESIGN AUTOMATION FOR SILICON DANGLING BOND LOGIC.,https://doi.org/10.1145/3489517.3530525, ,Marcel Walter Samuel Sze Hang Ng Konrad Walus Robert Wille
+* IMPROVING COMPUTE IN-MEMORY ECC RELIABILITY WITH SUCCESSIVE CORRECTION.,https://doi.org/10.1145/3489517.3530526, ,Brian Crafton Zishen Wan Samuel Spetalnick Jong-Hyeok Yoon Wei Wu Carlos Tokunaga Vivek De Arijit Raychowdhury
+* ENERGY EFFICIENT DATA SEARCH DESIGN AND OPTIMIZATION BASED ON A COMPACT FERROELECTRIC FET CONTENT ADDRESSABLE MEMORY.,https://doi.org/10.1145/3489517.3530527, ,Jiahao Cai Mohsen Imani Kai Ni Grace Li Zhang Bing Li Ulf Schlichtmann Cheng Zhuo Xunzhao Yin
+* CAMSKYGATE: CAMOUFLAGED SKYRMION GATES FOR PROTECTING ICS.,https://doi.org/10.1145/3489517.3530528, ,Yuqiao Zhang Chunli Tang Peng Li Ujjwal Guin
+* DELTA: DESIGNING A STEALTHY TRIGGER MECHANISM FOR ANALOG HARDWARE TROJANS AND ITS DETECTION ANALYSIS.,https://doi.org/10.1145/3489517.3530666, ,Nishant Gupta Mohil Sandip Desai Mark Wijtvliet Shubham Rai Akash Kumar
+* CLIMBER: DEFENDING PHASE CHANGE MEMORY AGAINST INCONSISTENT WRITE ATTACKS.,https://doi.org/10.1145/3489517.3530546, ,Zhuohui Duan Haobo Wang Haikun Liu Xiaofei Liao Hai Jin Yu Zhang Fubing Mao
+* SAPREDICTOR: A SIMPLE AND ACCURATE SELF-ADAPTIVE PREDICTOR FOR HIERARCHICAL HYBRID MEMORY SYSTEM.,https://doi.org/10.1145/3489517.3530539, ,Yujuan Tan Wei Chen Zhulin Ma Dan Xiao Zhichao Yan Duo Liu Xianzhang Chen
+* SEM-LATCH: A LOST-COST AND HIGH-PERFORMANCE LATCH DESIGN FOR MITIGATING SOFT ERRORS IN NANOSCALE CMOS PROCESS.,https://doi.org/10.1145/3489517.3530533, ,Zhong-Li Tang Chia-Wei Liang Ming-Hsien Hsiao Charles H.-P. Wen
+* BLUESEER: AI-DRIVEN ENVIRONMENT DETECTION VIA BLE SCANS.,https://doi.org/10.1145/3489517.3530519, ,Valentin Poirot Oliver Harms Hendric Martens Olaf Landsiedel
+* GABAN: A GENERIC AND FLEXIBLY PROGRAMMABLE VECTOR NEURO-PROCESSOR ON FPGA.,https://doi.org/10.1145/3489517.3530561, ,Jiajie Chen Le Yang Youhui Zhang
+* UNICORN: A MULTICORE NEUROMORPHIC PROCESSOR WITH FLEXIBLE FAN-IN AND UNCONSTRAINED FAN-OUT FOR NEURONS.,https://doi.org/10.1145/3489517.3530563, ,Zhijie Yang Lei Wang Yao Wang LingHui Peng Xiaofan Chen Xun Xiao Yaohua Wang Weixia Xu
+* TOWARDS COLLABORATIVE INTELLIGENCE: ROUTABILITY ESTIMATION BASED ON DECENTRALIZED PRIVATE DATA.,https://doi.org/10.1145/3489517.3530578, ,Jingyu Pan Chen-Chia Chang Zhiyao Xie Ang Li Minxue Tang Tunhou Zhang Jiang Hu Yiran Chen
+* STATISTICAL COMPUTING FRAMEWORK AND DEMONSTRATION FOR IN-MEMORY COMPUTING SYSTEMS.,https://doi.org/10.1145/3489517.3530557, ,Bonan Zhang Peter Deaville Naveen Verma
+* RESMA: ACCELERATING APPROXIMATE STRING MATCHING USING RERAM-BASED CONTENT ADDRESSABLE MEMORY.,https://doi.org/10.1145/3489517.3530559, ,Huize Li Hai Jin Long Zheng Yu Huang Xiaofei Liao Zhuohui Duan Dan Chen Chuangyi Gui
+* RAVEN: A NOVEL KERNEL DEBUGGING TOOL ON RISC-V.,https://doi.org/10.1145/3489517.3530583, ,Hongyi Lu Fengwei Zhang
+* GRAPHRING: AN HMC-RING BASED GRAPH PROCESSING FRAMEWORK WITH OPTIMIZED DATA MOVEMENT.,https://doi.org/10.1145/3489517.3530571, ,Zerun Li Xiaoming Chen Yinhe Han
+* TAIM: TERNARY ACTIVATION IN-MEMORY COMPUTING HARDWARE WITH 6T SRAM ARRAY.,https://doi.org/10.1145/3489517.3530574, ,Nameun Kang Hyungjun Kim Hyunmyung Oh Jae-Joon Kim
+* PIM-DH: RERAM-BASED PROCESSING-IN-MEMORY ARCHITECTURE FOR DEEP HASHING ACCELERATION.,https://doi.org/10.1145/3489517.3530575, ,Fangxin Liu Wenbo Zhao Yongbiao Chen Zongwu Wang Zhezhi He Rui Yang Qidong Tang Tao Yang Cheng Zhuo Li Jiang
+* PATH: EVALUATION OF BOOLEAN LOGIC USING PATH-BASED IN-MEMORY COMPUTING.,https://doi.org/10.1145/3489517.3530596, ,Sven Thijssen Sumit Kumar Jha Rickard Ewetz
+* BLUESCALE: A SCALABLE MEMORY ARCHITECTURE FOR PREDICTABLE REAL-TIME COMPUTING ON HIGHLY INTEGRATED SOCS.,https://doi.org/10.1145/3489517.3530612, ,Zhe Jiang Kecheng Yang Neil C. Audsley Nathan Fisher Weisong Shi Zheng Dong
+* SECURE BY CONSTRUCTION: ADDRESSING SECURITY VULNERABILITIES INTRODUCED DURING HIGH-LEVEL SYNTHESIS: INVITED.,https://doi.org/10.1145/3489517.3530674, ,Md Rafid Muttaki Zahin Ibnat Farimah Farahmandi
+* HIGH-LEVEL DESIGN METHODS FOR HARDWARE SECURITY: IS IT THE RIGHT CHOICE? INVITED.,https://doi.org/10.1145/3489517.3530635, ,Christian Pilato Donatella Sciuto Benjamin Tan Siddharth Garg Ramesh Karri
+* TRUSTING THE TRUST ANCHOR: TOWARDS DETECTING CROSS-LAYER VULNERABILITIES WITH HARDWARE FUZZING.,https://doi.org/10.1145/3489517.3530638, ,Chen Chen Rahul Kande Pouya Mahmoody Ahmad-Reza Sadeghi J. V. Rajendran
+* AUTOMATING HARDWARE SECURITY PROPERTY GENERATION: INVITED.,https://doi.org/10.1145/3489517.3530637, ,Ryan Kastner Francesco Restuccia Andres Meza Sayak Ray Jason M. Fung Cynthia Sturton
+* WAVEFORM-BASED PERFORMANCE ANALYSIS OF RISC-V PROCESSORS: LATE BREAKING RESULTS.,https://doi.org/10.1145/3489517.3530623, ,Lucas Klemmer Daniel Große
+==========,HPCA,TITLE,AUTHORS,URL,===========
+* CAMA: ENERGY AND MEMORY EFFICIENT AUTOMATA PROCESSING IN CONTENT-ADDRESSABLE MEMORIES.,https://doi.org/10.1109/HPCA53966.2022.00011, ,Yi Huang Zhiyu Chen Dai Li Kaiyuan Yang
+* LEAKY FRONTENDS: SECURITY VULNERABILITIES IN PROCESSOR FRONTENDS.,https://doi.org/10.1109/HPCA53966.2022.00013, ,Shuwen Deng Bowen Huang Jakub Szefer
+* HARDWARE-ACCELERATED HYPERGRAPH PROCESSING WITH CHAIN-DRIVEN SCHEDULING.,https://doi.org/10.1109/HPCA53966.2022.00022, ,Qinggang Wang Long Zheng Jingrui Yuan Yu Huang Pengcheng Yao Chuangyi Gui Ao Hu Xiaofei Liao Hai Jin
+* SECNDP: SECURE NEAR-DATA PROCESSING WITH UNTRUSTED MEMORY.,https://doi.org/10.1109/HPCA53966.2022.00026, ,Wenjie Xiong Liu Ke Dimitrije Jankov Michael Kounavis Xiaochen Wang Eric Northup Jie Amy Yang Bilge Acun Carole-Jean Wu Ping Tak Peter Tang G. Edward Suh Xuan Zhang Hsien-Hsin S. Lee
+* HYBP: HYBRID ISOLATION-RANDOMIZATION SECURE BRANCH PREDICTOR.,https://doi.org/10.1109/HPCA53966.2022.00033, ,Lutan Zhao Peinan Li Rui Hou Michael C. Huang Xuehai Qian Lixin Zhang Dan Meng
+* IR-ORAM: PATH ACCESS TYPE BASED MEMORY INTENSITY REDUCTION FOR PATH-ORAM.,https://doi.org/10.1109/HPCA53966.2022.00034, ,Mehrnoosh Raoufi Youtao Zhang Jun Yang
+* SAFEGUARD: REDUCING THE SECURITY RISK FROM ROW-HAMMER VIA LOW-COST INTEGRITY PROTECTION.,https://doi.org/10.1109/HPCA53966.2022.00035, ,Ali Fakhrzadehgan Yale N. Patt Prashant J. Nair Moinuddin K. Qureshi
+* ADAPTABLE REGISTER FILE ORGANIZATION FOR VECTOR PROCESSORS.,https://doi.org/10.1109/HPCA53966.2022.00063, ,Cristóbal Ramírez Lazo Enrico Reggiani Carlos Rojas Morales Roger Figueras Bagué Luis A. Villa Vargas Marco Antonio Ramírez Salinas Mateo Valero Cortés Osman Sabri Unsal Adrián Cristal
+* MULTI-CLOCK: DYNAMIC TIERING FOR HYBRID MEMORY SYSTEMS.,https://doi.org/10.1109/HPCA53966.2022.00072, ,Adnan Maruf Ashikee Ghosh Janki Bhimani Daniel Campello Andy Rudoff Raju Rangaswami
+* FASTTRACKNOC: A NOC WITH FASTTRACK ROUTER DATAPATHS.,https://doi.org/10.1109/HPCA53966.2022.00075, ,Ahsen Ejaz Ioannis Sourdis
+* TRANSPIM: A MEMORY-BASED ACCELERATION VIA SOFTWARE-HARDWARE CO-DESIGN FOR TRANSFORMER.,https://doi.org/10.1109/HPCA53966.2022.00082, ,Minxuan Zhou Weihong Xu Jaeyoung Kang Tajana Rosing
+* EXPLOITING INTER-BLOCK ENTROPY TO ENHANCE THE COMPRESSIBILITY OF BLOCKS WITH DIVERSE DATA.,https://doi.org/10.1109/HPCA53966.2022.00084, ,Jinkwon Kim Mincheol Kang Jeongkyu Hong Soontae Kim
+==========,MICRO,TITLE,AUTHORS,URL,===========
+"* CRONUS: FAULT-ISOLATED, SECURE AND HIGH-PERFORMANCE HETEROGENEOUS COMPUTING FOR TRUSTED EXECUTION ENVIRONMENT.",https://doi.org/10.1109/MICRO56248.2022.00019, ,Jianyu Jiang Ji Qi Tianxiang Shen Xusheng Chen Shixiong Zhao Sen Wang Li Chen Gong Zhang Xiapu Luo Heming Cui
+* EXPLORING INSTRUCTION FUSION OPPORTUNITIES IN GENERAL PURPOSE PROCESSORS.,https://doi.org/10.1109/MICRO56248.2022.00026, ,Sawan Singh Arthur Perais Alexandra Jimborean Alberto Ros
+* DAXVM: STRESSING THE LIMITS OF MEMORY AS A FILE INTERFACE.,https://doi.org/10.1109/MICRO56248.2022.00037, ,Chloe Alverti Vasileios Karakostas Nikhita Kunati Georgios I. Goumas Michael M. Swift
+* SIMR: SINGLE INSTRUCTION MULTIPLE REQUEST PROCESSING FOR ENERGY-EFFICIENT DATA CENTER MICROSERVICES.,https://doi.org/10.1109/MICRO56248.2022.00040, ,Mahmoud Khairy Ahmad Alawneh Aaron Barnes Timothy G. Rogers
+* SELF-REINFORCING MEMOIZATION FOR CRYPTOGRAPHY CALCULATIONS IN SECURE MEMORY SYSTEMS.,https://doi.org/10.1109/MICRO56248.2022.00055, ,Xin Wang Daulet Talapkaliyev Matthew Hicks Xun Jian
+* GENPIP: IN-MEMORY ACCELERATION OF GENOME ANALYSIS VIA TIGHT INTEGRATION OF BASECALLING AND READ MAPPING.,https://doi.org/10.1109/MICRO56248.2022.00056, ,Haiyu Mao Mohammed Alser Mohammad Sadrosadati Can Firtina Akanksha Baranwal Damla Senol Cali Aditya Manglik Nour Almadhoun Alserr Onur Mutlu
+* BEACON: SCALABLE NEAR-DATA-PROCESSING ACCELERATORS FOR GENOME ANALYSIS NEAR MEMORY POOL WITH THE CXL SUPPORT.,https://doi.org/10.1109/MICRO56248.2022.00057, ,Wenqin Huangfu Krishna T. Malladi Andrew Chang Yuan Xie
+* SPARSE ATTENTION ACCELERATION WITH SYNERGISTIC IN-MEMORY PRUNING AND ON-CHIP RECOMPUTATION.,https://doi.org/10.1109/MICRO56248.2022.00059, ,Amir Yazdanbakhsh Ashkan Moradifirouzabadi Zheng Li Mingu Kang
+* CORUSCANT: FAST EFFICIENT PROCESSING-IN-RACETRACK MEMORIES.,https://doi.org/10.1109/MICRO56248.2022.00060, ,Sébastien Ollivier Stephen Longofono Prayash Dutta Jingtong Hu Sanjukta Bhanja Alex K. Jones
+* IDLD: INSTANTANEOUS DETECTION OF LEAKAGE AND DUPLICATION OF IDENTIFIERS USED FOR REGISTER RENAMING.,https://doi.org/10.1109/MICRO56248.2022.00061, ,Yiannakis Sazeides Alex Gerber Ron Gabor Arkady Bramnik George Papadimitriou Dimitris Gizopoulos Chrysostomos Nicopoulos Giorgos Dimitrakopoulos Karyofyllis Patsidis
+* MULTI-LAYER IN-MEMORY PROCESSING.,https://doi.org/10.1109/MICRO56248.2022.00068, ,Daichi Fujiki Alireza Khadem Scott A. Mahlke Reetuparna Das
+* TRANSLATION-OPTIMIZED MEMORY COMPRESSION FOR CAPACITY.,https://doi.org/10.1109/MICRO56248.2022.00073, ,Gagandeep Panwar Muhammad Laghari David Bears Yuqing Liu Chandler Jearls Esha Choukse Kirk W. Cameron Ali Raza Butt Xun Jian
+* COMPAQT: COMPRESSED WAVEFORM MEMORY ARCHITECTURE FOR SCALABLE QUBIT CONTROL.,https://doi.org/10.1109/MICRO56248.2022.00076, ,Satvik Maurya Swamit S. Tannu
+* REMEMBERR: LEVERAGING MICROPROCESSOR ERRATA FOR DESIGN TESTING AND VALIDATION.,https://doi.org/10.1109/MICRO56248.2022.00081, ,Flavien Solt Patrick Jattke Kaveh Razavi
+* TOWARDS DEVELOPING HIGH PERFORMANCE RISC-V PROCESSORS USING AGILE METHODOLOGY.,https://doi.org/10.1109/MICRO56248.2022.00080, ,Yinan Xu Zihao Yu Dan Tang Guokai Chen Lu Chen Lingrui Gou Yue Jin Qianruo Li Xin Li Zuojun Li Jiawei Lin Tong Liu Zhigang Liu Jiazhan Tan Huaqiang Wang Huizhe Wang Kaifan Wang Chuanqi Zhang Fawang Zhang Linjuan Zhang Zifei Zhang Yangyang Zhao Yaoyang Zhou Yike Zhou Jiangrui Zou Ye Cai Dandan Huan Zusong Li Jiye Zhao Zihao Chen Wei He Qiyuan Quan Xingwu Liu Sa Wang Kan Shi Ninghui Sun Yungang Bao
+"* EVAX: TOWARDS A PRACTICAL, PRO-ACTIVE & ADAPTIVE ARCHITECTURE FOR HIGH PERFORMANCE & SECURITY.",https://doi.org/10.1109/MICRO56248.2022.00085, ,Samira Mirbagher Ajorpaz Daniel Moghimi Jeffrey Neal Collins Gilles Pokam Nael B. Abu-Ghazaleh Dean M. Tullsen
+* HORUS: PERSISTENT SECURITY FOR EXTENDED PERSISTENCE-DOMAIN MEMORY SYSTEMS.,https://doi.org/10.1109/MICRO56248.2022.00087, ,Xijing Han James Tuck Amro Awad
+* A DATA-CENTRIC ACCELERATOR FOR HIGH-PERFORMANCE HYPERGRAPH PROCESSING.,https://doi.org/10.1109/MICRO56248.2022.00088, ,Qinggang Wang Long Zheng Ao Hu Yu Huang Pengcheng Yao Chuangyi Gui Xiaofei Liao Hai Jin Jingling Xue
+* REGRAPH: SCALING GRAPH PROCESSING ON HBM-ENABLED FPGAS WITH HETEROGENEOUS PIPELINES.,https://doi.org/10.1109/MICRO56248.2022.00092, ,Xinyu Chen Yao Chen Feng Cheng Hongshi Tan Bingsheng He Weng-Fai Wong
+==========,SC,TITLE,AUTHORS,URL,===========
+* STUDY OF WORKLOAD INTERFERENCE WITH INTELLIGENT ROUTING ON DRAGONFLY.,https://doi.org/10.1109/SC41404.2022.00025, ,Yao Kang Xin Wang Zhiling Lan
+* MEMORY OPTIMIZATIONS IN AN ARRAY LANGUAGE.,https://doi.org/10.1109/SC41404.2022.00036, ,Philip Munksgaard Troels Henriksen Ponnuswamy Sadayappan Cosmin E. Oancea
+* BLAZE: FAST GRAPH PROCESSING ON FAST SSDS.,https://doi.org/10.1109/SC41404.2022.00049, ,Juno Kim Steven Swanson
+* GRAPHFLY: EFFICIENT ASYNCHRONOUS STREAMING GRAPHS PROCESSING VIA DEPENDENCY-FLOW.,https://doi.org/10.1109/SC41404.2022.00050, ,Dan Chen Chuangyi Gui Yi Zhang Hai Jin Long Zheng Yu Huang Xiaofei Liao
+* VGRAPH: MEMORY-EFFICIENT MULTICORE GRAPH PROCESSING FOR TRAVERSAL-CENTRIC ALGORITHMS.,https://doi.org/10.1109/SC41404.2022.00068, ,Menghan Jia Yiming Zhang Xinbiao Gan Dongsheng Li Erci Xu Ruibo Wang Kai Lu
+* FROM CORRECTABLE MEMORY ERRORS TO UNCORRECTABLE MEMORY ERRORS: WHAT ERROR BITS TELL.,https://doi.org/10.1109/SC41404.2022.00081, ,Cong Li Yu Zhang Jialei Wang Hang Chen Xian Liu Tai Huang Liang Peng Shen Zhou Lixin Wang Shijian Ge
+* OUT OF HYPERVISOR (OOH): EFFICIENT DIRTY PAGE TRACKING IN USERSPACE USING HARDWARE VIRTUALIZATION FEATURES.,https://doi.org/10.1109/SC41404.2022.00092, ,Stella Bitchebe Alain Tchana
+==========,ASPLOS,TITLE,AUTHORS,URL,===========
+--------catagory name is: Session 1A: Accelerators,--------, ,
+* DOTA: DETECT AND OMIT WEAK ATTENTIONS FOR SCALABLE TRANSFORMER ACCELERATION.,https://doi.org/10.1145/3503222.3507738, ,Zheng Qu Liu Liu Fengbin Tu Zhaodong Chen Yufei Ding Yuan Xie
+--------catagory name is: Session 1B: Address and Memory,--------, ,
+--------catagory name is: Session 2A: GPU and Data Analytics,--------, ,
+* SPARSECORE: STREAM ISA AND PROCESSOR SPECIALIZATION FOR SPARSE COMPUTATION.,https://doi.org/10.1145/3503222.3507705, ,Gengyu Rao Jingji Chen Jason Yik Xuehai Qian
+--------catagory name is: Session 2B: Privacy and Software Security,--------, ,
+"* MINESWEEPER: A ""CLEAN SWEEP"" FOR DROP-IN USE-AFTER-FREE PREVENTION.",https://doi.org/10.1145/3503222.3507712, ,Márton Erdos Sam Ainsworth Timothy M. Jones
+* ONE SIZE DOES NOT FIT ALL: SECURITY HARDENING OF MIPS EMBEDDED SYSTEMS VIA STATIC BINARY DEBLOATING FOR SHARED LIBRARIES.,https://doi.org/10.1145/3503222.3507768, ,Haotian Zhang Mengfei Ren Yu Lei Jiang Ming
+* VIK: PRACTICAL MITIGATION OF TEMPORAL MEMORY SAFETY VIOLATIONS THROUGH OBJECT ID INSPECTION.,https://doi.org/10.1145/3503222.3507780, ,Haehyun Cho Jinbum Park Adam Oest Tiffany Bao Ruoyu Wang Yan Shoshitaishvili Adam Doupé Gail-Joon Ahn
+--------catagory name is: Session 3A: Hardware Security (1),--------, ,
+--------catagory name is: Session 3B: Misc.,--------, ,
+* PINNED LOADS: TAMING SPECULATIVE LOADS IN SECURE PROCESSORS.,https://doi.org/10.1145/3503222.3507724, ,Zirui Neil Zhao Houxiang Ji Adam Morrison Darko Marinov Josep Torrellas
+--------catagory name is: Session 4A: Systems for Machine Learning,--------, ,
+--------catagory name is: Session 4B: Operating System,--------, ,
+* CLIO: A HARDWARE-SOFTWARE CO-DESIGNED DISAGGREGATED MEMORY SYSTEM.,https://doi.org/10.1145/3503222.3507762, ,Zhiyuan Guo Yizhou Shan Xuhao Luo Yutong Huang Yiying Zhang
+* FLEXOS: TOWARDS FLEXIBLE OS ISOLATION.,https://doi.org/10.1145/3503222.3507759, ,Hugo Lefeuvre Vlad-Andrei Badoiu Alexander Jung Stefan Lucian Teodorescu Sebastian Rauch Felipe Huici Costin Raiciu Pierre Olivier
+--------catagory name is: Session 5A: Quantum Computing,--------, ,
+--------catagory name is: Session 5B: Data Center and Cloud Services,--------, ,
+--------catagory name is: Session 6A: Accelerating Emerging Applications,--------, ,
+* GENSTORE: A HIGH-PERFORMANCE IN-STORAGE PROCESSING SYSTEM FOR GENOME SEQUENCE ANALYSIS.,https://doi.org/10.1145/3503222.3507702, ,Nika Mansouri-Ghiasi Jisung Park Harun Mustafa Jeremie S. Kim Ataberk Olgun Arvid Gollwitzer Damla Senol Cali Can Firtina Haiyu Mao Nour Almadhoun Alserr Rachata Ausavarungnirun Nandita Vijaykumar Mohammed Alser Onur Mutlu
+--------catagory name is: Session 6B: Bugs (1),--------, ,
+--------catagory name is: Session 7A: Serverless,--------, ,
+* ICEBREAKER: WARMING SERVERLESS FUNCTIONS BETTER WITH HETEROGENEITY.,https://doi.org/10.1145/3503222.3507750, ,Rohan Basu Roy Tirthak Patel Devesh Tiwari
+--------catagory name is: Session 7B: Bugs (2),--------, ,
+* YASHME: DETECTING PERSISTENCY RACES.,https://doi.org/10.1145/3503222.3507766, ,Hamed Gorjiara Guoqing Harry Xu Brian Demsky
+* PATH-SENSITIVE AND ALIAS-AWARE TYPESTATE ANALYSIS FOR DETECTING OS BUGS.,https://doi.org/10.1145/3503222.3507770, ,Tuo Li Jia-Ju Bai Yulei Sui Shi-Min Hu
+--------catagory name is: Session 8A: Non-traditional Computing and Reconfigurable Hardware,--------, ,
+--------catagory name is: Session 8B: Synthesis and Compilation,--------, ,
+* UNDERSTANDING AND EXPLOITING OPTIMAL FUNCTION INLINING.,https://doi.org/10.1145/3503222.3507744, ,Theodoros Theodoridis Tobias Grosser Zhendong Su
+* VECTOR INSTRUCTION SELECTION FOR DIGITAL SIGNAL PROCESSORS USING PROGRAM SYNTHESIS.,https://doi.org/10.1145/3503222.3507714, ,Maaz Bin Safeer Ahmad Alexander J. Root Andrew Adams Shoaib Kamil Alvin Cheung
+* HETEROGEN: TRANSPILING C TO HETEROGENEOUS HLS CODE WITH AUTOMATED TEST GENERATION AND PROGRAM REPAIR.,https://doi.org/10.1145/3503222.3507748, ,Qian Zhang Jiyuan Wang Guoqing Harry Xu Miryung Kim
+--------catagory name is: Session 9A: Hardware Security (2),--------, ,
+--------catagory name is: Session 9B: Smart Networking,--------, ,
+* THE BENEFITS OF GENERAL-PURPOSE ON-NIC MEMORY.,https://doi.org/10.1145/3503222.3507711, ,Boris Pismenny Liran Liss Adam Morrison Dan Tsafrir
+==========,ISCA,TITLE,AUTHORS,URL,===========
+* AXIOMATIC HARDWARE-SOFTWARE CONTRACTS FOR SECURITY.,https://doi.org/10.1145/3470496.3527412, ,Nicholas Mosier Hanna Lachnitt Hamed Nemati Caroline Trippel
+* PPMLAC: HIGH PERFORMANCE CHIPSET ARCHITECTURE FOR SECURE MULTI-PARTY COMPUTATION.,https://doi.org/10.1145/3470496.3527392, ,Xing Zhou Zhilei Xu Cong Wang Mingyu Gao
+* TDGRAPH: A TOPOLOGY-DRIVEN ACCELERATOR FOR HIGH-PERFORMANCE STREAMING GRAPH PROCESSING.,https://doi.org/10.1145/3470496.3527409, ,Jin Zhao Yun Yang Yu Zhang Xiaofei Liao Lin Gu Ligang He Bingsheng He Hai Jin Haikun Liu Xinyu Jiang Hui Yu
+* NDMINER: ACCELERATING GRAPH PATTERN MINING USING NEAR DATA PROCESSING.,https://doi.org/10.1145/3470496.3527437, ,Nishil Talati Haojie Ye Yichen Yang Leul Belayneh Kuan-Yu Chen David T. Blaauw Trevor N. Mudge Ronald G. Dreslinski
+* SOFTVN: EFFICIENT MEMORY PROTECTION VIA SOFTWARE-PROVIDED VERSION NUMBERS.,https://doi.org/10.1145/3470496.3527378, ,Muhammad Umar Weizhe Hua Zhiru Zhang G. Edward Suh
+* TO PIM OR NOT FOR EMERGING GENERAL PURPOSE PROCESSING IN DDR MEMORY SYSTEMS.,https://doi.org/10.1145/3470496.3527431, ,Alexandar Devic Siddhartha Balakrishna Rai Anand Sivasubramaniam Ameen Akel Sean Eilert Justin Eno
+* CASMAP: AGILE MAPPER FOR RECONFIGURABLE SPATIAL ARCHITECTURES BY AUTOMATICALLY CLUSTERING INTERMEDIATE REPRESENTATIONS AND SCATTERING MAPPING PROCESS.,https://doi.org/10.1145/3470496.3527426, ,Xingchen Man Jianfeng Zhu Guihuan Song Shouyi Yin Shaojun Wei Leibo Liu
+* RETHINKING PROGRAMMABLE WEARABLE PROCESSORS.,https://doi.org/10.1145/3470496.3527396, ,Nathaniel Bleier Muhammad Husnain Mubarik Srijan Chakraborty Shreyas Kishore Rakesh Kumar
+* EDAM: EDIT DISTANCE TOLERANT APPROXIMATE MATCHING CONTENT ADDRESSABLE MEMORY.,https://doi.org/10.1145/3470496.3527424, ,Robert Hanhan Esteban Garzón Zuher Jahshan Adam Teman Marco Lanuzza Leonid Yavits
+* EYECOD: EYE TRACKING SYSTEM ACCELERATION VIA FLATCAM-BASED ALGORITHM & ACCELERATOR CO-DESIGN.,https://doi.org/10.1145/3470496.3527443, ,Haoran You Cheng Wan Yang Zhao Zhongzhi Yu Yonggan Fu Jiayi Yuan Shang Wu Shunyao Zhang Yongan Zhang Chaojian Li Vivek Boominathan Ashok Veeraraghavan Ziyun Li Yingyan Lin
+* MOESI-PRIME: PREVENTING COHERENCE-INDUCED HAMMERING IN COMMODITY WORKLOADS.,https://doi.org/10.1145/3470496.3527427, ,Kevin Loughlin Stefan Saroiu Alec Wolman Yatin A. Manerkar Baris Kasikci
+* PACMAN: ATTACKING ARM POINTER AUTHENTICATION WITH SPECULATIVE EXECUTION.,https://doi.org/10.1145/3470496.3527429, ,Joseph Ravichandran Weon Taek Na Jay Lang Mengjia Yan
+* HYDRA: ENABLING LOW-OVERHEAD MITIGATION OF ROW-HAMMER AT ULTRA-LOW THRESHOLDS VIA HYBRID TRACKING.,https://doi.org/10.1145/3470496.3527421, ,Moinuddin K. Qureshi Aditya Rohan Gururaj Saileshwar Prashant J. Nair
+* MGX: NEAR-ZERO OVERHEAD MEMORY PROTECTION FOR DATA-INTENSIVE ACCELERATORS.,https://doi.org/10.1145/3470496.3527418, ,Weizhe Hua Muhammad Umar Zhiru Zhang G. Edward Suh
+* LUKEWARM SERVERLESS FUNCTIONS: CHARACTERIZATION AND OPTIMIZATION.,https://doi.org/10.1145/3470496.3527390, ,David Schall Artemiy Margaritov Dmitrii Ustiugov Andreas Sandberg Boris Grot
+"* FLEXICORES: LOW FOOTPRINT, HIGH YIELD, FIELD REPROGRAMMABLE FLEXIBLE MICROPROCESSORS.",https://doi.org/10.1145/3470496.3527410, ,Nathaniel Bleier Calvin Lee Francisco Rodriguez Antony Sou Scott White Rakesh Kumar
+==========,USENIX,TITLE,AUTHORS,URL,===========
+--------catagory name is: USENIX ATC '22 and OSDI '22 Joint Keynote Address,--------, ,
+--------catagory name is: Storage 1,--------, ,
+* SECURE AND LIGHTWEIGHT DEDUPLICATED STORAGE VIA SHIELDED DEDUPLICATION-BEFORE-ENCRYPTION.,https://www.usenix.org/conference/atc22/presentation/yang-zuoru, ,Zuoru Yang Jingwei Li Patrick P. C. Lee
+--------catagory name is: Containers,--------, ,
+--------catagory name is: Distributed Systems 1,--------, ,
+--------catagory name is: Machine Learning 1,--------, ,
+--------catagory name is: Operating Systems 1,--------, ,
+--------catagory name is: Disaggregated Systems,--------, ,
+"* SPECULATIVE RECOVERY: CHEAP, HIGHLY AVAILABLE FAULT TOLERANCE WITH DISAGGREGATED STORAGE.",https://www.usenix.org/conference/atc22/presentation/li-nanqinqin, ,Nanqinqin Li Anja Kalaba Michael J. Freedman Wyatt Lloyd Amit Levy
+"* DIRECT ACCESS, HIGH-PERFORMANCE MEMORY DISAGGREGATION WITH DIRECTCXL.",https://www.usenix.org/conference/atc22/presentation/gouk, ,Donghyun Gouk Sangwon Lee Miryeong Kwon Myoungsoo Jung
+--------catagory name is: Networking 1,--------, ,
+--------catagory name is: Finding Bugs,--------, ,
+* DLOS: EFFECTIVE STATIC DETECTION OF DEADLOCKS IN OS KERNELS.,https://www.usenix.org/conference/atc22/presentation/bai, ,Jia-Ju Bai Tuo Li Shi-Min Hu
+--------catagory name is: USENIX ATC '22 and OSDI '22 Joint Keynote Address,--------, ,
+--------catagory name is: Security,--------, ,
+--------catagory name is: Machine Learning 2,--------, ,
+--------catagory name is: Distributed Systems 2,--------, ,
+--------catagory name is: Operating Systems 2,--------, ,
+* CBMM: FINANCIAL ADVICE FOR KERNEL MEMORY MANAGERS.,https://www.usenix.org/conference/atc22/presentation/mansi, ,Mark Mansi Bijan Tabatabai Michael M. Swift
+* EPK: SCALABLE AND EFFICIENT MEMORY PROTECTION KEYS.,https://www.usenix.org/conference/atc22/presentation/gu-jinyu, ,Jinyu Gu Hao Li Wentai Li Yubin Xia Haibo Chen
+--------catagory name is: Deployed Systems 1,--------, ,
+--------catagory name is: Machine Learning 3,--------, ,
+--------catagory name is: Storage 2,--------, ,
+--------catagory name is: Networking 2,--------, ,
+--------catagory name is: USENIX ATC '22 and OSDI '22 Joint Keynote Address,--------, ,
+--------catagory name is: Compilers and PL,--------, ,
+* AUTOMATIC RECOVERY OF FINE-GRAINED COMPILER ARTIFACTS AT THE BINARY LEVEL.,https://www.usenix.org/conference/atc22/presentation/du, ,Yufei Du Ryan Court Kevin Z. Snow Fabian Monrose
+--------catagory name is: Storage 3,--------, ,
+--------catagory name is: NICs,--------, ,
+* FASTER SOFTWARE PACKET PROCESSING ON FPGA NICS WITH EBPF PROGRAM WARPING.,https://www.usenix.org/conference/atc22/presentation/bonola, ,Marco Bonola Giacomo Belocchi Angelo Tulumello Marco Spaziani Brunella Giuseppe Siracusano Giuseppe Bianchi Roberto Bifulco
+--------catagory name is: Deployed Systems 2,--------, ,
+==========,EUROSYS,TITLE,AUTHORS,URL,===========
+* SHARING IS CARING: SECURE AND EFFICIENT SHARED MEMORY SUPPORT FOR MVEES.,https://doi.org/10.1145/3492321.3519558, ,Jonas Vinck Bert Abrath Bart Coppens Alexios Voulimeneas Bjorn De Sutter Stijn Volckaert
+* HARDENING BINARIES AGAINST MORE MEMORY ERRORS.,https://doi.org/10.1145/3492321.3519580, ,Gregory J. Duck Yuntong Zhang Roland H. C. Yap
+* PKRU-SAFE: AUTOMATICALLY LOCKING DOWN THE HEAP BETWEEN SAFE AND UNSAFE LANGUAGES.,https://doi.org/10.1145/3492321.3519582, ,Paul Kirth Mitchel Dickerson Stephen Crane Per Larsen Adrian Dabrowski David Gens Yeoul Na Stijn Volckaert Michael Franz
+* PERFORMANCE EVOLUTION OF MITIGATING TRANSIENT EXECUTION ATTACKS.,https://doi.org/10.1145/3492321.3519559, ,Jonathan Behrens Adam Belay M. Frans Kaashoek
+"* YOU SHALL NOT (BY)PASS!: PRACTICAL, SECURE, AND FAST PKU-BASED SANDBOXING.",https://doi.org/10.1145/3492321.3519560, ,Alexios Voulimeneas Jonas Vinck Ruben Mechelinck Stijn Volckaert
+* OPEC: OPERATION-BASED SECURITY ISOLATION FOR BARE-METAL EMBEDDED SYSTEMS.,https://doi.org/10.1145/3492321.3519573, ,Xia Zhou Jiaqi Li Wenlong Zhang Yajin Zhou Wenbo Shen Kui Ren
+* OS SCHEDULING WITH NEST: KEEPING TASKS CLOSE TOGETHER ON WARM CORES.,https://doi.org/10.1145/3492321.3519585, ,Julia Lawall Himadri Chhaya-Shailesh Jean-Pierre Lozi Baptiste Lepers Willy Zwaenepoel Gilles Muller
+* JIFFY: ELASTIC FAR-MEMORY FOR STATEFUL SERVERLESS ANALYTICS.,https://doi.org/10.1145/3492321.3527539, ,Anurag Khandelwal Yupeng Tang Rachit Agarwal Aditya Akella Ion Stoica
+* MEMORY DEDUPLICATION FOR SERVERLESS COMPUTING WITH MEDES.,https://doi.org/10.1145/3492321.3524272, ,Divyanshu Saxena Tao Ji Arjun Singhvi Junaid Khalid Aditya Akella
+==========,FPGA,TITLE,AUTHORS,URL,===========
+--------catagory name is: Session 1: Architecture and CAD,--------, ,
+--------catagory name is: Keynote 1,--------, ,
+--------catagory name is: Poster Session 1,--------, ,
+* HMT: A HARDWARE-CENTRIC HYBRID BONSAI MERKLE TREE ALGORITHM FOR HIGH-PERFORMANCE AUTHENTICATION.,https://doi.org/10.1145/3490422.3502345, ,Rakin Muhammad Shadab Yu Zou Sanjay Gandham Amro Awad Mingjie Lin
+* MATHRAMS: CONFIGURABLE FUSED COMPUTE-MEMORY BLOCKS FOR FPGAS.,https://doi.org/10.1145/3490422.3502336, ,Aman Arora Aatman Borda Tanmay Anand Bagus Hanindhito Lizy K. John
+--------catagory name is: Session 2: High-Level Tools and Abstractions,--------, ,
+--------catagory name is: Session 3: Machine Learning,--------, ,
+--------catagory name is: Keynote 2,--------, ,
+--------catagory name is: Poster Session 2,--------, ,
+* HIGHLY SCALABLE RUNTIME COUNTERMEASURE AGAINST MICROPROBING ATTACKS ON DIE-TO-DIE INTERCONNECTIONS IN SYSTEM-IN-PACKAGE.,https://doi.org/10.1145/3490422.3502334, ,Zhenyu Xu Thomas Mauldin Qing Yang Tao Wei
+--------catagory name is: Session 4: Applications,--------, ,
+==========,CGO,TITLE,AUTHORS,URL,===========
+* DARM: CONTROL-FLOW MELDING FOR SIMT THREAD DIVERGENCE REDUCTION.,https://doi.org/10.1109/CGO53902.2022.9741285, ,Charitha Saumya Kirshanthan Sundararajah Milind Kulkarni
+* GRAPHIT TO CUDA COMPILER IN 2021 LOC: A CASE FOR HIGH-PERFORMANCE DSL IMPLEMENTATION VIA STAGING WITH BUILDSL.,https://doi.org/10.1109/CGO53902.2022.9741280, ,Ajay Brahmakshatriya Saman P. Amarasinghe
+* RECOVERING CONTAINER CLASS TYPES IN C++ BINARIES.,https://doi.org/10.1109/CGO53902.2022.9741274, ,Xudong Wang Xuezheng Xu Qingan Li Mengting Yuan Jingling Xue
+* AUTOMATIC GENERATION OF DEBUG HEADERS THROUGH BLACKBOX EQUIVALENCE CHECKING.,https://doi.org/10.1109/CGO53902.2022.9741273, ,Vaibhav Kiran Kurhe Pratik Karia Shubhani Gupta Abhishek Rose Sorav Bansal
+* GADGETS SPLICING: DYNAMIC BINARY TRANSFORMATION FOR PRECISE REWRITING.,https://doi.org/10.1109/CGO53902.2022.9741259, ,Linan Tian Yangyang Shi Liwei Chen Yanqi Yang Gang Shi
+==========,DATE,TITLE,AUTHORS,URL,===========
+* XANDAR: EXPLOITING THE X-BY-CONSTRUCTION PARADIGM IN MODEL-BASED DEVELOPMENT OF SAFETY-CRITICAL SYSTEMS.,https://doi.org/10.23919/DATE54114.2022.9774534, ,Leonard Masing Tobias Dörr Florian Schade Jürgen Becker Georgios Keramidas Christos P. Antonopoulos Michail Mavropoulos Efstratios Tiganourias Vasilios I. Kelefouras Konstantinos Antonopoulos Nikos S. Voros Umut Durak Alexander Ahlbrecht Wanja Zaeske Christos Panagiotou Dimitris Karadimas Nico Adler Andreas Sailer Raphael Weber Thomas Wilhelm Geza Nemeth Fahad Siddiqui Rafiullah Khan Vahid Garousi Sakir Sezer Victor Morales
+* PHYSICALLY AND ALGORITHMICALLY SECURE LOGIC LOCKING WITH HYBRID CMOS/NANOMAGNET LOGIC CIRCUITS.,https://doi.org/10.23919/DATE54114.2022.9774629, ,Alexander J. Edwards Naimul Hassan Dhritiman Bhattacharya Mustafa M. Shihab Peng Zhou Xuan Hu Jayasimha Atulasimha Yiorgos Makris Joseph S. Friedman
+* DEADLOCK ANALYSIS AND PREVENTION FOR INTERSECTION MANAGEMENT BASED ON COLORED TIMED PETRI NETS.,https://doi.org/10.23919/DATE54114.2022.9774773, ,Tsung-Lin Tsou Chung-Wei Lin Iris Hui-Ru Jiang
+* CONSTRUCTIVE COMMON-CENTROID PLACEMENT AND ROUTING FOR BINARY-WEIGHTED CAPACITOR ARRAYS.,https://doi.org/10.23919/DATE54114.2022.9774640, ,Nibedita Karmokar Arvind K. Sharma Jitesh Poojary Meghna Madhusudan Ramesh Harjani Sachin S. Sapatnekar
+* A MIDDLEWARE JOURNEY FROM MICROCONTROLLERS TO MICROPROCESSORS.,https://doi.org/10.23919/DATE54114.2022.9774609, ,Michael Pöhnl Alban Tamisier Tobias Blass
+* POISONHD: POISON ATTACK ON BRAIN-INSPIRED HYPERDIMENSIONAL COMPUTING.,https://doi.org/10.23919/DATE54114.2022.9774641, ,Ruixuan Wang Xun Jiao
+* REPAIR: A RERAM-BASED PROCESSING-IN-MEMORY ACCELERATOR FOR INDEL REALIGNMENT.,https://doi.org/10.23919/DATE54114.2022.9774715, ,Ting Wu Chin-Fu Nien Kuang-Chao Chou Hsiang-Yun Cheng
+* SIC PROCESSORS FOR EXTREME HIGH- TEMPERATURE VENUS SURFACE EXPLORATION.,https://doi.org/10.23919/DATE54114.2022.9774769, ,Heewoo Kim Javad Bagherzadeh Ronald G. Dreslinski
+* AUTOMATIC GENERATION OF ARCHITECTURE-LEVEL MODELS FROM RTL DESIGNS FOR PROCESSORS AND ACCELERATORS.,https://doi.org/10.23919/DATE54114.2022.9774527, ,Yu Zeng Aarti Gupta Sharad Malik
+* TOWARDS IMPLEMENTING RTL MICROPROCESSOR AGILE DESIGN USING FEATURE ORIENTED PROGRAMMING.,https://doi.org/10.23919/DATE54114.2022.9774754, ,Hongji Zou Mingchuan Shi Tun Li WanXia Qu
+* SAFETEE: COMBINING SAFETY AND SECURITY ON ARM-BASED MICROCONTROLLERS.,https://doi.org/10.23919/DATE54114.2022.9774566, ,Martin Schönstedt Ferdinand Brasser Patrick Jauernig Emmanuel Stapf Ahmad-Reza Sadeghi
+"* SCI-FI: CONTROL SIGNAL, CODE, AND CONTROL FLOW INTEGRITY AGAINST FAULT INJECTION ATTACKS.",https://doi.org/10.23919/DATE54114.2022.9774685, ,Thomas Chamelot Damien Couroussé Karine Heydemann
+* XTENSTORE: FAST SHIELDED IN-MEMORY KEY-VALUE STORE ON A HYBRID X86-FPGA SYSTEM.,https://doi.org/10.23919/DATE54114.2022.9774583, ,Hyunyoung Oh Dongil Hwang Maja Malenko Myunghyun Cho Hyungon Moon Marcel Baunach Yunheung Paek
+* SACC: SPLIT AND COMBINE APPROACH TO REDUCE THE OFF-CHIP MEMORY ACCESSES OF LSTM ACCELERATORS.,https://doi.org/10.23919/DATE54114.2022.9774683, ,Saurabh Tewari Anshul Kumar Kolin Paul
+* RTSEC: AUTOMATED RTL CODE AUGMENTATION FOR HARDWARE SECURITY ENHANCEMENT.,https://doi.org/10.23919/DATE54114.2022.9774745, ,Orlando Arias Zhaoxiang Liu Xiaolong Guo Yier Jin Shuo Wang
+* INTER-IP MALICIOUS MODIFICATION DETECTION THROUGH STATIC INFORMATION FLOW TRACKING.,https://doi.org/10.23919/DATE54114.2022.9774694, ,Zhaoxiang Liu Orlando Arias Weimin Fu Yier Jin Xiaolong Guo
+* MANY-LAYER HOTSPOT DETECTION BY LAYER-ATTENTIONED VISUAL QUESTION ANSWERING.,https://doi.org/10.23919/DATE54114.2022.9774622, ,Yen-Shuo Chen Iris Hui-Ru Jiang
+* ANALYZING CAN'S TIMING UNDER PERIODICALLY AUTHENTICATED ENCRYPTION.,https://doi.org/10.23919/DATE54114.2022.9774712, ,Mingqing Zhang Philip Parsch Henry Hoffmann Alejandro Masrur
+* TRADER: A PRACTICAL TRACK-ASSIGNMENT-BASED DETAILED ROUTER.,https://doi.org/10.23919/DATE54114.2022.9774774, ,Zhen Zhuang Genggeng Liu Tsung-Yi Ho Bei Yu Wenzhong Guo
+* DE-RISC: A COMPLETE RISC-V BASED SPACE-GRADE PLATFORM.,https://doi.org/10.23919/DATE54114.2022.9774557, ,Nils-Johan Wessman Fabio Malatesta Stefano Ribes Jan Andersson Antonio García-Vilanova Miguel Masmano Vicente Nicolau Paco Gomez Jimmy Le Rhun Sergi Alcaide Guillem Cabo Francisco Bas Pedro Benedicte Fabio Mazzocchetti Jaume Abella
+* THE SCALE4EDGE RISC-V ECOSYSTEM.,https://doi.org/10.23919/DATE54114.2022.9774593, ,Wolfgang Ecker Peer Adelt Wolfgang Müller Reinhold Heckmann Milos Krstic Vladimir Herdt Rolf Drechsler Gerhard Angst Ralf Wimmer Andreas Mauderer Rafael Stahl Karsten Emrich Daniel Mueller-Gritschneder Bernd Becker Philipp Scholl Eyck Jentzsch Jan Schlamelcher Kim Grüttner Paul Palomero Bernardo Oliver Bringmann Mihaela Damian Julian Oppermann Andreas Koch Jörg Bormann Johannes Partzsch Christian Mayr Wolfgang Kunz
+* EXPLOITING ARCHITECTURE ADVANCES FOR SPARSE SOLVERS IN CIRCUIT SIMULATION.,https://doi.org/10.23919/DATE54114.2022.9774499, ,Zhiyuan Yan Biwei Xie Xingquan Li Yungang Bao
+* PIMPROF: AN AUTOMATED PROGRAM PROFILER FOR PROCESSING-IN-MEMORY OFFLOADING DECISIONS.,https://doi.org/10.23919/DATE54114.2022.9774560, ,Yizhou Wei Minxuan Zhou Sihang Liu Korakit Seemakhupt Tajana Rosing Samira Manabi Khan
+* GIBBON: EFFICIENT CO-EXPLORATION OF NN MODEL AND PROCESSING-IN-MEMORY ARCHITECTURE.,https://doi.org/10.23919/DATE54114.2022.9774605, ,Hanbo Sun Chenyu Wang Zhenhua Zhu Xuefei Ning Guohao Dai Huazhong Yang Yu Wang
+* GATLB: A GRANULARITY-AWARE TLB TO SUPPORT MULTI-GRANULARITY PAGES IN HYBRID MEMORY SYSTEM.,https://doi.org/10.23919/DATE54114.2022.9774723, ,Yujuan Tan Yujie Xie Zhulin Ma Zhichao Yan Zhichao Zhang Duo Liu Xianzhang Chen
+* NEUROTEC I: NEURO-INSPIRED ARTIFICIAL INTELLIGENCE TECHNOLOGIES FOR THE ELECTRONICS OF THE FUTURE.,https://doi.org/10.23919/DATE54114.2022.9774755, ,Melvin Galicia Stephan Menzel Farhad Merchant Maximilian Müller Hsin-Yu Chen Qing-Tai Zhao Felix Cüppers Abdur R. Jalil Qi Shu Peter Schüffelgen Gregor Mussler Carsten Funck Christian Lanius Stefan Wiefels Moritz von Witzleben Christopher Bengel Nils Kopperberg Tobias Ziegler R. Walied Ahmad Alexander Krüger Leticia Pöhls Regina Dittmann Susanne Hoffmann-Eifert Vikas Rana Detlev Grützmacher Matthias Wuttig Dirk J. Wouters Andrei Vescan Tobias Gemmeke Joachim Knoch Max C. Lemme Rainer Leupers Rainer Waser
+* INTELLIGENT METHODS FOR TEST AND RELIABILITY.,https://doi.org/10.23919/DATE54114.2022.9774526, ,Hussam Amrouch Jens Anders Steffen Becker Maik Betka Gerd Bleher Peter Domanski Nourhan Elhamawy Thomas Ertl Athanasios Gatzastras Paul R. Genssler Sebastian Hasler Martin Heinrich André van Hoorn Hanieh Jafarzadeh Ingmar Kallfass Florian Klemme Steffen Koch Ralf Küsters Andrés Lalama Raphaël Latty Yiwen Liao Natalia Lylina Zahra Paria Najafi-Haghi Dirk Pflüger Ilia Polian Jochen Rivoir Matthias Sauer Denis Schwachhofer Steffen Templin Christian Volmer Stefan Wagner Daniel Weiskopf Hans-Joachim Wunderlich Bin Yang Martin Zimmermann
+* ADD-BASED SPECTRAL ANALYSIS OF PROBING SECURITY.,https://doi.org/10.23919/DATE54114.2022.9774700, ,Maria Chiara Molteni Vittorio Zaccaria Valentina Ciriani
+* FPGA-TO-CPU UNDERVOLTING ATTACKS.,https://doi.org/10.23919/DATE54114.2022.9774663, ,Dina G. Mahmoud Samah Hussein Vincent Lenders Mirjana Stojilovic
+* DESIGN AND EVALUATION FRAMEWORKS FOR ADVANCED RISC-BASED TERNARY PROCESSOR.,https://doi.org/10.23919/DATE54114.2022.9774584, ,Dongyun Kam Jung Gyu Min Jongho Yoon Sunmean Kim Seokhyeong Kang Youngjoo Lee
+* GRADIENT-BASED BIT ENCODING OPTIMIZATION FOR NOISE-ROBUST BINARY MEMRISTIVE CROSSBAR.,https://doi.org/10.23919/DATE54114.2022.9774714, ,Youngeun Kim Hyunsoo Kim Seijoon Kim Sang Joon Kim Priyadarshini Panda
+* CROSS-LEVEL PROCESSOR VERIFICATION VIA ENDLESS RANDOMIZED INSTRUCTION STREAM GENERATION WITH COVERAGE-GUIDED AGING.,https://doi.org/10.23919/DATE54114.2022.9774771, ,Niklas Bruns Vladimir Herdt Eyck Jentzsch Rolf Drechsler
+* SPARROW: A LOW-COST HARDWARE/SOFTWARE CO-DESIGNED SIMD MICROARCHITECTURE FOR AI OPERATIONS IN SPACE PROCESSORS.,https://doi.org/10.23919/DATE54114.2022.9774730, ,Marc Solé Bonet Leonidas Kosmidis
+* A PLUGGABLE VECTOR UNIT FOR RISC-V VECTOR EXTENSION.,https://doi.org/10.23919/DATE54114.2022.9774501, ,Vincenzo Maisto Alessandro Cilardo
+* SYNCLOCK: RF TRANSCEIVER SECURITY USING SYNCHRONIZATION LOCKING.,https://doi.org/10.23919/DATE54114.2022.9774556, ,Alán Rodrigo Díaz Rizo Hassan Aboushady Haralampos-G. Stratigopoulos
+* HYBRID DIGITAL-DIGITAL IN-MEMORY COMPUTING.,https://doi.org/10.23919/DATE54114.2022.9774722, ,Muhammad Rashedul Haq Rashed Sumit Kumar Jha Fan Yao Rickard Ewetz
+* SCLCRL: SHUTTLING C-ELEMENTS BASED LOW-COST AND ROBUST LATCH DESIGN PROTECTED AGAINST TRIPLE NODE UPSETS IN HARSH RADIATION ENVIRONMENTS.,https://doi.org/10.23919/DATE54114.2022.9774665, ,Aibin Yan Zhixing Li Shiwei Huang Zijie Zhai Xiangyu Cheng Jie Cui Tianming Ni Xiaoqing Wen Patrick Girard
+* SHYPER: AN EMBEDDED HYPERVISOR APPLYING HIERARCHICAL RESOURCE ISOLATION STRATEGIES FOR MIXED-CRITICALITY SYSTEMS.,https://doi.org/10.23919/DATE54114.2022.9774664, ,Yicong Shen Lei Wang Yuanzhi Liang Siran Li Bo Jiang
+* GOLDEN MODEL-FREE HARDWARE TROJAN DETECTION BY CLASSIFICATION OF NETLIST MODULE GRAPHS.,https://doi.org/10.23919/DATE54114.2022.9774760, ,Alexander Hepp Johanna Baehr Georg Sigl
+* JANUS-HD: EXPLOITING FSM SEQUENTIALITY AND SYNTHESIS FLEXIBILITY IN LOGIC OBFUSCATION TO THWART SAT ATTACK WHILE OFFERING STRONG CORRUPTION.,https://doi.org/10.23919/DATE54114.2022.9774729, ,Leon Li Alex Orailoglu
+* TRILOCK: IC PROTECTION WITH TUNABLE CORRUPTIBILITY AND RESILIENCE TO SAT AND REMOVAL ATTACKS.,https://doi.org/10.23919/DATE54114.2022.9774649, ,Yuke Zhang Yinghua Hu Pierluigi Nuzzo Peter A. Beerel
+* UNDERSTANDING AND MITIGATING MEMORY INTERFERENCE IN FPGA-BASED HESOCS.,https://doi.org/10.23919/DATE54114.2022.9774768, ,Gianluca Brilli Alessandro Capotondi Paolo Burgio Andrea Marongiu
+* LIM-HDL: HDL-BASED SYNTHESIS FOR IN-MEMORY COMPUTING.,https://doi.org/10.23919/DATE54114.2022.9774627, ,Saman Fröhlich Rolf Drechsler
+* DOLMEN: FPGA SWARM FOR SAFETY AND LIVENESS VERIFICATION.,https://doi.org/10.23919/DATE54114.2022.9774528, ,Emilien Fournier Ciprian Teodorov Loïc Lagadec
+* INCLASS: INCREMENTAL CLASSIFICATION STRATEGY FOR SELF-AWARE EPILEPTIC SEIZURE DETECTION.,https://doi.org/10.23919/DATE54114.2022.9774713, ,Lorenzo Ferretti Giovanni Ansaloni Renaud Marquis Tomás Teijeiro Philippe Ryvlin David Atienza Laura Pozzi
+* SYSCIM: SYSTEMC-AMS SIMULATION OF MEMRISTIVE COMPUTATION IN-MEMORY.,https://doi.org/10.23919/DATE54114.2022.9774749, ,Seyed Hossein Hashemi Shadmehri Ali BanaGozar Mehdi Kamal Sander Stuijk Ali Afzali-Kusha Massoud Pedram Henk Corporaal
+* PIMULATOR: A FAST AND FLEXIBLE PROCESSING-IN-MEMORY EMULATION PLATFORM.,https://doi.org/10.23919/DATE54114.2022.9774614, ,Sergiu Mosanu Mohammad Nazmus Sakib Tommy Tracy II Ersin Cukurtas Alif Ahmed Preslav Ivanov Samira Manabi Khan Kevin Skadron Mircea Stan
+* KNOW YOUR NEIGHBOR: PHYSICALLY LOCATING XEON PROCESSOR CORES ON THE CORE TILE GRID.,https://doi.org/10.23919/DATE54114.2022.9774708, ,Hyungmin Cho
+==========,CLUSTER,TITLE,AUTHORS,URL,===========
+* EXPLORING LIGHT-WEIGHT CRYPTOGRAPHY FOR EFFICIENT AND SECURE LOSSY DATA COMPRESSION.,https://doi.org/10.1109/CLUSTER51413.2022.00018, ,Ruiwen Shan Sheng Di Jon C. Calhoun Franck Cappello
+* MATCHING-BASED SCHEDULING OF ASYNCHRONOUS DATA PROCESSING WORKFLOWS ON THE COMPUTING CONTINUUM.,https://doi.org/10.1109/CLUSTER51413.2022.00021, ,Narges Mehran Zahra Najafabadi Samani Dragi Kimovski Radu Prodan
+* DEADLOCK DETECTION FOR MPI PROGRAMS BASED ON REFINED MATCH-SETS.,https://doi.org/10.1109/CLUSTER51413.2022.00023, ,Shushan Li Meng Wang Hong Zhang
+* PUSHING THE BOUNDARIES OF SMALL TASKS: SCALABLE LOW-OVERHEAD DATA-FLOW PROGRAMMING IN TTG.,https://doi.org/10.1109/CLUSTER51413.2022.00026, ,Joseph Schuchart Poornima Nookala Thomas Hérault Edward F. Valeev George Bosilca
+* HIGH PERFORMANCE ADAPTIVE PHYSICS REFINEMENT TO ENABLE LARGE-SCALE TRACKING OF CANCER CELL TRAJECTORY.,https://doi.org/10.1109/CLUSTER51413.2022.00036, ,Daniel F. Puleri Sayan Roychowdhury Peter Balogh John Gounley Erik W. Draeger Jeff Ames Adebayo Adebiyi Simbarashe Chidyagwai Benjamín Hernández Seyong Lee Shirley V. Moore Jeffrey S. Vetter Amanda Randles
+* ECOHMEM: IMPROVING OBJECT PLACEMENT METHODOLOGY FOR HYBRID MEMORY SYSTEMS IN HPC.,https://doi.org/10.1109/CLUSTER51413.2022.00040, ,Marc Jordà Siddharth Rai Eduard Ayguadé Jesús Labarta Antonio J. Peña
+"* INTEGRATING PROCESS, CONTROL-FLOW, AND DATA RESILIENCY LAYERS USING A HYBRID FENIX/KOKKOS APPROACH.",https://doi.org/10.1109/CLUSTER51413.2022.00052, ,Matthew Whitlock Nicolas Morales George Bosilca Aurelien Bouteiller Bogdan Nicolae Keita Teranishi Elisabeth Giem Vivek Sarkar
+* OPTIMIZATIONS OF H-MATRIX-VECTOR MULTIPLICATION FOR MODERN MULTI-CORE PROCESSORS.,https://doi.org/10.1109/CLUSTER51413.2022.00056, ,Tetsuya Hoshino Akihiro Ida Toshihiro Hanawa
+* RECURSIVE MULTI-SECTION ON THE FLY: SHARED-MEMORY STREAMING ALGORITHMS FOR HIERARCHICAL GRAPH PARTITIONING AND PROCESS MAPPING.,https://doi.org/10.1109/CLUSTER51413.2022.00057, ,Marcelo Fonseca Faraj Christian Schulz
+* MEMGAZE: RAPID AND EFFECTIVE LOAD-LEVEL MEMORY TRACE ANALYSIS.,https://doi.org/10.1109/CLUSTER51413.2022.00058, ,Ozgur O. Kilic Nathan R. Tallent Yasodha Suriyakumar Chenhao Xie Andrès Márquez Stéphane Eranian
+* H2M: TOWARDS HEURISTICS FOR HETEROGENEOUS MEMORY.,https://doi.org/10.1109/CLUSTER51413.2022.00060, ,Clément Foyer Brice Goglin Emmanuel Jeannot Jannis Klinkenberg Anara Kozhokanova Christian Terboven
+==========,ICCD,TITLE,AUTHORS,URL,===========
+curr years had no iccd conf,, ,
+==========,ICCAD,TITLE,AUTHORS,URL,===========
+--------catagory name is: The Role of Graph Neural Networks in Electronic Design Automation,--------, ,
+--------catagory name is: Compiler and System-Level Techniques for Efficient Machine Learning,--------, ,
+--------catagory name is: Addressing Sensor Security through Hardware/Software Co-Design,--------, ,
+--------catagory name is: Advances in Partitioning and Physical Optimization,--------, ,
+"--------catagory name is: Democratizing Design Automation with Open-Source Tools: Perspectives, Opportunities, and Challenges",--------, ,
+--------catagory name is: Accelerators on A New Horizon,--------, ,
+* GRAPHRC: ACCELERATING GRAPH PROCESSING ON DUAL-ADDRESSING MEMORY WITH VERTEX MERGING.,https://doi.org/10.1145/3508352.3549408, ,Wei Cheng Chun-Feng Wu Yuan-Hao Chang Ing-Chao Lin
+* SPATZ: A COMPACT VECTOR PROCESSING UNIT FOR HIGH-PERFORMANCE AND ENERGY-EFFICIENT SHARED-L1 CLUSTERS.,https://doi.org/10.1145/3508352.3549367, ,Matheus A. Cavalcante Domenic Wüthrich Matteo Perotti Samuel Riedel Luca Benini
+* QILIN: ENABLING PERFORMANCE ANALYSIS AND OPTIMIZATION OF SHARED-VIRTUAL MEMORY SYSTEMS WITH FPGA ACCELERATORS.,https://doi.org/10.1145/3508352.3549431, ,Edward Richter Deming Chen
+--------catagory name is: CAD for Confidentiality of Hardware IPS,--------, ,
+"--------catagory name is: Analyzing Reliability, Defects and Patterning",--------, ,
+--------catagory name is: New Frontier in Verification Technology,--------, ,
+--------catagory name is: Low Power Edge Intelligence,--------, ,
+"--------catagory name is: Crossbars, Analog Accelerators for Neural Networks, and Neuromorphic Computing Based on Printed Electronics",--------, ,
+* DESIGNING ENERGY-EFFICIENT DECISION TREE MEMRISTOR CROSSBAR CIRCUITS USING BINARY CLASSIFICATION GRAPHS.,https://doi.org/10.1145/3508352.3549448, ,Pranav Sinha Sunny Raj
+--------catagory name is: Designing DNN Accelerators,--------, ,
+--------catagory name is: Novel Chiplet Approaches from Interconnect to System (Virtual),--------, ,
+* RE-LSM: A RERAM-BASED PROCESSING-IN-MEMORY FRAMEWORK FOR LSM-BASED KEY-VALUE STORE.,https://doi.org/10.1145/3508352.3549392, ,Qian Wei Zhaoyan Shen Yiheng Tong Zhiping Jia Lei Ju Jiezhi Chen Bingzhe Li
+--------catagory name is: Architecture for DNN Acceleration (Virtual),--------, ,
+--------catagory name is: Multi-Purpose Fundamental Digital Design Improvements (Virtual),--------, ,
+--------catagory name is: GPU Acceleration for Routing Algorithms (Virtual),--------, ,
+--------catagory name is: Breakthroughs in Synthesis - Infrastructure and ML Assist I (Virtual),--------, ,
+--------catagory name is: Smart Search (Virtual),--------, ,
+--------catagory name is: Reconfigurable Computing: Accelerators and Methodologies I (Virtual),--------, ,
+--------catagory name is: Hardware Security: Attacks and Countermeasures (Virtual),--------, ,
+* ATTACK DIRECTORIES ON ARM BIG.LITTLE PROCESSORS.,https://doi.org/10.1145/3508352.3549340, ,Zili Kou Sharad Sinha Wenjian He Wei Zhang
+--------catagory name is: Advanced VLSI Routing and Layout Learning,--------, ,
+--------catagory name is: Physical Attacks and Countermeasures,--------, ,
+* A COMBINED LOGICAL AND PHYSICAL ATTACK ON LOGIC OBFUSCATION.,https://doi.org/10.1145/3508352.3549349, ,Michael Zuzak Yuntao Liu Isaac McDaniel Ankur Srivastava
+--------catagory name is: Tutorial: Polynomial Formal Verification: Ensuring Correctness under Resource Constraints,--------, ,
+--------catagory name is: Scalable Verification Technologies,--------, ,
+--------catagory name is: Optimizing Digital Design Aspects: From Gate Sizing to Multi-Bit Flip-Flops,--------, ,
+--------catagory name is: Energy Efficient Hardware Acceleration and Stochastic Computing,--------, ,
+* SPARSE-T: HARDWARE ACCELERATOR THREAD FOR UNSTRUCTURED SPARSE DATA PROCESSING.,https://doi.org/10.1145/3508352.3549441, ,Pranathi Vasireddy Krishna Kavi Gayatri Mehta
+--------catagory name is: Special Session: Approximate Computing and the Efficient Machine Learning Expedition,--------, ,
+--------catagory name is: Co-Search Methods and Tools,--------, ,
+--------catagory name is: Reconfigurable Computing: Accelerators and Methodologies II,--------, ,
+--------catagory name is: Compute-in-Memory for Neural Networks,--------, ,
+--------catagory name is: Breakthroughs in Synthesis - Infrastructure and ML Assist II,--------, ,
+--------catagory name is: In-Memory Computing Revisited,--------, ,
+* LOGIC SYNTHESIS FOR DIGITAL IN-MEMORY COMPUTING.,https://doi.org/10.1145/3508352.3549348, ,Muhammad Rashedul Haq Rashed Sumit Kumar Jha Rickard Ewetz
+--------catagory name is: Special Session: 2022 CAD Contest at ICCAD,--------, ,
+--------catagory name is: Architectures and Methodologies for Advanced Hardware Security,--------, ,
+--------catagory name is: Special Session: The Dawn of Domain-Specific Hardware Accelerators for Robotic Computing,--------, ,
+--------catagory name is: From Logical to Physical Qubits: New Models and Techniques for Mapping,--------, ,
+--------catagory name is: Smart Embedded Systems (Virtual),--------, ,
+"--------catagory name is: Analog/Mixed-Signal Simulation, Layout, and Packaging (Virtual)",--------, ,
+--------catagory name is: Advanced PIM and Biochip Technology and Stochastic Computing (Virtual),--------, ,
+* GZIPPO: HIGHLY-COMPACT PROCESSING-IN-MEMORY GRAPH ACCELERATOR ALLEVIATING SPARSITY AND REDUNDANCY.,https://doi.org/10.1145/3508352.3549372, ,Xing Li Rachata Ausavarungnirun Xiao Liu Xueyuan Liu Xuan Zhang Heng Lu Zhuoran Song Naifeng Jing Xiaoyao Liang
+* EXPLOITING UNIFORM SPATIAL DISTRIBUTION TO DESIGN EFFICIENT RANDOM NUMBER SOURCE FOR STOCHASTIC COMPUTING.,https://doi.org/10.1145/3508352.3549396, ,Kuncai Zhong Zexi Li Haoran Jin Weikang Qian
+--------catagory name is: On Automating Heterogeneous Designs (Virtual),--------, ,
+"--------catagory name is: Special Session: Quantum Computing to Solve Chemistry, Physics and Security Problems (Virtual)",--------, ,
+--------catagory name is: Making Patterning Work (Virtual),--------, ,
+--------catagory name is: Advanced Verification Technologies (Virtual),--------, ,
+--------catagory name is: Routing with Cell Movement (Virtual),--------, ,
+"--------catagory name is: Special Session: Hardware Security through Reconfigurability: Attacks, Defenses, and Challenges",--------, ,
+* SECURING HARDWARE THROUGH RECONFIGURABLE NANO-STRUCTURES.,https://doi.org/10.1145/3508352.3561116, ,Nima Kavand Armin Darjani Shubham Rai Akash Kumar
+"--------catagory name is: Performance, Power and Temperature Aspects in Deep Learning",--------, ,
+* ROBUSTIFY ML-BASED LITHOGRAPHY HOTSPOT DETECTORS.,https://doi.org/10.1145/3508352.3549389, ,Jingyu Pan Chen-Chia Chang Zhiyao Xie Jiang Hu Yiran Chen
+--------catagory name is: Tutorial: TorchQuantum Case Study for Robust Quantum Circuits,--------, ,
+--------catagory name is: Emerging Machine Learning Primitives: From Technology to Application,--------, ,
+* COSIME: FEFET BASED ASSOCIATIVE MEMORY FOR IN-MEMORY COSINE SIMILARITY SEARCH.,https://doi.org/10.1145/3508352.3549412, ,Che-Kai Liu Haobang Chen Mohsen Imani Kai Ni Arman Kazemi Ann Franchesca Laguna Michael T. Niemier Xiaobo Sharon Hu Liang Zhao Cheng Zhuo Xunzhao Yin
+"--------catagory name is: Design for Low Energy, Low Resource, but High Quality",--------, ,
+* LOW-COST 7T-SRAM COMPUTE-IN-MEMORY DESIGN BASED ON BIT-LINE CHARGE-SHARING BASED ANALOG-TO-DIGITAL CONVERSION.,https://doi.org/10.1145/3508352.3549423, ,Kyeongho Lee Joonhyung Kim Jongsun Park
+--------catagory name is: Microarchitectural Attacks and Countermeasures,--------, ,
+* SPECULATIVE LOAD FORWARDING ATTACK ON MODERN PROCESSORS.,https://doi.org/10.1145/3508352.3549417, ,Hasini Witharana Prabhat Mishra
+* CASU: COMPROMISE AVOIDANCE VIA SECURE UPDATE FOR LOW-END EMBEDDED SYSTEMS.,https://doi.org/10.1145/3508352.3549450, ,Ivan De Oliveira Nunes Sashidhar Jakkamsetti Youngil Kim Gene Tsudik
+--------catagory name is: Genetic Circuits Meet Ising Machines,--------, ,
+--------catagory name is: Energy Efficient Neural Networks via Approximate Computations,--------, ,
+* TUNABLE PRECISION CONTROL FOR APPROXIMATE IMAGE FILTERING IN AN IN-MEMORY ARCHITECTURE WITH EMBEDDED NEURONS.,https://doi.org/10.1145/3508352.3549385, ,Ayushi Dube Ankit Wagle Gian Singh Sarma B. K. Vrudhula
+--------catagory name is: Algorithms and Tools for Security Analysis and Secure Hardware Design,--------, ,
+* EVALUATING THE SECURITY OF EFPGA-BASED REDACTION ALGORITHMS.,https://doi.org/10.1145/3508352.3549425, ,Amin Rezaei Raheel Afsharmazayejani Jordan Maynard
+* DON'T CWEAT IT: TOWARD CWE ANALYSIS TECHNIQUES IN EARLY STAGES OF HARDWARE DESIGN.,https://doi.org/10.1145/3508352.3549369, ,Baleegh Ahmad Wei-Kai Liu Luca Collini Hammond Pearce Jason M. Fung Jonathan Valamehr Mohammad Bidmeshki Piotr Sapiecha Steve Brown Krishnendu Chakrabarty Ramesh Karri Benjamin Tan
+--------catagory name is: Special Session: Making ML Reliable: From Devices to Systems to Software,--------, ,
+--------catagory name is: Autonomous Systems and Machine Learning on Embedded Systems,--------, ,
+==========,CODESISSS|CODES|,TITLE,AUTHORS,URL,===========
+==========,PARMA&DRONESE&NGRES&,TITLE,AUTHORS,URL,===========
+==========,PARMA&DRONESE&NGRES&,TITLE,AUTHORS,URL,===========
+* A NOVEL OBSTACLE DETECTION AND AVOIDANCE DATASET FOR DRONES.,https://doi.org/10.1145/3522784.3522786, ,Julien Dupeyroux Raoul Dinaux Nikhil Wessendorp Guido de Croon
+"* MANYGUI: A GRAPHICAL TOOL TO ACCELERATE MANY-CORE DEBUGGING THROUGH COMMUNICATION, MEMORY, AND ENERGY PROFILING.",https://doi.org/10.1145/3522784.3522791, ,Marcelo Ruaro Kevin J. M. Martin
+* DECOUPLING PROCESSOR AND MEMORY HIERARCHY SIMULATORS FOR EFFICIENT DESIGN SPACE EXPLORATION.,https://doi.org/10.1145/3522784.3522796, ,Fatma Jebali Oumaima Matoussi Arief Wicaksana Amir Charif Lilia Zaourar
+==========,PARMA&DRONESE&NGRES&,TITLE,AUTHORS,URL,===========
+* MULTI-REQUIREMENT ENFORCEMENT OF NON-FUNCTIONAL PROPERTIES ON MPSOCS USING ENFORCEMENT FSMS - A CASE STUDY.,https://doi.org/10.4230/OASIcs.NG-RES.2022.2, ,Khalil Esper Stefan Wildermann Jürgen Teich
+==========,SIGMETRICS,TITLE,AUTHORS,URL,===========
+--------catagory name is: Session: Networking,--------, ,
+"--------catagory name is: Session: Streaming, Gaming, and the Decentralized Web",--------, ,
+--------catagory name is: Session: Measurements and Security,--------, ,
+* TRADE OR TRICK?: DETECTING AND CHARACTERIZING SCAM TOKENS ON UNISWAP DECENTRALIZED EXCHANGE.,https://doi.org/10.1145/3489048.3522636, ,Pengcheng Xia Haoyu Wang Bingyu Gao Weihang Su Zhou Yu Xiapu Luo Chao Zhang Xusheng Xiao Guoai Xu
+--------catagory name is: Session: Wireless and Mobile Networks,--------, ,
+--------catagory name is: Session: Memory and GPUs,--------, ,
+* TOWARDS EFFICIENT SPARSE MATRIX VECTOR MULTIPLICATION ON REAL PROCESSING-IN-MEMORY ARCHITECTURES.,https://doi.org/10.1145/3489048.3522661, ,Christina Giannoula Ivan Fernandez Juan Gómez-Luna Nectarios Koziris Georgios I. Goumas Onur Mutlu
+* MEMORY SPACE RECYCLING.,https://doi.org/10.1145/3489048.3522654, ,Jihyun Ryoo Mahmut Taylan Kandemir Mustafa Karaköy
+--------catagory name is: Session: Pricing and Speed,--------, ,
+--------catagory name is: Session: System Performance,--------, ,
+--------catagory name is: Session: Systems,--------, ,
+--------catagory name is: Session: Learning meets Systems,--------, ,
+--------catagory name is: Session: Optimization I,--------, ,
+--------catagory name is: Session: Online Optimization,--------, ,
+--------catagory name is: Session: Resource Allocation,--------, ,
+--------catagory name is: Session: Topology Design and Load Balancing,--------, ,
+--------catagory name is: Session: Optimization II,--------, ,
+* STATIONARY BEHAVIOR OF CONSTANT STEPSIZE SGD TYPE ALGORITHMS: AN ASYMPTOTIC CHARACTERIZATION.,https://doi.org/10.1145/3489048.3522659, ,Zaiwei Chen Shancong Mou Siva Theja Maguluri
+--------catagory name is: Session: Miscellaneous,--------, ,
+==========,PACT,TITLE,AUTHORS,URL,===========
+curr years had no pact conf,, ,
+==========,VEE,TITLE,AUTHORS,URL,===========
+* CAPABILITY BOEHM: CHALLENGES AND OPPORTUNITIES FOR GARBAGE COLLECTION WITH CAPABILITY HARDWARE.,https://doi.org/10.1145/3516807.3516823, ,Dejice Jacob Jeremy Singer
+==========,HPDC,TITLE,AUTHORS,URL,===========
+--------catagory name is: Keynotes,--------, ,
+--------catagory name is: Session 1: Data Centers and HPC Systems,--------, ,
+"--------catagory name is: Session 2: HPC Memory, I/O, and Storage Systems",--------, ,
+--------catagory name is: Session 3: Reliability and Scheduling,--------, ,
+* UNDERSTANDING MEMORY FAILURES ON A PETASCALE ARM SYSTEM.,https://doi.org/10.1145/3502181.3531465, ,Kurt B. Ferreira Scott Levy Joshua Hemmert Kevin T. Pedretti
+--------catagory name is: Session 4: HPC Algorithms,--------, ,
+"--------catagory name is: Session 5: HPC Toolchains, Traces, and More",--------, ,
+--------catagory name is: Session 6: Cloud Computing and Machine Learning,--------, ,
+--------catagory name is: Poster Session,--------, ,
+--------catagory name is: Workshop Summaries,--------, ,
+==========,ITC,TITLE,AUTHORS,URL,===========
+* MODELING CHALLENGE COVARIANCES AND DESIGN DEPENDENCY FOR EFFICIENT ATTACKS ON STRONG PUFS.,https://doi.org/10.1109/ITC50671.2022.00007, ,Hongfei Wang Wei Liu Hai Jin Yu Chen Wenjie Cai
+* RELIABILITY STUDY OF 14 NM SCAN CHAINS AND ITS APPLICATION TO HARDWARE SECURITY.,https://doi.org/10.1109/ITC50671.2022.00009, ,Franco Stellari Peilin Song
+* A PRACTICAL ONLINE ERROR DETECTION METHOD FOR FUNCTIONAL SAFETY USING THREE-SITE IMPLICATIONS.,https://doi.org/10.1109/ITC50671.2022.00013, ,Kazuya Loki Yasuyuki Kai Kohei Miyase Seiji Kajihara
+* JUST-ENOUGH STRESS TEST FOR INFANT-MORTALITY SCREENING USING SPEED BINNING.,https://doi.org/10.1109/ITC50671.2022.00021, ,Chen-Lin Tsai Shi-Yu Huang
+* SCALING PHYSICALLY AWARE LOGIC DIAGNOSIS TO COMPLEX HIGH VOLUME 7NM SERVER PROCESSORS.,https://doi.org/10.1109/ITC50671.2022.00042, ,Bharath Nandakumar Madhur Maheshwari Sameer Chillarige Robert Redburn Jeff Zimmerman Nicholai L'Esperance Edward Dziarcak
+* ACCELERATING RRAM TESTING WITH A LOW-COST COMPUTATION-IN-MEMORY BASED DFT.,https://doi.org/10.1109/ITC50671.2022.00085, ,Abhairaj Singh Moritz Fieback Rajendra Bishnoi Filip Bradaric Anteneh Gebregiorgis Rajiv V. Joshi Said Hamdioui
+* CHALLENGES FOR HIGH VOLUME TESTING OF EMBEDDED IO INTERFACES IN DISAGGREGATED MICROPROCESSOR PRODUCTS.,https://doi.org/10.1109/ITC50671.2022.00053, ,Esteban Garita-Rodríguez Renato Rimolo-Donadio Rafael Zamora-Salazar
+* TRANSFORMING AN $N$-DETECTION TEST SET INTO A TEST SET FOR A VARIETY OF FAULT MODELS.,https://doi.org/10.1109/ITC50671.2022.00055, ,Irith Pomeranz
+* FAULT-COVERAGE MAXIMIZING MARCH TESTS FOR MEMORY TESTING.,https://doi.org/10.1109/ITC50671.2022.00066, ,Feng Yun Yunkun Lin Lou Yunfei Lei Gao Vaibhav Gera Boxuan Li Vennela Chowdary Nekkanti Aditya Rajendra Pharande Kunal Sheth Meghana Thommondru Guizhong Ye Sandeep Gupta
+* CIRCUIT-TO-CIRCUIT ATTACKS IN SOCS VIA TROJAN-INFECTED IEEE 1687 TEST INFRASTRUCTURE.,https://doi.org/10.1109/ITC50671.2022.00068, ,Michele Portolan Antonios Pavlidis Giorgio Di Natale Eric Faehn Haralampos-G. Stratigopoulos
+* YIELD-ENHANCED PROBE HEAD CLEANING WITH AI-DRIVEN IMAGE AND SIGNAL INTEGRITY PATTERN RECOGNITION FOR WAFER TEST.,https://doi.org/10.1109/ITC50671.2022.00071, ,Nadun Sinhabahu Katherine Shu-Min Li Jian-De Li J. R. Wang Sying-Jyan Wang
+* IMPROVEMENTS IN AUTOMATED IC SOCKET PIN DEFECT DETECTION.,https://doi.org/10.1109/ITC50671.2022.00074, ,Vijayakumar Thangamariappan Nidhi Agrawal Jason Kim Constantinos Xanthopoulos Ken Butler Ira Leventhal Joe Xiao
+* ACCURATE FAILURE RATE PREDICTION BASED ON GAUSSIAN PROCESS USING WAT DATA.,https://doi.org/10.1109/ITC50671.2022.00075, ,Makoto Eiki Tomoki Nakamura Masuo Kajiyama Michiko Inoue Michihiro Shintani
+* IMPROVING STRUCTURAL COVERAGE OF FUNCTIONAL TESTS WITH CHECKPOINT SIGNATURE COMPUTATION.,https://doi.org/10.1109/ITC50671.2022.00078, ,Benjamin Niewenhuis Devanathan Varadarajan
+* IMPROVING TEST QUALITY OF MEMORY CHIPS BY A DECISION TREE-BASED SCREENING METHOD.,https://doi.org/10.1109/ITC50671.2022.00080, ,Ya-Chi Cheng Pai-Yu Tan Cheng-Wen Wu Ming-Der Shieh Chien-Hui Chuang Gordon Liao
+* A NOVEL PROTECTION TECHNIQUE FOR EMBEDDED MEMORIES WITH OPTIMIZED PPA.,https://doi.org/10.1109/ITC50671.2022.00089, ,Costas Argyrides Vilas Sridharan Hayk Danoyan Gurgen Harutyunyan Yervant Zorian
+* AN EFFICIENT TEST STRATEGY FOR DETECTION OF ELECTROMIGRATION IMPACT IN ADVANCED FINFET MEMORIES.,https://doi.org/10.1109/ITC50671.2022.00091, ,Mahta Mayahinia Mehdi B. Tahoori Gurgen Harutyunyan Grigor Tshagharyan Karen Amirkhanyan
+==========,RTAS,TITLE,AUTHORS,URL,===========
+* THE THUNDERING HERD: AMPLIFYING KERNEL INTERFERENCE TO ATTACK RESPONSE TIMES.,https://doi.org/10.1109/RTAS54340.2022.00016, ,Samuel Mergendahl Samuel Jero Bryan C. Ward Juliana Furgala Gabriel Parmer Richard Skowyra
+* MEMORY UTILIZATION-BASED DYNAMIC BANDWIDTH REGULATION FOR TEMPORAL ISOLATION IN MULTI-CORES.,https://doi.org/10.1109/RTAS54340.2022.00019, ,Ahsan Saeed Dakshina Dasari Dirk Ziegenbein Varun Rajasekaran Falk Rehm Michael Pressler Arne Hamann Daniel Mueller-Gritschneder Andreas Gerstlauer Ulf Schlichtmann
+* MSRP-FT: RELIABLE RESOURCE SHARING ON MULTIPROCESSOR MIXED-CRITICALITY SYSTEMS.,https://doi.org/10.1109/RTAS54340.2022.00024, ,Nan Chen Shuai Zhao Ian Gray Alan Burns Siyuan Ji Wanli Chang
+* PAC-PL: ENABLING CONTROL-FLOW INTEGRITY WITH POINTER AUTHENTICATION IN FPGA SOC PLATFORMS.,https://doi.org/10.1109/RTAS54340.2022.00027, ,Gabriele Serra Pietro Fara Giorgiomaria Cicero Francesco Restuccia Alessandro Biondi
+* MINIMIZING DAG UTILIZATION BY EXPLOITING SMT.,https://doi.org/10.1109/RTAS54340.2022.00029, ,Sims Hill Osborne Joshua Bakita Jingyuan Chen Tyler Yandrofski James H. Anderson
+==========,PLDI,TITLE,AUTHORS,URL,===========
+--------catagory name is: Security,--------, ,
+* HARDENING ATTACK SURFACES WITH FORMALLY PROVEN BINARY FORMAT PARSERS.,https://doi.org/10.1145/3519939.3523708, ,Nikhil Swamy Tahina Ramananandro Aseem Rastogi Irina Spiridonova Haobin Ni Dmitry Malloy Juan Vazquez Michael Tang Omar Cardona Arti Gupta
+--------catagory name is: Memory,--------, ,
+--------catagory name is: Synthesis I,--------, ,
+* TYPE-DIRECTED PROGRAM SYNTHESIS FOR RESTFUL APIS.,https://doi.org/10.1145/3519939.3523450, ,Zheng Guo David Cao Davin Tjong Jean Yang Cole Schlesinger Nadia Polikarpova
+* WEBROBOT: WEB ROBOTIC PROCESS AUTOMATION USING INTERACTIVE PROGRAMMING-BY-DEMONSTRATION.,https://doi.org/10.1145/3519939.3523711, ,Rui Dong Zhicheng Huang Ian Iong Lam Yan Chen Xinyu Wang
+--------catagory name is: Compilation,--------, ,
+--------catagory name is: Synthesis II,--------, ,
+--------catagory name is: Tensors,--------, ,
+--------catagory name is: Distribution,--------, ,
+--------catagory name is: Analysis,--------, ,
+* FINDING THE DWARF: RECOVERING PRECISE TYPES FROM WEBASSEMBLY BINARIES.,https://doi.org/10.1145/3519939.3523449, ,Daniel Lehmann Michael Pradel
+--------catagory name is: Concurrency,--------, ,
+* CHECKING ROBUSTNESS TO WEAK PERSISTENCY MODELS.,https://doi.org/10.1145/3519939.3523723, ,Hamed Gorjiara Weiyu Luo Alex Lee Guoqing Harry Xu Brian Demsky
+--------catagory name is: Numbers,--------, ,
+--------catagory name is: Semantics,--------, ,
+--------catagory name is: Quantum,--------, ,
+--------catagory name is: Hardware,--------, ,
+* PDL: A HIGH-LEVEL HARDWARE DESIGN LANGUAGE FOR PIPELINED PROCESSORS.,https://doi.org/10.1145/3519939.3523455, ,Drew Zagieboylo Charles Sherk Gookwon Edward Suh Andrew C. Myers
+* SOFTWARE-HARDWARE CODESIGN FOR EFFICIENT IN-MEMORY REGULAR PATTERN MATCHING.,https://doi.org/10.1145/3519939.3523456, ,Lingkun Kong Qixuan Yu Agnishom Chattopadhyay Alexis Le Glaunec Yi Huang Konstantinos Mamouras Kaiyuan Yang
+--------catagory name is: DSLs,--------, ,
+* DEOPTLESS: SPECULATION WITH DISPATCHED ON-STACK REPLACEMENT AND SPECIALIZED CONTINUATIONS.,https://doi.org/10.1145/3519939.3523729, ,Olivier Flückiger Jan Jecmen Sebastián Krynski Jan Vitek
+--------catagory name is: Verification I,--------, ,
+* COMPASS: STRONG AND COMPOSITIONAL LIBRARY SPECIFICATIONS IN RELAXED MEMORY SEPARATION LOGIC.,https://doi.org/10.1145/3519939.3523451, ,Hoang-Hai Dang Jaehwang Jung Jaemin Choi Duc-Than Nguyen William Mansky Jeehoon Kang Derek Dreyer
+* ISLARIS: VERIFICATION OF MACHINE CODE AGAINST AUTHORITATIVE ISA SEMANTICS.,https://doi.org/10.1145/3519939.3523434, ,Michael Sammler Angus Hammond Rodolphe Lepigre Brian Campbell Jean Pichon-Pharabod Derek Dreyer Deepak Garg Peter Sewell
+--------catagory name is: Verification and Optimization,--------, ,
+--------catagory name is: Verification II,--------, ,
+* FORMALLY VERIFIED LIFTING OF C-COMPILED X86-64 BINARIES.,https://doi.org/10.1145/3519939.3523702, ,Freek Verbeek Joshua A. Bockenek Zhoulai Fu Binoy Ravindran
+--------catagory name is: Testing and Synthesis,--------, ,
+==========,FSE&,TITLE,AUTHORS,URL,===========
+--------catagory name is: Keynotes,--------, ,
+--------catagory name is: Impact Award Paper Keynote,--------, ,
+--------catagory name is: Invited Tutorials,--------, ,
+--------catagory name is: Machine Learning I,--------, ,
+--------catagory name is: Software Testing I,--------, ,
+--------catagory name is: Empirical I,--------, ,
+* ARE WE BUILDING ON THE ROCK? ON THE IMPORTANCE OF DATA PREPROCESSING FOR CODE SUMMARIZATION.,https://doi.org/10.1145/3540250.3549145, ,Lin Shi Fangwen Mu Xiao Chen Song Wang Junjie Wang Ye Yang Ge Li Xin Xia Qing Wang
+* CORRELATES OF PROGRAMMER EFFICACY AND THEIR LINK TO EXPERIENCE: A COMBINED EEG AND EYE-TRACKING STUDY.,https://doi.org/10.1145/3540250.3549084, ,Norman Peitek Annabelle Bergum Maurice Rekrut Jonas Mucke Matthias Nadig Chris Parnin Janet Siegmund Sven Apel
+--------catagory name is: Community,--------, ,
+--------catagory name is: Software Evolution,--------, ,
+* ACCURATE METHOD AND VARIABLE TRACKING IN COMMIT HISTORY.,https://doi.org/10.1145/3540250.3549079, ,Mehran Jodavi Nikolaos Tsantalis
+* THE EVOLUTION OF TYPE ANNOTATIONS IN PYTHON: AN EMPIRICAL STUDY.,https://doi.org/10.1145/3540250.3549114, ,Luca Di Grazia Michael Pradel
+--------catagory name is: Program Analysis I,--------, ,
+* SECURITY CODE SMELLS IN APPS: ARE WE GETTING BETTER?,https://doi.org/10.1145/3540250.3549091, ,Steven Arzt
+--------catagory name is: Human/Computer Interaction,--------, ,
+--------catagory name is: Machine Learning II,--------, ,
+* NO MORE FINE-TUNING? AN EXPERIMENTAL EVALUATION OF PROMPT TUNING IN CODE INTELLIGENCE.,https://doi.org/10.1145/3540250.3549113, ,Chaozheng Wang Yuanhang Yang Cuiyun Gao Yun Peng Hongyu Zhang Michael R. Lyu
+--------catagory name is: Software Testing II,--------, ,
+* DETECTING NON-CRASHING FUNCTIONAL BUGS IN ANDROID APPS VIA DEEP-STATE DIFFERENTIAL ANALYSIS.,https://doi.org/10.1145/3540250.3549170, ,Jue Wang Yanyan Jiang Ting Su Shaohua Li Chang Xu Jian Lu Zhendong Su
+--------catagory name is: Empirical II,--------, ,
+"* CODE, QUALITY, AND PROCESS METRICS IN GRADUATED AND RETIRED ASFI PROJECTS.",https://doi.org/10.1145/3540250.3549132, ,Stefan Stanciulescu Likang Yin Vladimir Filkov
+--------catagory name is: Machine Learning III,--------, ,
+--------catagory name is: Formal Methods,--------, ,
+--------catagory name is: Debugging/Localization,--------, ,
+* FAULT LOCALIZATION TO DETECT CO-CHANGE FIXING LOCATIONS.,https://doi.org/10.1145/3540250.3549137, ,Yi Li Shaohua Wang Tien N. Nguyen
+--------catagory name is: Mining Software Repositories,--------, ,
+--------catagory name is: Program Analysis II,--------, ,
+* PEAHEN: FAST AND PRECISE STATIC DEADLOCK DETECTION VIA CONTEXT REDUCTION.,https://doi.org/10.1145/3540250.3549110, ,Yuandao Cai Chengfeng Ye Qingkai Shi Charles Zhang
+--------catagory name is: Collaboration,--------, ,
+* SOFTWARE SECURITY DURING MODERN CODE REVIEW: THE DEVELOPER'S PERSPECTIVE.,https://doi.org/10.1145/3540250.3549135, ,Larissa Braz Alberto Bacchelli
+--------catagory name is: Security,--------, ,
+* ON THE VULNERABILITY PRONENESS OF MULTILINGUAL CODE.,https://doi.org/10.1145/3540250.3549173, ,Wen Li Li Li Haipeng Cai
+* TRACKING PATCHES FOR OPEN SOURCE SOFTWARE VULNERABILITIES.,https://doi.org/10.1145/3540250.3549125, ,Congying Xu Bihuan Chen Chenhao Lu Kaifeng Huang Xin Peng Yang Liu
+--------catagory name is: Dependability,--------, ,
+--------catagory name is: Program Repair/Synthesis,--------, ,
+* PYTER: EFFECTIVE PROGRAM REPAIR FOR PYTHON TYPE ERRORS.,https://doi.org/10.1145/3540250.3549130, ,Wonseok Oh Hakjoo Oh
+* VULREPAIR: A T5-BASED AUTOMATED SOFTWARE VULNERABILITY REPAIR.,https://doi.org/10.1145/3540250.3549098, ,Michael Fu Chakkrit Tantithamthavorn Trung Le Van Nguyen Dinh Q. Phung
+--------catagory name is: Online Presentations,--------, ,
+* ACCESSITEXT: AUTOMATED DETECTION OF TEXT ACCESSIBILITY ISSUES IN ANDROID APPS.,https://doi.org/10.1145/3540250.3549118, ,Abdulaziz Alshayban Sam Malek
+* CORPORATE DOMINANCE IN OPEN SOURCE ECOSYSTEMS: A CASE STUDY OF OPENSTACK.,https://doi.org/10.1145/3540250.3549117, ,Yuxia Zhang Klaas-Jan Stol Hui Liu Minghui Zhou
+* DETECTING SIMULINK COMPILER BUGS VIA CONTROLLABLE ZOMBIE BLOCKS MUTATION.,https://doi.org/10.1145/3540250.3549159, ,Shikai Guo He Jiang Zhihao Xu Xiaochen Li Zhilei Ren Zhide Zhou Rong Chen
+* GENERIC SENSITIVITY: CUSTOMIZING CONTEXT-SENSITIVE POINTER ANALYSIS FOR GENERICS.,https://doi.org/10.1145/3540250.3549122, ,Haofeng Li Jie Lu Haining Meng Liqing Cao Yongheng Huang Lian Li Lin Gao
+* PUTTING THEM UNDER MICROSCOPE: A FINE-GRAINED APPROACH FOR DETECTING REDUNDANT TEST CASES IN NATURAL LANGUAGE.,https://doi.org/10.1145/3540250.3549089, ,Zhiyuan Chang Mingyang Li Junjie Wang Qing Wang Shoubin Li
+--------catagory name is: Machine Learning,--------, ,
+--------catagory name is: Empirical,--------, ,
+--------catagory name is: Community,--------, ,
+--------catagory name is: Software Evolution,--------, ,
+--------catagory name is: Program Analysis,--------, ,
+--------catagory name is: Debugging/Localization,--------, ,
+* METADATA-BASED RETRIEVAL FOR RESOLUTION RECOMMENDATION IN AIOPS.,https://doi.org/10.1145/3540250.3558964, ,Harshit Kumar Ruchi Mahindru Debanjana Kar
+--------catagory name is: Collaboration,--------, ,
+* UNDERSTANDING AUTOMATED CODE REVIEW PROCESS AND DEVELOPER EXPERIENCE IN INDUSTRY.,https://doi.org/10.1145/3540250.3558950, ,Hyungjin Kim Yonghwi Kwon Sangwoo Joh Hyukin Kwon Yeonhee Ryou Taeksu Kim
+--------catagory name is: Dependability,--------, ,
+--------catagory name is: Repair/Synthesis,--------, ,
+--------catagory name is: Online Presentations,--------, ,
+--------catagory name is: Community,--------, ,
+--------catagory name is: Machine Learning,--------, ,
+--------catagory name is: Debugging/Localization,--------, ,
+--------catagory name is: Program Analysis,--------, ,
+--------catagory name is: Online Presentations,--------, ,
+* A STUDY ON IDENTIFYING CODE AUTHOR FROM REAL DEVELOPMENT.,https://doi.org/10.1145/3540250.3560878, ,Siyi Gong Hao Zhong
+--------catagory name is: Community,--------, ,
+--------catagory name is: Software Evolution,--------, ,
+* CONTEXT-AWARE CODE RECOMMENDATION IN INTELLIJ IDEA.,https://doi.org/10.1145/3540250.3558937, ,Shamsa Abid Hamid Abdul Basit Shafay Shamail
+--------catagory name is: Human/Computer Interaction,--------, ,
+--------catagory name is: Software Testing,--------, ,
+--------catagory name is: Empirical,--------, ,
+* TAPHSIR: TOWARDS ANAPHORIC AMBIGUITY DETECTION AND RESOLUTION IN REQUIREMENTS.,https://doi.org/10.1145/3540250.3558928, ,Saad Ezzini Sallam Abualhaija Chetan Arora Mehrdad Sabetzadeh
+--------catagory name is: Formal Methods,--------, ,
+--------catagory name is: Debugging,--------, ,
+--------catagory name is: Mining Software Repositories,--------, ,
+--------catagory name is: Program Analysis,--------, ,
+--------catagory name is: Security,--------, ,
+* VULCURATOR: A VULNERABILITY-FIXING COMMIT DETECTOR.,https://doi.org/10.1145/3540250.3558936, ,Truong Giang Nguyen Thanh Le-Cong Hong Jin Kang Xuan-Bach Dinh Le David Lo
+* KVS: A TOOL FOR KNOWLEDGE-DRIVEN VULNERABILITY SEARCHING.,https://doi.org/10.1145/3540250.3558920, ,Xingqi Cheng Xiaobing Sun Lili Bo Ying Wei
+* FASTKLEE: FASTER SYMBOLIC EXECUTION VIA REDUCING REDUNDANT BOUND CHECKING OF TYPE-SAFE POINTERS.,https://doi.org/10.1145/3540250.3558919, ,Haoxin Tu Lingxiao Jiang Xuhua Ding He Jiang
+--------catagory name is: Online Presentations,--------, ,
+--------catagory name is: Session 1,--------, ,
+--------catagory name is: Session 2,--------, ,
+--------catagory name is: Session 3,--------, ,
+--------catagory name is: Session 4,--------, ,
+* SENTIMENT IN SOFTWARE ENGINEERING: DETECTION AND APPLICATION.,https://doi.org/10.1145/3540250.3558908, ,Nathan Cassee
+--------catagory name is: Online Presentations,--------, ,
+--------catagory name is: Tutorials,--------, ,
+==========,SOSP,TITLE,AUTHORS,URL,===========
+curr years had no sosp conf,, ,
+==========,ASE&,TITLE,AUTHORS,URL,===========
+--------catagory name is: Research Papers,--------, ,
+* ACCELERATING BUILD DEPENDENCY ERROR DETECTION VIA VIRTUAL BUILD.,https://doi.org/10.1145/3551349.3556930, ,Rongxin Wu Minglei Chen Chengpeng Wang Gang Fan Jiguang Qiu Charles Zhang
+* AN EMPIRICAL STUDY OF AUTOMATION IN SOFTWARE SECURITY PATCH MANAGEMENT.,https://doi.org/10.1145/3551349.3556969, ,Nesara Dissanayake Asangi Jayatilaka Mansooreh Zahedi Muhammad Ali Babar
+* AUTOMATICALLY DETECTING VISUAL BUGS IN HTML5 CANVAS GAMES.,https://doi.org/10.1145/3551349.3556913, ,Finlay Macklon Mohammad Reza Taesiri Markos Viggiato Stefan Antoszko Natalia Romanova Dale Paas Cor-Paul Bezemer
+* B-AIS: AN AUTOMATED PROCESS FOR BLACK-BOX EVALUATION OF VISUAL PERCEPTION IN AI-ENABLED SOFTWARE AGAINST DOMAIN SEMANTICS.,https://doi.org/10.1145/3551349.3561162, ,Hamed Barzamini Mona Rahimi
+* BUILDSONIC: DETECTING AND REPAIRING PERFORMANCE-RELATED CONFIGURATION SMELLS FOR CONTINUOUS INTEGRATION BUILDS.,https://doi.org/10.1145/3551349.3556923, ,Chen Zhang Bihuan Chen Junhao Hu Xin Peng Wenyun Zhao
+* CORNUCOPIA : A FRAMEWORK FOR FEEDBACK GUIDED GENERATION OF BINARIES.,https://doi.org/10.1145/3551349.3561152, ,Vidush Singhal Akul Abhilash Pillai Charitha Saumya Milind Kulkarni Aravind Machiry
+* DATA LEAKAGE IN NOTEBOOKS: STATIC DETECTION AND BETTER PROCESSES.,https://doi.org/10.1145/3551349.3556918, ,Chenyang Yang Rachel A. Brower-Sinning Grace A. Lewis Christian Kästner
+* DETECTING BLOCKING ERRORS IN GO PROGRAMS USING LOCALIZED ABSTRACT INTERPRETATION.,https://doi.org/10.1145/3551349.3561154, ,Oskar Haarklou Veileborg Georgian-Vlad Saioc Anders Møller
+* DETECTING BUILD CONFLICTS IN SOFTWARE MERGE FOR JAVA PROGRAMS VIA STATIC ANALYSIS.,https://doi.org/10.1145/3551349.3556950, ,Sheikh Shadab Towqir Bowen Shen Muhammad Ali Gulzar Na Meng
+* DETECTING SEMANTIC CODE CLONES BY BUILDING AST-BASED MARKOV CHAINS MODEL.,https://doi.org/10.1145/3551349.3560426, ,Yueming Wu Siyue Feng Deqing Zou Hai Jin
+* EFFICIENT GREYBOX FUZZING TO DETECT MEMORY ERRORS.,https://doi.org/10.1145/3551349.3561161, ,Jinsheng Ba Gregory J. Duck Abhik Roychoudhury
+* EVOLVING RANKING-BASED FAILURE PROXIMITIES FOR BETTER CLUSTERING IN FAULT ISOLATION.,https://doi.org/10.1145/3551349.3556922, ,Yi Song Xiaoyuan Xie Xihao Zhang Quanming Liu Ruizhi Gao
+* EXPLOITING EPOCHS AND SYMMETRIES IN ANALYSING MPI PROGRAMS.,https://doi.org/10.1145/3551349.3556954, ,Rishabh Ranjan Ishita Agrawal Subodh Sharma
+* GLITCH: AUTOMATED POLYGLOT SECURITY SMELL DETECTION IN INFRASTRUCTURE AS CODE.,https://doi.org/10.1145/3551349.3556945, ,Nuno Saavedra João F. Ferreira
+* HAS MY RELEASE DISOBEYED SEMANTIC VERSIONING? STATIC DETECTION BASED ON SEMANTIC DIFFERENCING.,https://doi.org/10.1145/3551349.3556956, ,Lyuye Zhang Chengwei Liu Zhengzi Xu Sen Chen Lingling Fan Bihuan Chen Yang Liu
+* HTFUZZ: HEAP OPERATION SEQUENCE SENSITIVE FUZZING.,https://doi.org/10.1145/3551349.3560415, ,Yuanping Yu Xiangkun Jia Yuwei Liu Yanhao Wang Qian Sang Chao Zhang Purui Su
+* INSIGHT: EXPLORING CROSS-ECOSYSTEM VULNERABILITY IMPACTS.,https://doi.org/10.1145/3551349.3556921, ,Meiqiu Xu Ying Wang Shing-Chi Cheung Hai Yu Zhiliang Zhu
+* KEEPING SECRETS: MULTI-OBJECTIVE GENETIC IMPROVEMENT FOR DETECTING AND REDUCING INFORMATION LEAKAGE.,https://doi.org/10.1145/3551349.3556947, ,Ibrahim Mesecan Daniel Blackwell David Clark Myra B. Cohen Justyna Petke
+* LEVERAGING PRACTITIONERS' FEEDBACK TO IMPROVE A SECURITY LINTER.,https://doi.org/10.1145/3551349.3560419, ,Sofia Reis Rui Abreu Marcelo d'Amorim Daniel Fortunato
+* PRECISE (UN)AFFECTED VERSION ANALYSIS FOR WEB VULNERABILITIES.,https://doi.org/10.1145/3551349.3556933, ,Youkun Shi Yuan Zhang Tianhan Luo Xiangyu Mao Min Yang
+* SA4U: PRACTICAL STATIC ANALYSIS FOR UNIT TYPE ERROR DETECTION.,https://doi.org/10.1145/3551349.3556937, ,Max Taylor Johnathon Aurand Feng Qin Xiaorui Wang Brandon Henry Xiangyu Zhang
+* STATIC TYPE RECOMMENDATION FOR PYTHON.,https://doi.org/10.1145/3551349.3561150, ,Ke Sun Yifan Zhao Dan Hao Lu Zhang
+* TREECEN: BUILDING TREE GRAPH FOR SCALABLE SEMANTIC CODE CLONE DETECTION.,https://doi.org/10.1145/3551349.3556927, ,Yutao Hu Deqing Zou Junru Peng Yueming Wu Junjie Shan Hai Jin
+--------catagory name is: Doctoral Symposium,--------, ,
+* ASSESSMENT OF AUTOMATED (INTELLIGENT) TOOLCHAINS.,https://doi.org/10.1145/3551349.3559572, ,Aurora Papotti
+* COVERAGE-BASED GREYBOX FUZZING WITH POINTER MONITORING FOR C PROGRAMS.,https://doi.org/10.1145/3551349.3559566, ,Haibo Chen Jinfu Chen
+* IDENTIFICATION AND MITIGATION OF GENDER BIASES TO PROMOTE DIVERSITY AND INCLUSION AMONG OPEN SOURCE COMMUNITIES.,https://doi.org/10.1145/3551349.3559571, ,Sayma Sultana
+* IDENTIFICATION AND MITIGATION OF TOXIC COMMUNICATIONS AMONG OPEN SOURCE SOFTWARE DEVELOPERS.,https://doi.org/10.1145/3551349.3559570, ,Jaydeb Sarker
+* LEVERAGING ARTIFICIAL INTELLIGENCE ON BINARY CODE COMPREHENSION.,https://doi.org/10.1145/3551349.3559564, ,Yifan Zhang
+--------catagory name is: Industry Showcase,--------, ,
+* AUTOMATED IDENTIFICATION OF SECURITY-RELEVANT CONFIGURATION SETTINGS USING NLP.,https://doi.org/10.1145/3551349.3559499, ,Patrick Stöckle Theresa Wasserer Bernd Grobauer Alexander Pretschner
+* CODE UNDERSTANDING LINTER TO DETECT VARIABLE MISUSE.,https://doi.org/10.1145/3551349.3559497, ,Yeonhee Ryou Sangwoo Joh Joonmo Yang Sujin Kim Youil Kim
+--------catagory name is: Late Breaking Results,--------, ,
+* A REAL-WORLD CASE STUDY FOR AUTOMATED TICKET TEAM ASSIGNMENT USING NATURAL LANGUAGE PROCESSING AND EXPLAINABLE MODELS.,https://doi.org/10.1145/3551349.3561164, ,Lucas Marcondes Pavelski Rodrigo de Souza Braga
+* GENERALIZABILITY OF CODE CLONE DETECTION ON CODEBERT.,https://doi.org/10.1145/3551349.3561165, ,Tim Sonnekalb Bernd Gruner Clemens-Alexander Brust Patrick Mäder
+* TOWARDS USING DATA-INFLUENCE METHODS TO DETECT NOISY SAMPLES IN SOURCE CODE CORPORA.,https://doi.org/10.1145/3551349.3561168, ,Anh T. V. Dau Nghi D. Q. Bui Thang Nguyen-Duc Hoang Thanh-Tung
+--------catagory name is: Tool Demonstrations,--------, ,
+* A TRANSFORMER-BASED IDE PLUGIN FOR VULNERABILITY DETECTION.,https://doi.org/10.1145/3551349.3559534, ,Cláudia Mamede Eduard Pinconschi Rui Abreu
+* AUSERA: AUTOMATED SECURITY VULNERABILITY DETECTION FOR ANDROID APPS.,https://doi.org/10.1145/3551349.3559524, ,Sen Chen Yuxin Zhang Lingling Fan Jiaming Li Yang Liu
+* CBMC-SSM: BOUNDED MODEL CHECKING OF C PROGRAMS WITH SYMBOLIC SHADOW MEMORY.,https://doi.org/10.1145/3551349.3559523, ,Bernd Fischer Salvatore La Torre Gennaro Parlato Peter Schrammel
+* FLEXTYPE: A PLUG-AND-PLAY FRAMEWORK FOR TYPE INFERENCE MODELS.,https://doi.org/10.1145/3551349.3559527, ,Sivani Voruganti Kevin Jesse Premkumar T. Devanbu
+* V-ACHILLES: AN INTERACTIVE VISUALIZATION OF TRANSITIVE SECURITY VULNERABILITIES.,https://doi.org/10.1145/3551349.3559526, ,Vipawan Jarukitpipat Klinton Chhun Wachirayana Wanprasert Chaiyong Ragkhitwetsagul Morakot Choetkiertikul Thanwadee Sunetnanta Raula Gaikovina Kula Bodin Chinthanet Takashi Ishio Kenichi Matsumoto
+* XSCOPE: HUNTING FOR CROSS-CHAIN BRIDGE ATTACKS.,https://doi.org/10.1145/3551349.3559520, ,Jiashuo Zhang Jianbo Gao Yue Li Ziming Chen Zhi Guan Zhong Chen
+--------catagory name is: New Ideas and Emerging Results (NIER) Track,--------, ,
+* PRINCIPLED COMPOSITION OF FUNCTION VARIANTS FOR DYNAMIC SOFTWARE DIVERSITY AND PROGRAM PROTECTION.,https://doi.org/10.1145/3551349.3559553, ,Giacomo Priamo Daniele Cono D'Elia Leonardo Querzoni
+--------catagory name is: Student Research Competition,--------, ,
+* ASTOR: AN APPROACH TO IDENTIFY SECURITY CODE REVIEWS.,https://doi.org/10.1145/3551349.3559509, ,Rajshakhar Paul
+* AUTOMATIC SOFTWARE TIMING ATTACK EVALUATION & MITIGATION ON CLEAR HARDWARE ASSUMPTION.,https://doi.org/10.1145/3551349.3559516, ,Prabuddha Chakraborty
+* DETECTING INCONSISTENCIES IN IF-CONDITION-RAISE STATEMENTS.,https://doi.org/10.1145/3551349.3559514, ,Islem Bouzenia
+* EXECUTION PATH DETECTION THROUGH DYNAMIC ANALYSIS IN BLACK-BOX TESTING ENVIRONMENTS.,https://doi.org/10.1145/3551349.3559506, ,Frank Dixon Whitworth
+* 'WHO BUILT THIS CRAP?' DEVELOPING A SOFTWARE ENGINEERING DOMAIN SPECIFIC TOXICITY DETECTOR.,https://doi.org/10.1145/3551349.3559508, ,Jaydeb Sarker
+--------catagory name is: Workshops: A-Mobile,--------, ,
+--------catagory name is: Workshops: AeSIR,--------, ,
+* NAMESAKE: A CHECKER OF LEXICAL SIMILARITY IN IDENTIFIER NAMES.,https://doi.org/10.1145/3551349.3560441, ,Naser Al Madi
+--------catagory name is: Workshops: ASE4Games,--------, ,
+* VERIFYING GAME LOGIC IN UNREAL ENGINE 5 BLUEPRINT VISUAL SCRIPTING SYSTEM USING MODEL CHECKING.,https://doi.org/10.1145/3551349.3560505, ,Kazuki Wayama Tomoyuki Yokogawa Sousuke Amasaki Hirohisa Aman Kazutami Arimoto
+--------catagory name is: Workshops: AUST,--------, ,
+--------catagory name is: Workshops: HCSE&CS,--------, ,
+"* DANCING, NOT WRESTLING: MOVING FROM COMPLIANCE TO CONCORDANCE FOR SECURE SOFTWARE DEVELOPMENT.",https://doi.org/10.1145/3551349.3561145, ,Debi Ashenden Gail Ollis Iain Reid
+* INTELLIGENT CODE REVIEW ASSIGNMENT FOR LARGE SCALE OPEN SOURCE SOFTWARE STACKS.,https://doi.org/10.1145/3551349.3561147, ,Ishan Aryendu Ying Wang Farah Elkourdi Eman Abdullah AlOmar
+* SIMULATING CYBER SECURITY MANAGEMENT: A GAMIFIED APPROACH TO EXECUTIVE DECISION MAKING.,https://doi.org/10.1145/3551349.3561148, ,Adam Tonkin William Kosasih Marthie Grobler Mehwish Nasim
+* TOWARDS THE INTEGRATION OF HUMAN FACTORS IN COLLABORATIVE DECISION MAKING FOR SECURE ARCHITECTURE DESIGN.,https://doi.org/10.1145/3551349.3561149, ,Jason Jaskolka Brahim Hamid
+--------catagory name is: Workshops: VARSE,--------, ,
+==========,ICSE,TITLE,AUTHORS,URL,===========
+* A GROUNDED THEORY BASED APPROACH TO CHARACTERIZE SOFTWARE ATTACK SURFACES.,https://doi.org/10.1145/3510003.3510210, ,Sara Moshtari Ahmet Okutan Mehdi Mirakhorli
+* ADAPTIVE PERFORMANCE ANOMALY DETECTION FOR ONLINE SERVICE SYSTEMS VIA PATTERN SKETCHING.,https://doi.org/10.1145/3510003.3510085, ,Zhuangbin Chen Jinyang Liu Yuxin Su Hongyu Zhang Xiao Ling Michael R. Lyu
+* APER: EVOLUTION-AWARE RUNTIME PERMISSION MISUSE DETECTION FOR ANDROID APPS.,https://doi.org/10.1145/3510003.3510074, ,Sinan Wang Yibo Wang Xian Zhan Ying Wang Yepang Liu Xiapu Luo Shing-Chi Cheung
+* AUTOMATED DETECTION OF PASSWORD LEAKAGE FROM PUBLIC GITHUB REPOSITORIES.,https://doi.org/10.1145/3510003.3510150, ,Runhan Feng Ziyang Yan Shiyan Peng Yuanyuan Zhang
+* AUTOTRANSFORM: AUTOMATED CODE TRANSFORMATION TO SUPPORT MODERN CODE REVIEW PROCESS.,https://doi.org/10.1145/3510003.3510067, ,Patanamon Thongtanunam Chanathip Pornprasit Chakkrit Tantithamthavorn
+* CHARACTERIZING AND DETECTING BUGS IN WECHAT MINI-PROGRAMS.,https://doi.org/10.1145/3510003.3510114, ,Tao Wang Qingxin Xu Xiaoning Chang Wensheng Dou Jiaxin Zhu Jinhui Xie Yuetang Deng Jianbo Yang Jiaheng Yang Jun Wei Tao Huang
+"* COLLABORATION CHALLENGES IN BUILDING ML-ENABLED SYSTEMS: COMMUNICATION, DOCUMENTATION, ENGINEERING, AND PROCESS.",https://doi.org/10.1145/3510003.3510209, ,Nadia Nahar Shurui Zhou Grace A. Lewis Christian Kästner
+* DEMYSTIFYING THE VULNERABILITY PROPAGATION AND ITS EVOLUTION VIA DEPENDENCY TREES IN THE NPM ECOSYSTEM.,https://doi.org/10.1145/3510003.3510142, ,Chengwei Liu Sen Chen Lingling Fan Bihuan Chen Yang Liu Xin Peng
+* DETECTING FALSE ALARMS FROM AUTOMATIC STATIC ANALYSIS TOOLS: HOW FAR ARE WE?,https://doi.org/10.1145/3510003.3510214, ,Hong Jin Kang Khai Loong Aw David Lo
+* EXPLOITING INPUT SANITIZATION FOR REGEX DENIAL OF SERVICE.,https://doi.org/10.1145/3510003.3510047, ,Efe Barlas Xin Du James C. Davis
+* FADATEST: FAST AND ADAPTIVE PERFORMANCE REGRESSION TESTING OF DYNAMIC BINARY TRANSLATION SYSTEMS.,https://doi.org/10.1145/3510003.3510169, ,Jin Wu Jian Dong Ruili Fang Wen Zhang Wenwen Wang Decheng Zuo
+* IMPERATIVE VERSUS DECLARATIVE COLLECTION PROCESSING: AN RCT ON THE UNDERSTANDABILITY OF TRADITIONAL LOOPS VERSUS THE STREAM API IN JAVA.,https://doi.org/10.1145/3510003.3519016, ,Nils Mehlhorn Stefan Hanenberg
+* INFERRING AND APPLYING TYPE CHANGES.,https://doi.org/10.1145/3510003.3510115, ,Ameya Ketkar Oleg Smirnov Nikolaos Tsantalis Danny Dig Timofey Bryksin
+* LARGE-SCALE SECURITY MEASUREMENTS ON THE ANDROID FIRMWARE ECOSYSTEM.,https://doi.org/10.1145/3510003.3510072, ,Qinsheng Hou Wenrui Diao Yanhao Wang Xiaofeng Liu Song Liu Lingyun Ying Shanqing Guo Yuanzhi Li Meining Nie Haixin Duan
+* LESS IS MORE: SUPPORTING DEVELOPERS IN VULNERABILITY DETECTION DURING CODE REVIEW.,https://doi.org/10.1145/3510003.3511560, ,Larissa Braz Christian Aeberhard Gül Çalikli Alberto Bacchelli
+* MODX: BINARY LEVEL PARTIALLY IMPORTED THIRD-PARTY LIBRARY DETECTION VIA PROGRAM MODULARIZATION AND SEMANTIC MATCHING.,https://doi.org/10.1145/3510003.3510627, ,Can Yang Zhengzi Xu Hongxu Chen Yang Liu Xiaorui Gong Baoxu Liu
+* NPEX: REPAIRING JAVA NULL POINTER EXCEPTIONS WITHOUT TESTS.,https://doi.org/10.1145/3510003.3510186, ,Junhee Lee Seongjoon Hong Hakjoo Oh
+* OJXPERF: FEATHERLIGHT OBJECT REPLICA DETECTION FOR JAVA PROGRAMS.,https://doi.org/10.1145/3510003.3510083, ,Bolun Li Hao Xu Qidong Zhao Pengfei Su Milind Chabbi Shuyin Jiao Xu Liu
+* PRACTICAL AUTOMATED DETECTION OF MALICIOUS NPM PACKAGES.,https://doi.org/10.1145/3510003.3510104, ,Adriana Sejfia Max Schäfer
+* PRECISE DIVIDE-BY-ZERO DETECTION WITH AFFIRMATIVE EVIDENCE.,https://doi.org/10.1145/3510003.3510066, ,Yiyuan Guo Jinguo Zhou Peisen Yao Qingkai Shi Charles Zhang
+* PUS: A FAST AND HIGHLY EFFICIENT SOLVER FOR INCLUSION-BASED POINTER ANALYSIS.,https://doi.org/10.1145/3510003.3510075, ,Peiming Liu Yanze Li Bradley Swain Jeff Huang
+* ROPGEN: TOWARDS ROBUST CODE AUTHORSHIP ATTRIBUTION VIA AUTOMATIC CODING STYLE TRANSFORMATION.,https://doi.org/10.1145/3510003.3510181, ,Zhen Li Qian (Guenevere) Chen Chen Chen Yayi Zou Shouhuai Xu
+* SNR: CONSTRAINT-BASED TYPE INFERENCE FOR INCOMPLETE JAVA CODE SNIPPETS.,https://doi.org/10.1145/3510003.3510061, ,Yiwen Dong Tianxiao Gu Yongqiang Tian Chengnian Sun
+* STATIC STACK-PRESERVING INTRA-PROCEDURAL SLICING OF WEBASSEMBLY BINARIES.,https://doi.org/10.1145/3510003.3510070, ,Quentin Stiévenart David W. Binkley Coen De Roover
+* SUGARC: SCALABLE DESUGARING OF REAL-WORLD PREPROCESSOR USAGE INTO PURE C.,https://doi.org/10.1145/3510003.3512763, ,Zach Patterson Zenong Zhang Brent Pappas Shiyi Wei Paul Gazzillo
+* THE EXTENT OF ORPHAN VULNERABILITIES FROM CODE REUSE IN OPEN SOURCE SOFTWARE.,https://doi.org/10.1145/3510003.3510216, ,David Reid Mahmoud Jahanshahi Audris Mockus
+* TOWARDS LANGUAGE-INDEPENDENT BROWN BUILD DETECTION.,https://doi.org/10.1145/3510003.3510122, ,Doriane Olewicki Mathieu Nayrolles Bram Adams
+* V-SZZ: AUTOMATIC IDENTIFICATION OF VERSION RANGES AFFECTED BY CVE VULNERABILITIES.,https://doi.org/10.1145/3510003.3510113, ,Lingfeng Bao Xin Xia Ahmed E. Hassan Xiaohu Yang
+==========,ISSTA,TITLE,AUTHORS,URL,===========
+"--------catagory name is: Oracles, Models, and Measurement",--------, ,
+* JTRANS: JUMP-AWARE TRANSFORMER FOR BINARY CODE SIMILARITY DETECTION.,https://doi.org/10.1145/3533767.3534367, ,Hao Wang Wenjie Qu Gilad Katz Wenyu Zhu Zeyu Gao Han Qiu Jianwei Zhuge Chao Zhang
+* EVOLUTION-AWARE DETECTION OF ORDER-DEPENDENT FLAKY TESTS.,https://doi.org/10.1145/3533767.3534404, ,Chengpeng Li August Shi
+"--------catagory name is: Neural Networks, Learning, NLP",--------, ,
+--------catagory name is: Test Generation and Mutation,--------, ,
+* TEST MIMICRY TO ASSESS THE EXPLOITABILITY OF LIBRARY VULNERABILITIES.,https://doi.org/10.1145/3533767.3534398, ,Hong Jin Kang Truong Giang Nguyen Xuan-Bach Dinh Le Corina S. Pasareanu David Lo
+--------catagory name is: Fuzzing and Friends,--------, ,
+* MDPFUZZ: TESTING MODELS SOLVING MARKOV DECISION PROCESSES.,https://doi.org/10.1145/3533767.3534388, ,Qi Pang Yuanyuan Yuan Shuai Wang
+"--------catagory name is: Concurrency, IoT, Embedded",--------, ,
+* PRECISE AND EFFICIENT ATOMICITY VIOLATION DETECTION FOR INTERRUPT-DRIVEN PROGRAMS VIA STAGED PATH PRUNING.,https://doi.org/10.1145/3533767.3534412, ,Chao Li Rui Chen Boxiang Wang Tingting Yu Dongdong Gao Mengfei Yang
+--------catagory name is: Static Analysis and Specifications Testing,--------, ,
+* AN EMPIRICAL STUDY ON THE EFFECTIVENESS OF STATIC C CODE ANALYZERS FOR VULNERABILITY DETECTION.,https://doi.org/10.1145/3533767.3534380, ,Stephan Lipp Sebastian Banescu Alexander Pretschner
+--------catagory name is: Android,--------, ,
+* DETECTING AND FIXING DATA LOSS ISSUES IN ANDROID APPS.,https://doi.org/10.1145/3533767.3534402, ,Wunan Guo Zhen Dong Liwei Shen Wei Tian Ting Su Xin Peng
+* AUTOMATICALLY DETECTING API-INDUCED COMPATIBILITY ISSUES IN ANDROID APPS: A COMPARATIVE ANALYSIS (REPLICABILITY STUDY).,https://doi.org/10.1145/3533767.3534407, ,Pei Liu Yanjie Zhao Haipeng Cai Mattia Fazzini John C. Grundy Li Li
+* DETECTING RESOURCE UTILIZATION BUGS INDUCED BY VARIANT LIFECYCLES IN ANDROID.,https://doi.org/10.1145/3533767.3534413, ,Yifei Lu Minxue Pan Yu Pei Xuandong Li
+--------catagory name is: Program Repair,--------, ,
+* PROGRAM VULNERABILITY REPAIR VIA INDUCTIVE INFERENCE.,https://doi.org/10.1145/3533767.3534387, ,Yuntong Zhang Xiang Gao Gregory J. Duck Abhik Roychoudhury
+--------catagory name is: Smart Contracts,--------, ,
+--------catagory name is: Tool Demos,--------, ,
+* ESBMC-CHERI: TOWARDS VERIFICATION OF C PROGRAMS FOR CHERI PLATFORMS WITH ESBMC.,https://doi.org/10.1145/3533767.3543289, ,Franz Brauße Fedor Shmarov Rafael Menezes Mikhail R. Gadelha Konstantin Korovin Giles Reger Lucas C. Cordeiro
+* IFIXDATALOSS: A TOOL FOR DETECTING AND FIXING DATA LOSS ISSUES IN ANDROID APPS.,https://doi.org/10.1145/3533767.3543297, ,Wunan Guo Zhen Dong Liwei Shen Wei Tian Ting Su Xin Peng
+* MAESTRO: A PLATFORM FOR BENCHMARKING AUTOMATIC PROGRAM REPAIR TOOLS ON SOFTWARE VULNERABILITIES.,https://doi.org/10.1145/3533767.3543291, ,Eduard Pinconschi Quang-Cuong Bui Rui Abreu Pedro Adão Riccardo Scandariato
+* PYTEST-SMELL: A SMELL DETECTION TOOL FOR PYTHON UNIT TESTS.,https://doi.org/10.1145/3533767.3543290, ,Alexandru Bodea
+* SPECCHECKER-ISA: A DATA SHARING ANALYZER FOR INTERRUPT-DRIVEN EMBEDDED SOFTWARE.,https://doi.org/10.1145/3533767.3543295, ,Boxiang Wang Rui Chen Chao Li Tingting Yu Dongdong Gao Mengfei Yang
+==========,OSDI,TITLE,AUTHORS,URL,===========
+--------catagory name is: OSDI '22 and USENIX ATC '22 Joint Keynote Address,--------, ,
+--------catagory name is: Distributed Storage and Far Memory,--------, ,
+* MEMLINER: LINING UP TRACING AND APPLICATION FOR A FAR-MEMORY-FRIENDLY RUNTIME.,https://www.usenix.org/conference/osdi22/presentation/wang, ,Chenxi Wang Haoran Ma Shi Liu Yifan Qiao Jonathan Eyolfson Christian Navasca Shan Lu Guoqing Harry Xu
+* CARBINK: FAULT-TOLERANT FAR MEMORY.,https://www.usenix.org/conference/osdi22/presentation/zhou-yang, ,Yang Zhou Hassan M. G. Wassel Sihang Liu Jiaqi Gao James Mickens Minlan Yu Chris Kennelly Paul Turner David E. Culler Henry M. Levy Amin Vahdat
+--------catagory name is: Bugs,--------, ,
+--------catagory name is: Persistent Memory,--------, ,
+--------catagory name is: Machine Learning 1,--------, ,
+--------catagory name is: OSDI '22 and USENIX ATC '22 Joint Keynote Address,--------, ,
+--------catagory name is: Potpourri,--------, ,
+"* ORION AND THE THREE RIGHTS: SIZING, BUNDLING, AND PREWARMING FOR SERVERLESS DAGS.",https://www.usenix.org/conference/osdi22/presentation/mahgoub, ,Ashraf Mahgoub Edgardo Barsallo Yi Karthick Shankar Sameh Elnikety Somali Chaterji Saurabh Bagchi
+--------catagory name is: Storage,--------, ,
+--------catagory name is: Formal Verification,--------, ,
+* DESIGN AND VERIFICATION OF THE ARM CONFIDENTIAL COMPUTE ARCHITECTURE.,https://www.usenix.org/conference/osdi22/presentation/li, ,Xupeng Li Xuheng Li Christoffer Dall Ronghui Gu Jason Nieh Yousuf Sait Gareth Stockwell
+* VERIFYING HARDWARE SECURITY MODULES WITH INFORMATION-PRESERVING REFINEMENT.,https://www.usenix.org/conference/osdi22/presentation/athalye, ,Anish Athalye M. Frans Kaashoek Nickolai Zeldovich
+--------catagory name is: Machine Learning 2,--------, ,
+--------catagory name is: OSDI '22 and USENIX ATC '22 Joint Keynote Address,--------, ,
+--------catagory name is: Isolation and OS Services,--------, ,
+--------catagory name is: Security and Private Messaging,--------, ,
+* BLACKBOX: A CONTAINER SECURITY MONITOR FOR PROTECTING CONTAINERS ON UNTRUSTED OPERATING SYSTEMS.,https://www.usenix.org/conference/osdi22/presentation/vant-hof, ,Alexander Van't Hof Jason Nieh
+* GROOVE: FLEXIBLE METADATA-PRIVATE MESSAGING.,https://www.usenix.org/conference/osdi22/presentation/barman, ,Ludovic Barman Moshe Kol David Lazar Yossi Gilad Nickolai Zeldovich
+--------catagory name is: Managed Languages,--------, ,
+--------catagory name is: Recommenders and Pattern Mining,--------, ,
+==========,ESOP|FASE|,TITLE,AUTHORS,URL,===========
+* FOUNDATIONS FOR ENTAILMENT CHECKING IN QUANTITATIVE SEPARATION LOGIC.,https://doi.org/10.1007/978-3-030-99336-8_3, ,Kevin Batz Ira Fesefeldt Marvin Jansen Joost-Pieter Katoen Florian Keßler Christoph Matheja Thomas Noll
+* RELAXED VIRTUAL MEMORY IN ARMV8-A.,https://doi.org/10.1007/978-3-030-99336-8_6, ,Ben Simner Alasdair Armstrong Jean Pichon-Pharabod Christopher Pulte Richard Grisenthwaite Peter Sewell
+* VERIFIED SECURITY FOR THE MORELLO CAPABILITY-ENHANCED PROTOTYPE ARM ARCHITECTURE.,https://doi.org/10.1007/978-3-030-99336-8_7, ,Thomas Bauereiss Brian Campbell Thomas Sewell Alasdair Armstrong Lawrence Esswood Ian Stark Graeme Barnes Robert N. M. Watson Peter Sewell
+* STATIC RACE DETECTION FOR PERIODIC PROGRAMS.,https://doi.org/10.1007/978-3-030-99336-8_11, ,Varsha P. Suresh Rekha R. Pai Deepak D'Souza Meenakshi D'Souza Sujit Kumar Chakrabarti
+* A FRAMEWORK FOR SUBSTRUCTURAL TYPE SYSTEMS.,https://doi.org/10.1007/978-3-030-99336-8_14, ,James Wood Robert Atkey
+==========,ESOP|FASE|,TITLE,AUTHORS,URL,===========
+--------catagory name is: FASE Contributions,--------, ,
+* ON THE DETECTION OF DOPED SOFTWARE BY FALSIFICATION.,https://doi.org/10.1007/978-3-030-99429-7_4, ,Sebastian Biewer Holger Hermanns
+* SMC4PEP: STOCHASTIC MODEL CHECKING OF PRODUCT ENGINEERING PROCESSES.,https://doi.org/10.1007/978-3-030-99429-7_9, ,Hassan Hage Emmanouil Seferis Vahid Hashemi Frank Mantwill
+* SEMANTIC CLONE DETECTION VIA PROBABILISTIC SOFTWARE MODELING.,https://doi.org/10.1007/978-3-030-99429-7_16, ,Hannes Thaller Lukas Linsbauer Alexander Egyed
+--------catagory name is: Test-Comp Contributions,--------, ,
+==========,ICPC&,TITLE,AUTHORS,URL,===========
+--------catagory name is: Summarization,--------, ,
+--------catagory name is: Program representation 1,--------, ,
+--------catagory name is: Complexity from a cognitive perspective,--------, ,
+* ESTIMATING DEVELOPERS' COGNITIVE LOAD AT A FINE-GRAINED LEVEL USING EYE-TRACKING MEASURES.,https://doi.org/10.1145/3524610.3527890, ,Amine Abbad Andaloussi Thierry Sorg Barbara Weber
+--------catagory name is: Understanding development practices and challenges 1,--------, ,
+* UNDERSTANDING CODE SNIPPETS IN CODE REVIEWS: A PRELIMINARY STUDY OF THE OPENSTACK COMMUNITY.,https://doi.org/10.1145/3524610.3527884, ,Liming Fu Peng Liang Beiqi Zhang
+--------catagory name is: Security,--------, ,
+* AUTOMATED IDENTIFICATION OF LIBRARIES FROM VULNERABILITY DATA: CAN WE DO BETTER?,https://doi.org/10.1145/3524610.3527893, ,Stefanus A. Haryono Hong Jin Kang Abhishek Sharma Asankhaya Sharma Andrew E. Santosa Ming Yi Ang David Lo
+* EXAMPLE-BASED VULNERABILITY DETECTION AND REPAIR IN JAVA CODE.,https://doi.org/10.1145/3524610.3527895, ,Ying Zhang Ya Xiao Md Mahir Asef Kabir Danfeng (Daphne) Yao Na Meng
+--------catagory name is: Measuring and improving quality,--------, ,
+--------catagory name is: Debugging 1,--------, ,
+* PERFORMANCE ANOMALY DETECTION THROUGH SEQUENCE ALIGNMENT OF SYSTEM-LEVEL TRACES.,https://doi.org/10.1145/3524610.3527898, ,Madeline Janecek Naser Ezzati-Jivan Abdelwahab Hamou-Lhadj
+* SHAPE-ANALYSIS DRIVEN MEMORY GRAPH VISUALIZATION.,https://doi.org/10.1145/3524610.3527913, ,Jan H. Boockmann Gerald Lüttgen
+--------catagory name is: Search and reuse: Libraries & APIs,--------, ,
+--------catagory name is: Program representation 2research,--------, ,
+--------catagory name is: Code clones,--------, ,
+* C4: CONTRASTIVE CROSS-LANGUAGE CODE CLONE DETECTION.,https://doi.org/10.1145/3524610.3527911, ,Chenning Tao Qi Zhan Xing Hu Xin Xia
+* MSCCD: GRAMMAR PLUGGABLE CLONE DETECTION BASED ON ANTLR PARSER GENERATION.,https://doi.org/10.1145/3524610.3529161, ,Wenqing Zhu Norihiro Yoshida Toshihiro Kamiya Eunjong Choi Hiroaki Takada
+--------catagory name is: Debugging 2,--------, ,
+* XAI4FL: ENHANCING SPECTRUM-BASED FAULT LOCALIZATION WITH EXPLAINABLE ARTIFICIAL INTELLIGENCE.,https://doi.org/10.1145/3524610.3527902, ,Ratnadira Widyasari Gede Artha Azriadi Prana Stefanus A. Haryono Yuan Tian Hafil Noer Zachiary David Lo
+--------catagory name is: Search and reuse: Code,--------, ,
+"--------catagory name is: Smells, patterns, and refactoring",--------, ,
+* IMPACT OF CHANGE GRANULARITY IN REFACTORING DETECTION.,https://doi.org/10.1145/3524610.3528386, ,Lei Chen Shinpei Hayashi
+* ON THE DEVELOPERS' ATTITUDE TOWARDS CRAN CHECKS.,https://doi.org/10.1145/3524610.3528389, ,Pranjay Kumar Davin Ie Melina C. Vidoni
+--------catagory name is: Documentation,--------, ,
+--------catagory name is: Understanding development practices and challenges 2,--------, ,
+==========,LCTES&,TITLE,AUTHORS,URL,===========
+* CO-MINING: A PROCESSING-IN-MEMORY ASSISTED FRAMEWORK FOR MEMORY-INTENSIVE POW ACCELERATION.,https://doi.org/10.1145/3519941.3535064, ,Tianyu Wang Zhaoyan Shen Zili Shao
+* ROLLBIN: REDUCING CODE-SIZE VIA LOOP REROLLING AT BINARY LEVEL.,https://doi.org/10.1145/3519941.3535072, ,Tianao Ge Zewei Mo Kan Wu Xianwei Zhang Yutong Lu
+* TIGHTEN RUST'S BELT: SHRINKING EMBEDDED RUST BINARIES.,https://doi.org/10.1145/3519941.3535075, ,Hudson Ayers Evan Laufer Paul Mure Jaehyeon Park Eduardo Rodelo Thea Rossman Andrey Pronin Philip Alexander Levis Johnathan Van Why
+* A MEMORY INTERFERENCE ANALYSIS USING A FORMAL TIMING ANALYZER (WIP).,https://doi.org/10.1145/3519941.3535077, ,Mihail Asavoae Oumaima Matoussi Asmae Bouachtala Hai-Dang Vu Mathieu Jan
+==========,SANER&,TITLE,AUTHORS,URL,===========
+* HERMES: USING COMMIT-ISSUE LINKING TO DETECT VULNERABILITY-FIXING COMMITS.,https://doi.org/10.1109/SANER53432.2022.00018, ,Giang Nguyen-Truong Hong Jin Kang David Lo Abhishek Sharma Andrew E. Santosa Asankhaya Sharma Ming Yi Ang
+* AN EXPLORATORY STUDY ON SELF-FIXED SOFTWARE VULNERABILITIES IN OSS PROJECTS.,https://doi.org/10.1109/SANER53432.2022.00023, ,Sara Forootani Andrea Di Sorbo Corrado Aaron Visaggio
+* A STUDY ON SCREEN LOGGING RISKS OF SECURE KEYBOARDS OF ANDROID FINANCIAL APPS.,https://doi.org/10.1109/SANER53432.2022.00024, ,Xinyue Liang Jun Ma
+* DICOMP: LIGHTWEIGHT DATA-DRIVEN INFERENCE OF BINARY COMPILER PROVENANCE WITH HIGH ACCURACY.,https://doi.org/10.1109/SANER53432.2022.00025, ,Ligeng Chen Zhongling He Hao Wu Fengyuan Xu Yi Qian Bing Mao
+* DAPSTEP: DEEP ASSIGNEE PREDICTION FOR STACK TRACE ERROR REPRESENTATION.,https://doi.org/10.1109/SANER53432.2022.00033, ,Denis Sushentsev Aleksandr Khvorov Roman Vasiliev Yaroslav Golubev Timofey Bryksin
+* EXTRACTING VULNERABILITIES FROM GITHUB COMMITS.,https://doi.org/10.1109/SANER53432.2022.00038, ,Nicholas Chan John A. Chandy
+* AN INVESTIGATION INTO INCONSISTENCY OF SOFTWARE VULNERABILITY SEVERITY ACROSS DATA SOURCES.,https://doi.org/10.1109/SANER53432.2022.00050, ,Roland Croft Muhammad Ali Babar Li Li
+* KGSECCONFIG: A KNOWLEDGE GRAPH BASED APPROACH FOR SECURED CONTAINER ORCHESTRATOR CONFIGURATION.,https://doi.org/10.1109/SANER53432.2022.00057, ,Mubin Ul Haque M. Mehdi Kholoosi Muhammad Ali Babar
+* CRÈME DE LA CRÈME. INVESTIGATING METADATA AND SURVIVABILITY OF TOP ANDROID APPS.,https://doi.org/10.1109/SANER53432.2022.00064, ,Anamaria Mojica-Hanke Laura Bello-Jiménez Camilo Escobar-Velásquez Mario Linares-Vásquez
+* TOWARDS THE ISOLATION OF FAILURE-INDUCING INPUTS IN CYBER-PHYSICAL SYSTEMS: IS DELTA DEBUGGING ENOUGH?,https://doi.org/10.1109/SANER53432.2022.00072, ,Pablo Valle Aitor Arrieta
+* ARCHTACRV: DETECTING AND RUNTIME VERIFYING ARCHITECTURAL TACTICS IN CODE.,https://doi.org/10.1109/SANER53432.2022.00074, ,Ning Ge Ze Wang Li Zhang Jiuang Zhao Yufei Zhou Zewei Liu
+* VCMATCH: A RANKING-BASED APPROACH FOR AUTOMATIC SECURITY PATCHES LOCALIZATION FOR OSS VULNERABILITIES.,https://doi.org/10.1109/SANER53432.2022.00076, ,Shichao Wang Yun Zhang Liagfeng Bao Xin Xia Minghui Wu
+* CROSS-LANGUAGE BINARY-SOURCE CODE MATCHING WITH INTERMEDIATE REPRESENTATIONS.,https://doi.org/10.1109/SANER53432.2022.00077, ,Yi Gui Yao Wan Hongyu Zhang Huifang Huang Yulei Sui Guandong Xu Zhiyuan Shao Hai Jin
+* DETECTING CONNECTIVITY ISSUES IN ANDROID APPS.,https://doi.org/10.1109/SANER53432.2022.00087, ,Alejandro Mazuera-Rozo Camilo Escobar-Velásquez Juan Espitia-Acero Mario Linares-Vásquez Gabriele Bavota
+* AUTOMATIC DETECTION AND ANALYSIS OF TECHNICAL DEBTS IN PEER-REVIEW DOCUMENTATION OF R PACKAGES.,https://doi.org/10.1109/SANER53432.2022.00094, ,Junaed Younus Khan Gias Uddin
+* FLEXIBLE SEMI-AUTOMATIC SUPPORT FOR TYPE MIGRATION OF PRIMITIVES FOR C/C++ PROGRAMS.,https://doi.org/10.1109/SANER53432.2022.00106, ,Richárd Szalay Zoltán Porkoláb
+* WELL BEGUN IS HALF DONE: AN EMPIRICAL STUDY OF EXPLOITABILITY & IMPACT OF BASE-IMAGE VULNERABILITIES.,https://doi.org/10.1109/SANER53432.2022.00124, ,Mubin Ul Haque Muhammad Ali Babar
+* TYPE PROFILING TO THE RESCUE: TEST AMPLIFICATION IN PYTHON AND SMALLTALK.,https://doi.org/10.1109/SANER53432.2022.00136, ,Serge Demeyer Mehrdad Abdi Ebert Schoofs
+* VISUALIZING WEB APPLICATION EXECUTION LOGS TO IMPROVE SOFTWARE SECURITY DEFECT LOCALIZATION.,https://doi.org/10.1109/SANER53432.2022.00138, ,Matthew A. Puentes Yunsen Lei Noëlle Rakotondravony Lane T. Harrison Craig A. Shue
+* HOW TO APPROXIMATE ANY OBJECTIVE FUNCTION VIA QUADRATIC UNCONSTRAINED BINARY OPTIMIZATION.,https://doi.org/10.1109/SANER53432.2022.00149, ,Thomas Gabor Marian Lingsch Rosenfeld Claudia Linnhoff-Popien Sebastian Feld
+* TOWARDS USING FOCUS GROUPS TO IDENTIFY SOFTWARE DEVELOPER'S INTERESTS REGARDING THEIR DEVELOPMENT PROCESS.,https://doi.org/10.1109/SANER53432.2022.00151, ,Lynn von Kurnatowski Annika Meinecke Adriana Rieger
+* ACCESSING THE PRESENTATION OF CAUSAL GRAPHS AND AN APPLICATION OF GESTALT PRINCIPLES WITH EYE TRACKING.,https://doi.org/10.1109/SANER53432.2022.00153, ,Lisa Grabinger Florian Hauser Jürgen Mottok
+==========,ICSME&,TITLE,AUTHORS,URL,===========
+* HETEROGENEOUS VULNERABILITY REPORT TRACEABILITY RECOVERY BY VULNERABILITY ASPECT MATCHING.,https://doi.org/10.1109/ICSME55016.2022.00024, ,Jiamou Sun Zhenchang Xing Xiwei Xu Liming Zhu Qinghua Lu
+* ON THE SECURITY OF PYTHON VIRTUAL MACHINES: AN EMPIRICAL STUDY.,https://doi.org/10.1109/ICSME55016.2022.00028, ,Xinrong Lin Baojian Hua Qiliang Fan
+* VERJAVA: VULNERABLE VERSION IDENTIFICATION FOR JAVA OSS WITH A TWO-STAGE ANALYSIS.,https://doi.org/10.1109/ICSME55016.2022.00037, ,Qing Sun Lili Xu Yang Xiao Feng Li He Su Yiming Liu Hongyun Huang Wei Huo
+* DEVELOPERS STRUGGLE WITH AUTHENTICATION IN BLAZOR WEBASSEMBLY.,https://doi.org/10.1109/ICSME55016.2022.00045, ,Pascal Marc André Quentin Stiévenart Mohammad Ghafari
+* FUZZNT : CHECKING FOR PROGRAM NON-TERMINATION.,https://doi.org/10.1109/ICSME55016.2022.00049, ,Hrishikesh Karmarkar Raveendra Kumar Medicherla Ravindra Metta Prasanth Yeduru
+* HOW TO CONFIGURE MASKED EVENT ANOMALY DETECTION ON SOFTWARE LOGS?,https://doi.org/10.1109/ICSME55016.2022.00050, ,Jesse Nyyssölä Mika Mäntylä Martín Varela
+* INTEGRATING SOFTWARE ISSUE TRACKING AND TRACEABILITY MODELS.,https://doi.org/10.1109/ICSME55016.2022.00053, ,Naveen Ganesh Muralidharan Vera Pantelic Victor Bandur Richard F. Paige
+"* ""WHEN THE CODE BECOMES A CRIME SCENE"" TOWARDS DARK WEB THREAT INTELLIGENCE WITH SOFTWARE QUALITY METRICS.",https://doi.org/10.1109/ICSME55016.2022.00055, ,Giuseppe Cascavilla Gemma Catolino Felipe Ebert Damien A. Tamburri Willem-Jan van den Heuvel
+* COMMUNITY SMELL DETECTION AND REFACTORING IN SLACK: THE CADOCS PROJECT.,https://doi.org/10.1109/ICSME55016.2022.00061, ,Gianmario Voria Viviana Pentangelo Antonio Della Porta Stefano Lambiase Gemma Catolino Fabio Palomba Filomena Ferrucci
+* ETAGGER - AN ENERGY PATTERN TAGGING TOOL FOR GITHUB ISSUES IN ANDROID PROJECTS.,https://doi.org/10.1109/ICSME55016.2022.00064, ,Shriram Shanbhag Sridhar Chimalakonda Vibhu Saujanya Sharma Vikrant Kaulgud
+* GENERATING CUSTOMISED CONTROL FLOW GRAPHS FOR LEGACY LANGUAGES WITH SEMI-PARSING.,https://doi.org/10.1109/ICSME55016.2022.00072, ,Céline Deknop Johan Fabry Kim Mens Vadim Zaytsev
+* THERE AIN'T NO SUCH THING AS A FREE CUSTOM MEMORY ALLOCATOR.,https://doi.org/10.1109/ICSME55016.2022.00079, ,Gunnar Kudrjavets Jeff Thomas Aditya Kumar Nachiappan Nagappan Ayushi Rastogi
+"* USING A NEAREST-NEIGHBOUR, BERT-BASED APPROACH FOR SCALABLE CLONE DETECTION.",https://doi.org/10.1109/ICSME55016.2022.00080, ,Muslim Chochlov Gul Aftab Ahmed James Vincent Patten Guoxian Lu Wei Hou David Gregg Jim Buckley
+* THE PHANTOM MENACE: UNMASKING SECURITY ISSUES IN EVOLVING SOFTWARE.,https://doi.org/10.1109/ICSME55016.2022.00085, ,Emanuele Iannone Fabio Palomba
+==========,ISSRE,TITLE,AUTHORS,URL,===========
+* TAINTSQL: DYNAMICALLY TRACKING FINE-GRAINED IMPLICIT FLOWS FOR SQL STATEMENTS.,https://doi.org/10.1109/ISSRE55969.2022.00012, ,Wei Lin Lu Zhang Haotian Zhang Kailai Shao Mingming Zhang Tao Xie
+* MINIMIZING LINK GENERATION IN CONSTRAINT CHECKING FOR CONTEXT INCONSISTENCY DETECTION.,https://doi.org/10.1109/ISSRE55969.2022.00013, ,Chuyang Chen Huiyan Wang Lingyu Zhang Chang Xu Ping Yu
+* SHARE OR NOT SHARE? TOWARDS THE PRACTICABILITY OF DEEP MODELS FOR UNSUPERVISED ANOMALY DETECTION IN MODERN ONLINE SYSTEMS.,https://doi.org/10.1109/ISSRE55969.2022.00014, ,Zilong He Pengfei Chen Tao Huang
+* STELLAUAV: A TOOL FOR TESTING THE SAFE BEHAVIOR OF UAVS WITH SCENARIO-BASED TESTING (TOOLS AND ARTIFACT TRACK).,https://doi.org/10.1109/ISSRE55969.2022.00015, ,Tabea Schmidt Alexander Pretschner
+* WHAT TO CHECK: SYSTEMATIC SELECTION OF TRANSFORMATIONS FOR ANALYZING RELIABILITY OF MACHINE VISION COMPONENTS.,https://doi.org/10.1109/ISSRE55969.2022.00016, ,Boyue Caroline Hu Lina Marsso Krzysztof Czarnecki Marsha Chechik
+* VERIFIABLE OBSTACLE DETECTION.,https://doi.org/10.1109/ISSRE55969.2022.00017, ,Ayoosh Bansal Hunmin Kim Simon Yu Bo Li Naira Hovakimyan Marco Caccamo Lui Sha
+* COVARIATE SOFTWARE VULNERABILITY DISCOVERY MODEL TO SUPPORT CYBERSECURITY TEST & EVALUATION (PRACTICAL EXPERIENCE REPORT).,https://doi.org/10.1109/ISSRE55969.2022.00025, ,Julia Sorrentino Priscila Silva Gaspard Baye Gökhan Kul Lance Fiondella
+* AUTOMATIC MAPPING OF UNSTRUCTURED CYBER THREAT INTELLIGENCE: AN EXPERIMENTAL STUDY: (PRACTICAL EXPERIENCE REPORT).,https://doi.org/10.1109/ISSRE55969.2022.00027, ,Vittorio Orbinato Mariarosaria Barbaraci Roberto Natella Domenico Cotroneo
+* REACH: REFINING ALLOY SCENARIOS BY SIZE (TOOLS AND ARTIFACT TRACK).,https://doi.org/10.1109/ISSRE55969.2022.00031, ,Ana Jovanovic Allison Sullivan
+* VECROSIM: A VERSATILE METRIC-ORIENTED MICROSERVICE FAULT SIMULATION SYSTEM (TOOLS AND ARTIFACT TRACK).,https://doi.org/10.1109/ISSRE55969.2022.00037, ,Tingzhu Bi Yicheng Pan Xinrui Jiang Meng Ma Ping Wang
+* A SANITIZER-CENTRIC ANALYSIS TO DETECT CROSS-SITE SCRIPTING IN PHP PROGRAMS.,https://doi.org/10.1109/ISSRE55969.2022.00042, ,He Su Lili Xu Huina Chao Feng Li Zimu Yuan Jianhua Zhou Wei Huo
+* TOWARDS THE ROBUSTNESS OF MULTIPLE OBJECT TRACKING SYSTEMS.,https://doi.org/10.1109/ISSRE55969.2022.00046, ,Xiaoyuan Xie Ying Duan Songqiang Chen Jifeng Xuan
+* AEXPY: DETECTING API BREAKING CHANGES IN PYTHON PACKAGES.,https://doi.org/10.1109/ISSRE55969.2022.00052, ,Xingliang Du Jun Ma
+==========,HOTOS,TITLE,AUTHORS,URL,===========
+curr years had no hotos conf,, ,
